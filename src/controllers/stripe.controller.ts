@@ -1,4 +1,5 @@
-import { NextFunction, Request, Response } from 'express';
+import { RequestWithUser } from '@/interfaces/auth.interface';
+import { NextFunction, Response } from 'express';
 const Stripe = require('stripe');
 export class StripeController {
   public stripe = Stripe(process.env.STRIPE_SECRET_KEY);
@@ -8,7 +9,7 @@ export class StripeController {
       path: 'crypto/onramp_sessions',
     }),
   });
-  public createSession = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  public createSession = async (req: RequestWithUser, res: Response, next: NextFunction): Promise<void> => {
     const { transaction_details } = req.body;
     try {
 
@@ -23,6 +24,21 @@ export class StripeController {
 
       res.send({
         clientSecret: onrampSession.client_secret,
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  public createPaymentIntent = async (req: RequestWithUser, res: Response, next: NextFunction): Promise<void> => {
+    const { amount } = req.body;
+    try {
+      const paymentIntent = await this.stripe.paymentIntents.create({
+        amount,
+        currency : 'usd',
+      });
+      res.send({
+        clientSecret: paymentIntent.client_secret,
       });
     } catch (error) {
       next(error);
