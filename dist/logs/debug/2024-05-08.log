@@ -1,0 +1,12 @@
+2024-05-08 03:39:57 info: =================================
+2024-05-08 03:39:57 info: ======= ENV: development =======
+2024-05-08 03:39:57 info: 🚀 App listening on the port 8080
+2024-05-08 03:39:57 info: =================================
+2024-05-08 03:43:06 info: [0mGET / [33m404[0m 7.394 ms - 139[0m
+2024-05-08 03:43:10 info: [0mGET /api-docs [36m301[0m 3.167 ms - 183[0m
+2024-05-08 03:43:10 info: [0mGET /api-docs/ [32m200[0m 5.612 ms - -[0m
+2024-05-08 03:43:11 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.818 ms - -[0m
+2024-05-08 03:43:11 info: [0mGET /api-docs/swagger-ui.css [32m200[0m 4.621 ms - -[0m
+2024-05-08 03:43:11 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 6.274 ms - -[0m
+2024-05-08 03:43:11 info: [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 6.747 ms - -[0m
+2024-05-08 03:43:11 info: [0mGET /api-docs/favicon-32x32.png [32m200[0m 1.767 ms - 628[0m

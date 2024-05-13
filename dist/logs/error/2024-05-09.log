@@ -1,0 +1,36 @@
+2024-05-09 03:32:50 error: [POST] /users >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-09 03:34:50 error: [POST] /users >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2024-05-09 03:35:04 error: [POST] /users >> StatusCode:: 500, Message:: 
+Invalid `this.user.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/users.service.ts:25:44
+
+  22 }
+  23 
+  24 public async createUser(userData: CreateUserDto): Promise<User> {
+→ 25   const findUser: User = await this.user.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `mysql://`.
+  -->  schema.prisma:6
+   | 
+ 5 |   provider = "mysql"
+ 6 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+2024-05-09 03:36:52 error: [POST] /users >> StatusCode:: 500, Message:: 
+Invalid `this.user.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/users.service.ts:25:44
+
+  22 }
+  23 
+  24 public async createUser(userData: CreateUserDto): Promise<User> {
+→ 25   const findUser: User = await this.user.findUnique(
+Database `akash_paypostgres:` does not exist on the database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com:5432`.
+2024-05-09 03:38:30 error: [POST] /users >> StatusCode:: 500, Message:: 
+Invalid `this.user.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/users.service.ts:25:44
+
+  22 }
+  23 
+  24 public async createUser(userData: CreateUserDto): Promise<User> {
+→ 25   const findUser: User = await this.user.findUnique(
+The table `public.User` does not exist in the current database.

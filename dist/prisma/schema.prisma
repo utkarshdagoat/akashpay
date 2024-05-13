@@ -1,0 +1,44 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id          Int           @id @default(autoincrement())
+  email       String        @unique
+  password    String
+  // Transactions Transaction[]
+}
+
+model ServiceProvider {
+  id Int @id @default(autoincrement())
+  walletAddress String
+  Transactions Transaction[]
+}
+
+
+/// Transaction model
+/// It is used to store the transaction details for invoice generation
+model Transaction {
+  id        Int      @id @default(autoincrement())
+  amount    Float
+  createdAt DateTime @default(now())
+  // user      User     @relation(fields: [userId], references: [id])
+  userId    Int
+  serviceProvider ServiceProvider @relation(fields: [serviceProviderId], references: [id])
+  serviceProviderId Int
+}
+
+
+model application {
+  id Int @id @default(autoincrement())
+  name String
+  description String
+  callbackUris String[]
+  clientId String
+  clientSecret String
+}

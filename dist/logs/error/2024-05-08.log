@@ -1,0 +1,102 @@
+2024-05-08 03:24:29 error: uncaughtException: Cannot find module '@exceptions/httpException'
+Require stack:
+- /home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/routes/auth.route.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/server.ts
+Error: Cannot find module '@exceptions/httpException'
+Require stack:
+- /home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/routes/auth.route.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/home/utkarsh/dev/akash-pay/services/core/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/home/utkarsh/dev/akash-pay/services/core/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-05-08 03:24:47 error: uncaughtException: Cannot find module '@exceptions/httpException'
+Require stack:
+- /home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/routes/auth.route.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/server.ts
+Error: Cannot find module '@exceptions/httpException'
+Require stack:
+- /home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/routes/auth.route.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/home/utkarsh/dev/akash-pay/services/core/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/home/utkarsh/dev/akash-pay/services/core/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-05-08 03:35:31 error: uncaughtException: Cannot find module '@exceptions/httpException'
+Require stack:
+- /home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/routes/auth.route.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/server.ts
+Error: Cannot find module '@exceptions/httpException'
+Require stack:
+- /home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/routes/auth.route.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/home/utkarsh/dev/akash-pay/services/core/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/home/utkarsh/dev/akash-pay/services/core/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-05-08 03:35:54 error: uncaughtException: Cannot find module '@exceptions/httpException'
+Require stack:
+- /home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/routes/auth.route.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/server.ts
+Error: Cannot find module '@exceptions/httpException'
+Require stack:
+- /home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/routes/auth.route.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/home/utkarsh/dev/akash-pay/services/core/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/home/utkarsh/dev/akash-pay/services/core/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-05-08 03:39:17 error: uncaughtException: Cannot find module '@/exceptions/httpException'
+Require stack:
+- /home/utkarsh/dev/akash-pay/services/core/src/services/users.service.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/controllers/users.controller.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/routes/users.route.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/server.ts
+Error: Cannot find module '@/exceptions/httpException'
+Require stack:
+- /home/utkarsh/dev/akash-pay/services/core/src/services/users.service.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/controllers/users.controller.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/routes/users.route.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/home/utkarsh/dev/akash-pay/services/core/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/home/utkarsh/dev/akash-pay/services/core/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home/utkarsh/dev/akash-pay/services/core/src/services/users.service.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
