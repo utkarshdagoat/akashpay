@@ -1,6 +1,6 @@
 import { Service } from "typedi";
 import { PrismaClient } from "@prisma/client";
-import { application } from "@/interfaces/dashboard.interface";
+import { Application } from "@/interfaces/dashboard.interface";
 import { CreateAndUpdateApplicationDto } from "@/dtos/dashboard.dto";
 import { randomBytes } from "crypto";
 import { HttpException } from "@/exceptions/HttpException";
@@ -9,8 +9,8 @@ import { HttpException } from "@/exceptions/HttpException";
 export class DashboardService {
     public app = new PrismaClient().application;
 
-    public async getApplications(userId: number): Promise<application[]> {
-        const application: application[] = await this.app.findMany({
+    public async getApplications(userId: number): Promise<Application[]> {
+        const application: Application[] = await this.app.findMany({
             where: {
                 creatorId: userId
             }
@@ -19,7 +19,7 @@ export class DashboardService {
     }
 
     public async createApplication(data: CreateAndUpdateApplicationDto, userId: number) {
-        const findApplication: application = await this.app.findFirst({
+        const findApplication: Application = await this.app.findFirst({
             where:{
                 name: data.name,
                 creatorId: userId
@@ -27,7 +27,7 @@ export class DashboardService {
         });
         if (findApplication) throw new HttpException(409, `This application ${data.name} already exists`);
         const clientSecret = randomBytes(32).toString("hex");
-        const createApplication: application = await this.app.create({
+        const createApplication: Application = await this.app.create({
             data: {
                 ...data,
                 creatorId: userId,
@@ -38,13 +38,13 @@ export class DashboardService {
     }
 
     public async updateApplication(data:CreateAndUpdateApplicationDto , id:number){
-        const application: application = await this.app.findUnique({
+        const application: Application = await this.app.findUnique({
             where:{
                 id
             }
         })
         if (!application) throw new HttpException(400, "Application doesn't exist");
-        const updateApplication: application = await this.app.update({
+        const updateApplication: Application = await this.app.update({
             where:{
                 id
             },
@@ -56,13 +56,13 @@ export class DashboardService {
     }
 
     public async deleteApplication(id:number) {
-        const application: application = await this.app.findUnique({
+        const application: Application = await this.app.findUnique({
             where:{
                 id
             }
         })
         if (!application) throw new HttpException(400, "Application doesn't exist");
-        const deletedApplicationData: application = await this.app.delete({
+        const deletedApplicationData: Application = await this.app.delete({
             where:{
                 id
             }

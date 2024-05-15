@@ -11,29 +11,16 @@ model User {
   id          Int           @id @default(autoincrement())
   email       String        @unique
   password    String
-  Transactions Transaction[]
+  emailVerified Boolean @default(false)
   application application[]
 }
 
-model ServiceProvider {
+model OTP {
   id Int @id @default(autoincrement())
-  walletAddress String
-  Transactions Transaction[]
-}
-
-
-/// Transaction model
-/// It is used to store the transaction details for invoice generation
-model Transaction {
-  id        Int      @id @default(autoincrement())
-  amount    Float
+  code String @unique
+  email String
   createdAt DateTime @default(now())
-  user      User     @relation(fields: [userId], references: [id])
-  userId    Int
-  serviceProvider ServiceProvider @relation(fields: [serviceProviderId], references: [id])
-  serviceProviderId Int
 }
-
 
 model application {
   id Int @id @default(autoincrement())

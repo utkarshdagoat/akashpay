@@ -1,5 +1,5 @@
 import { RequestWithUser } from '@/interfaces/auth.interface';
-import { NextFunction, Response } from 'express';
+import { NextFunction, Request, Response } from 'express';
 const Stripe = require('stripe');
 export class StripeController {
   public stripe = Stripe(process.env.STRIPE_SECRET_KEY);
@@ -30,12 +30,25 @@ export class StripeController {
     }
   }
 
-  public createPaymentIntent = async (req: RequestWithUser, res: Response, next: NextFunction): Promise<void> => {
+  public createPaymentIntent = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     const { amount } = req.body;
     try {
+      const customer = await this.stripe.customers.create
+        ({
+          name: 'Jenny Rosen',
+          address: {
+            line1: '510 Townsend St',
+            postal_code: '98140',
+            city: 'San Francisco',
+            state: 'CA',
+            country: 'US',
+          },
+        });
       const paymentIntent = await this.stripe.paymentIntents.create({
         amount,
-        currency : 'usd',
+        currency: 'usd',
+        description: 'Software development services',
+        customer: customer.idz
       });
       res.send({
         clientSecret: paymentIntent.client_secret,

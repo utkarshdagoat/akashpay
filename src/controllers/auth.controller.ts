@@ -42,4 +42,25 @@ export class AuthController {
       next(error);
     }
   };
+
+  public sendOTP = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const { email } = req.body;
+      const sendOTP = await this.auth.sendOTP(email);
+      if(sendOTP instanceof Error) throw new Error('Unable to send OTP');
+      res.status(200).json({ data: sendOTP.email, message: 'OTP sent' });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  public verifyOtp = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const { email, otp } = req.body;
+      const verifyOtp = await this.auth.verifyOTP(email, otp);
+      res.status(200).json({ verified: verifyOtp, message: 'OTP verified' });
+    } catch (error) {
+      next(error);
+    }
+  }
 }

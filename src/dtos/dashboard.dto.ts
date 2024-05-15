@@ -1,4 +1,4 @@
-import { IsString, IsUrl } from "class-validator";
+import { IsArray, IsIP, IsString, IsUrl, Validate, ValidateNested, arrayMinSize } from "class-validator";
 
 export class CreateAndUpdateApplicationDto {
 
@@ -8,8 +8,10 @@ export class CreateAndUpdateApplicationDto {
     @IsString()
     public description: string;
 
-    @IsUrl()
-    public callbackUris: string[];
+    // @IsArray()
+    // @ValidateNested({ each: true })
+    // @IsIP()
+    // public ipWhiteList: string[];
 
 }
 

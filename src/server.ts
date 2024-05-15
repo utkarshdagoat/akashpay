@@ -1,11 +1,11 @@
 import { App } from '@/app';
 import { AuthRoute } from '@routes/auth.route';
 import { UserRoute } from '@routes/users.route';
-import { StripeRoutes } from './routes/stripe.route';
+import { StripeRoutes } from '@/routes/stripe.route';
 import { ValidateEnv } from '@utils/validateEnv';
-import { DashBoardRoutes } from './routes/dashboard.route';
-
+import { DashBoardRoutes } from '@/routes/dashboard.route';
+import { PaymentRoutes } from '@/routes/payment.route';
 ValidateEnv();
 
-const app = new App([new UserRoute(), new AuthRoute(), new StripeRoutes() , new DashBoardRoutes()]);
+const app = new App([new UserRoute(), new AuthRoute(), new StripeRoutes() , new DashBoardRoutes() , new PaymentRoutes()]);
 app.listen();

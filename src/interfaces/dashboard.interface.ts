@@ -1,4 +1,4 @@
-export interface application {
+export interface Application {
     id: number;
     callbackUris: string[];
     name: string;

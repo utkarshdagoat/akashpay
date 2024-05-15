@@ -2,17 +2,15 @@ import { NextFunction, Response } from 'express';
 import { Container } from 'typedi';
 import { DashboardService } from '@/services/dashboard.service';
 import { RequestWithUser } from '@/interfaces/auth.interface';
-import { application } from '@prisma/client';
-
+import { Application } from '@/interfaces/dashboard.interface';
 export class DashboardController {
     public dashboard = Container.get(DashboardService);
 
     public getApplications = async (req: RequestWithUser, res: Response, next: NextFunction): Promise<void> => {
         try {
             const userId = req.user.id;
-            const applications :application[] = await this.dashboard.getApplications(userId);
-
-            res.status(200).json({ data: applications });
+            const applications :Application[] = await this.dashboard.getApplications(userId);
+            res.status(200).json(applications);
         } catch (error) {
             next(error);
         }

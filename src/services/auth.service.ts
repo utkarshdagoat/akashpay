@@ -7,10 +7,22 @@ import { CreateUserDto } from '@dtos/users.dto';
 import { HttpException } from '@exceptions/HttpException';
 import { DataStoredInToken, TokenData } from '@interfaces/auth.interface';
 import { User } from '@interfaces/users.interface';
+import nodemailer from 'nodemailer'
+import SMTPTransport from 'nodemailer/lib/smtp-transport';
+import { MAIL_SUBJECT, MAIL_BODY } from '@/config/mail';
+import randomString from 'randomstring';
+
+function generateOTP() {
+  return randomString.generate({
+    length: 6,
+    charset: 'numeric'
+  });
+}
 
 @Service()
 export class AuthService {
   public users = new PrismaClient().user;
+  public otp = new PrismaClient().oTP;
 
   public async signup(userData: CreateUserDto): Promise<User> {
     const findUser: User = await this.users.findUnique({ where: { email: userData.email } });
@@ -32,7 +44,7 @@ export class AuthService {
 
     const tokenData = this.createToken(findUser);
     const cookie = this.createCookie(tokenData);
-    
+
     return { cookie, findUser };
   }
 
@@ -53,5 +65,78 @@ export class AuthService {
 
   public createCookie(tokenData: TokenData): string {
     return `Authorization=${tokenData.token}; HttpOnly; Max-Age=${tokenData.expiresIn};`;
+  }
+
+
+  public async sendOTP(email: string) {
+    try {
+      const OTP = generateOTP()
+      const createOtp = await this.otp.create({ data: { email, code: OTP } })
+      await this.sendMail(email, OTP)
+      return createOtp
+    } catch (error) {
+      return new HttpException(500, 'Unable to send OTP')
+    }
+  }
+
+  public async sendMail(email: string, otp: string): Promise<void> {
+    try {
+      const options: SMTPTransport.Options = {
+        host: process.env.SMTP_HOST,
+        port: Number(process.env.SMTP_PORT),
+        auth: {
+          user: process.env.SMTP_MAIL,
+          pass: process.env.SMTP_APP_PASS,
+        },
+      }
+      console.log(options)
+      const transporter = nodemailer.createTransport(options)
+
+      const mailOptions = {
+        from: process.env.SMPT_MAIL,
+        to: email,
+        subject: MAIL_SUBJECT,
+        html: MAIL_BODY(otp),
+      };
+
+      transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+          throw new HttpException(500, 'Unable to send email')
+        } else {
+          console.log('Email sent: ' + info.response)
+        }
+      })
+    } catch (error) {
+      console.log(error)
+      throw new HttpException(500, 'Unable to send email')
+    }
+
+  }
+
+  public async verifyOTP(email: string, otp: string): Promise<boolean> {
+    const findOtp = await this.otp.findFirst({ where: { email, code: otp } })
+    if (!findOtp) {
+      throw new HttpException(404, 'Invalid OTP')
+    }
+    const deleteOtp = await this.otp.delete({ where: { id: findOtp.id } })
+    return true
+  }
+
+  public async verifyEmail(email: string): Promise<boolean> {
+    try {
+      const findUser = await this.users.findUnique({ where: { email } })
+      const updateUser = await this.users.update({ where: { id: findUser.id }, data: { emailVerified: true } })
+      if (!findUser) {
+        throw new HttpException(404, 'User not found')
+      }
+      if (!updateUser) {
+        throw new HttpException(500, 'Unable to change user email status')
+      }
+      return true
+    } catch (error) {
+      console.error(error)
+      throw new HttpException(500, 'Unable to verify email')
+    }
+
   }
 }
