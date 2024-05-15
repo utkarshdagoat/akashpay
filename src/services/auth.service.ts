@@ -89,8 +89,7 @@ export class AuthService {
           pass: process.env.SMTP_APP_PASS,
         },
       }
-      console.log(options)
-      const transporter = nodemailer.createTransport(options)
+      const transporter = await nodemailer.createTransport(options)
 
       const mailOptions = {
         from: process.env.SMPT_MAIL,
@@ -99,13 +98,8 @@ export class AuthService {
         html: MAIL_BODY(otp),
       };
 
-      transporter.sendMail(mailOptions, (error, info) => {
-        if (error) {
-          throw new HttpException(500, 'Unable to send email')
-        } else {
-          console.log('Email sent: ' + info.response)
-        }
-      })
+      const res = await transporter.sendMail(mailOptions)
+      
     } catch (error) {
       console.log(error)
       throw new HttpException(500, 'Unable to send email')

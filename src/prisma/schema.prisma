@@ -7,18 +7,48 @@ generator client {
   provider = "prisma-client-js"
 }
 
+enum kycStatus {
+  INTIALISED
+  INPROCESS
+  APPROVED
+  REJECTED
+  NOTSUBMITTED
+}
+
 model User {
   id          Int           @id @default(autoincrement())
   email       String        @unique
   password    String
   emailVerified Boolean @default(false)
   application application[]
+  kyc KYC?
+  kycStatus kycStatus @default(NOTSUBMITTED)
 }
 
 model OTP {
   id Int @id @default(autoincrement())
   code String @unique
   email String
+  createdAt DateTime @default(now())
+}
+
+
+model KYC {
+  id Int @id @default(autoincrement())
+  userId Int  @unique
+  user User @relation(fields: [userId], references: [id])
+  firstName String
+  lastName String
+  dob DateTime
+  address String
+  city String
+  state String
+  country String
+  postalCode String
+  idFront String
+  idBack String
+  selfie String
+  status String
   createdAt DateTime @default(now())
 }
 
