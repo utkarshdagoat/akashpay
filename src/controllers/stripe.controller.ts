@@ -48,7 +48,7 @@ export class StripeController {
         amount,
         currency: 'usd',
         description: 'Software development services',
-        customer: customer.idz
+        customer: customer.id
       });
       res.send({
         clientSecret: paymentIntent.client_secret,

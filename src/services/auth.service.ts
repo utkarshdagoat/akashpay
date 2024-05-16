@@ -58,7 +58,7 @@ export class AuthService {
   public createToken(user: User): TokenData {
     const dataStoredInToken: DataStoredInToken = { id: user.id };
     const secretKey: string = SECRET_KEY;
-    const expiresIn: number = 60 * 60;
+    const expiresIn: number = 24* 60 * 60 * 1000;
 
     return { expiresIn, token: sign(dataStoredInToken, secretKey, { expiresIn }) };
   }
@@ -110,7 +110,7 @@ export class AuthService {
   public async verifyOTP(email: string, otp: string): Promise<boolean> {
     const findOtp = await this.otp.findFirst({ where: { email, code: otp } })
     if (!findOtp) {
-      throw new HttpException(404, 'Invalid OTP')
+      throw new HttpException(403, 'Invalid OTP')
     }
     const deleteOtp = await this.otp.delete({ where: { id: findOtp.id } })
     return true

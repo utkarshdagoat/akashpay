@@ -119,7 +119,7 @@ let AuthService = class AuthService {
             id: user.id
         };
         const secretKey = _config.SECRET_KEY;
-        const expiresIn = 60 * 60;
+        const expiresIn = 24 * 60 * 60 * 1000;
         return {
             expiresIn,
             token: (0, _jsonwebtoken.sign)(dataStoredInToken, secretKey, {
