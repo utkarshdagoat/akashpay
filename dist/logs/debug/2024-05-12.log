@@ -1,0 +1,173 @@
+2024-05-12 07:07:07 info: =================================
+2024-05-12 07:07:07 info: ======= ENV: development =======
+2024-05-12 07:07:07 info: 🚀 App listening on the port 8080
+2024-05-12 07:07:07 info: =================================
+2024-05-12 07:07:49 info: [0mGET / [33m404[0m 3.372 ms - 139[0m
+2024-05-12 07:08:06 info: [0mGET /login [33m404[0m 0.978 ms - 144[0m
+2024-05-12 07:09:35 error: [POST] /signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 07:09:35 info: [0mPOST /signup?email=abcd@gmail.com&password=1234 [33m400[0m 9.282 ms - 202[0m
+2024-05-12 07:09:54 error: [POST] /signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 07:09:54 info: [0mPOST /signup?email=abcd@gmail.com&password=123456789 [33m400[0m 1.396 ms - 202[0m
+2024-05-12 07:11:01 error: [POST] /signup >> StatusCode:: 409, Message:: This email abcd@gmail.com already exists
+2024-05-12 07:11:01 info: [0mPOST /signup [33m409[0m 1231.162 ms - 54[0m
+2024-05-12 07:11:12 info: [0mPOST /signup [32m201[0m 633.586 ms - 139[0m
+2024-05-12 07:12:27 info: [0mPOST /login [32m200[0m 243.023 ms - 138[0m
+2024-05-12 07:23:55 info: =================================
+2024-05-12 07:23:55 info: ======= ENV: development =======
+2024-05-12 07:23:55 info: 🚀 App listening on the port 8080
+2024-05-12 07:23:55 info: =================================
+2024-05-12 07:24:19 info: =================================
+2024-05-12 07:24:19 info: ======= ENV: development =======
+2024-05-12 07:24:19 info: 🚀 App listening on the port 8080
+2024-05-12 07:24:19 info: =================================
+2024-05-12 07:24:51 info: =================================
+2024-05-12 07:24:51 info: ======= ENV: development =======
+2024-05-12 07:24:51 info: 🚀 App listening on the port 8080
+2024-05-12 07:24:51 info: =================================
+2024-05-12 07:29:27 info: =================================
+2024-05-12 07:29:27 info: ======= ENV: development =======
+2024-05-12 07:29:27 info: 🚀 App listening on the port 8080
+2024-05-12 07:29:27 info: =================================
+2024-05-12 07:29:32 info: =================================
+2024-05-12 07:29:32 info: ======= ENV: development =======
+2024-05-12 07:29:32 info: 🚀 App listening on the port 8080
+2024-05-12 07:29:32 info: =================================
+2024-05-12 07:30:32 info: =================================
+2024-05-12 07:30:32 info: ======= ENV: development =======
+2024-05-12 07:30:32 info: 🚀 App listening on the port 8080
+2024-05-12 07:30:32 info: =================================
+2024-05-12 07:31:11 info: =================================
+2024-05-12 07:31:11 info: ======= ENV: development =======
+2024-05-12 07:31:11 info: 🚀 App listening on the port 8080
+2024-05-12 07:31:11 info: =================================
+2024-05-12 07:33:14 info: =================================
+2024-05-12 07:33:14 info: ======= ENV: development =======
+2024-05-12 07:33:14 info: 🚀 App listening on the port 8080
+2024-05-12 07:33:14 info: =================================
+2024-05-12 07:45:43 info: =================================
+2024-05-12 07:45:43 info: ======= ENV: development =======
+2024-05-12 07:45:43 info: 🚀 App listening on the port 8080
+2024-05-12 07:45:43 info: =================================
+2024-05-12 07:46:19 info: =================================
+2024-05-12 07:46:19 info: ======= ENV: development =======
+2024-05-12 07:46:19 info: 🚀 App listening on the port 8080
+2024-05-12 07:46:19 info: =================================
+2024-05-12 07:46:32 info: =================================
+2024-05-12 07:46:32 info: ======= ENV: development =======
+2024-05-12 07:46:32 info: 🚀 App listening on the port 8080
+2024-05-12 07:46:32 info: =================================
+2024-05-12 07:47:02 info: [0mGET /healthcheck [33m404[0m 3.673 ms - 150[0m
+2024-05-12 07:47:27 info: [0mGET /api/healthcheck [33m404[0m 2.420 ms - 154[0m
+2024-05-12 07:47:50 info: =================================
+2024-05-12 07:47:50 info: ======= ENV: development =======
+2024-05-12 07:47:50 info: 🚀 App listening on the port 8080
+2024-05-12 07:47:50 info: =================================
+2024-05-12 07:47:51 info: [0mGET /api/healthcheck [32m200[0m 3.033 ms - 2[0m
+2024-05-12 07:48:07 info: [0mGET /api/healthcheck [32m200[0m 0.678 ms - 2[0m
+2024-05-12 08:05:01 info: [0mGET /api//healthcheck [33m404[0m 2.345 ms - 155[0m
+2024-05-12 08:06:37 info: [0mGET /api/healthcheck [32m200[0m 0.491 ms - 2[0m
+2024-05-12 08:09:36 info: [0mPOST /api/signup [33m404[0m 1.837 ms - 150[0m
+2024-05-12 08:12:02 info: [0mPOST /api/signup [33m404[0m 0.741 ms - 150[0m
+2024-05-12 08:12:47 info: =================================
+2024-05-12 08:12:47 info: ======= ENV: development =======
+2024-05-12 08:12:47 info: 🚀 App listening on the port 8080
+2024-05-12 08:12:47 info: =================================
+2024-05-12 08:13:33 info: [0mPOST /api/signup [33m404[0m 5.170 ms - 150[0m
+2024-05-12 08:13:42 info: =================================
+2024-05-12 08:13:42 info: ======= ENV: development =======
+2024-05-12 08:13:42 info: 🚀 App listening on the port 8080
+2024-05-12 08:13:42 info: =================================
+2024-05-12 08:13:44 info: [0mPOST /api/signup [33m404[0m 7.586 ms - 150[0m
+2024-05-12 08:14:02 info: =================================
+2024-05-12 08:14:02 info: ======= ENV: development =======
+2024-05-12 08:14:02 info: 🚀 App listening on the port 8080
+2024-05-12 08:14:02 info: =================================
+2024-05-12 08:14:04 info: [0mPOST /api/signup [33m404[0m 4.147 ms - 150[0m
+2024-05-12 08:15:47 info: =================================
+2024-05-12 08:15:47 info: ======= ENV: development =======
+2024-05-12 08:15:47 info: 🚀 App listening on the port 8080
+2024-05-12 08:15:47 info: =================================
+2024-05-12 08:16:13 info: =================================
+2024-05-12 08:16:13 info: ======= ENV: development =======
+2024-05-12 08:16:13 info: 🚀 App listening on the port 8080
+2024-05-12 08:16:13 info: =================================
+2024-05-12 08:16:13 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 08:16:13 info: [0mPOST /api/signup [33m400[0m 10.043 ms - 202[0m
+2024-05-12 08:16:45 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 08:16:45 info: [0mPOST /api/signup [33m400[0m 2.695 ms - 202[0m
+2024-05-12 08:17:07 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 08:17:07 info: [0mPOST /api/signup [33m400[0m 2.388 ms - 202[0m
+2024-05-12 08:18:02 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 08:18:02 info: [0mPOST /api/signup [33m400[0m 1.390 ms - 202[0m
+2024-05-12 08:18:28 info: =================================
+2024-05-12 08:18:28 info: ======= ENV: development =======
+2024-05-12 08:18:28 info: 🚀 App listening on the port 8080
+2024-05-12 08:18:28 info: =================================
+2024-05-12 08:18:52 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 08:18:52 info: [0mPOST /api/signup [33m400[0m 10.097 ms - 202[0m
+2024-05-12 08:19:47 info: =================================
+2024-05-12 08:19:47 info: ======= ENV: development =======
+2024-05-12 08:19:47 info: 🚀 App listening on the port 8080
+2024-05-12 08:19:47 info: =================================
+2024-05-12 08:19:53 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password should not be empty,password must be a string
+2024-05-12 08:19:53 info: [0mPOST /api/signup [33m400[0m 9.574 ms - 92[0m
+2024-05-12 08:20:10 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password should not be empty,password must be a string
+2024-05-12 08:20:10 info: [0mPOST /api/signup [33m400[0m 2.393 ms - 92[0m
+2024-05-12 08:20:29 info: =================================
+2024-05-12 08:20:29 info: ======= ENV: development =======
+2024-05-12 08:20:29 info: 🚀 App listening on the port 8080
+2024-05-12 08:20:29 info: =================================
+2024-05-12 08:20:32 error: [POST] /api/signup >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:16:45
+
+  13 public users = new PrismaClient().user;
+  14 
+  15 public async signup(userData: CreateUserDto): Promise<User> {
+→ 16   const findUser: User = await this.users.findUnique({
+         where: {
+       ?   email?: String,
+       ?   id?: Int
+         }
+       })
+
+Argument where of type UserWhereUniqueInput needs at least one argument. Available args are listed in green.
+
+Note: Lines with ? are optional.
+
+2024-05-12 08:20:32 info: [0mPOST /api/signup [31m500[0m 2044.945 ms - 568[0m
+2024-05-12 08:20:49 info: =================================
+2024-05-12 08:20:49 info: ======= ENV: development =======
+2024-05-12 08:20:49 info: 🚀 App listening on the port 8080
+2024-05-12 08:20:49 info: =================================
+2024-05-12 08:21:48 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password should not be empty,password must be a string
+2024-05-12 08:21:48 info: [0mPOST /api/signup [33m400[0m 13.394 ms - 92[0m
+2024-05-12 08:22:01 info: =================================
+2024-05-12 08:22:01 info: ======= ENV: development =======
+2024-05-12 08:22:01 info: 🚀 App listening on the port 8080
+2024-05-12 08:22:01 info: =================================
+2024-05-12 08:22:03 error: [POST] /api/signup >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:16:45
+
+  13 public users = new PrismaClient().user;
+  14 
+  15 public async signup(userData: CreateUserDto): Promise<User> {
+→ 16   const findUser: User = await this.users.findUnique({
+         where: {
+       ?   email?: String,
+       ?   id?: Int
+         }
+       })
+
+Argument where of type UserWhereUniqueInput needs at least one argument. Available args are listed in green.
+
+Note: Lines with ? are optional.
+
+2024-05-12 08:22:03 info: [0mPOST /api/signup [31m500[0m 1034.121 ms - 568[0m
+2024-05-12 08:22:08 info: =================================
+2024-05-12 08:22:08 info: ======= ENV: development =======
+2024-05-12 08:22:08 info: 🚀 App listening on the port 8080
+2024-05-12 08:22:08 info: =================================
+2024-05-12 08:24:57 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password should not be empty,password must be a string
+2024-05-12 08:24:57 info: [0mPOST /api/signup [33m400[0m 9.063 ms - 92[0m

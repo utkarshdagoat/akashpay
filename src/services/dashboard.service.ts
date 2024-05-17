@@ -69,4 +69,9 @@ export class DashboardService {
         })
         return deletedApplicationData
     }
+
+    public async deleteAll(){
+        const deletedApplicationsData = await this.app.deleteMany();
+        return deletedApplicationsData
+    }
 }

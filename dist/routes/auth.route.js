@@ -31,9 +31,11 @@ let AuthRoute = class AuthRoute {
         this.router.post(`${this.path}signup`, (0, _validationmiddleware.ValidationMiddleware)(_usersdto.CreateUserDto), this.auth.signUp);
         this.router.post(`${this.path}login`, (0, _validationmiddleware.ValidationMiddleware)(_usersdto.CreateUserDto), this.auth.logIn);
         this.router.post(`${this.path}logout`, _authmiddleware.AuthMiddleware, this.auth.logOut);
+        this.router.post(`${this.path}otp/send`, this.auth.sendOTP);
+        this.router.post(`${this.path}otp/verify`, this.auth.verifyOtp);
     }
     constructor(){
-        _define_property(this, "path", '/');
+        _define_property(this, "path", '/api/');
         _define_property(this, "router", (0, _express.Router)());
         _define_property(this, "auth", new _authcontroller.AuthController());
         this.initializeRoutes();

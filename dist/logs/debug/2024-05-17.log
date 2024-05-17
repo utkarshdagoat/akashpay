@@ -1,0 +1,445 @@
+2024-05-17 07:27:52 info: ======= ENV: development =======
+2024-05-17 07:27:52 info: 🚀 App listening on the port 8080
+2024-05-17 07:27:52 info: =================================
+2024-05-17 10:07:54 info: =================================
+2024-05-17 10:07:54 info: ======= ENV: development =======
+2024-05-17 10:07:54 info: 🚀 App listening on the port 8080
+2024-05-17 10:07:54 info: =================================
+2024-05-17 10:08:56 info: [0mOPTIONS /api/signup [32m204[0m 2.616 ms - 0[0m
+2024-05-17 10:08:59 info: [0mPOST /api/signup [32m201[0m 2516.358 ms - 194[0m
+2024-05-17 10:08:59 info: [0mOPTIONS /api/otp/send [32m204[0m 0.570 ms - 0[0m
+2024-05-17 10:09:04 info: [0mPOST /api/otp/send [32m200[0m 5195.405 ms - 55[0m
+2024-05-17 10:09:20 info: [0mOPTIONS /api/otp/verify [32m204[0m 0.268 ms - 0[0m
+2024-05-17 10:09:21 info: [0mPOST /api/otp/verify [32m200[0m 914.340 ms - 42[0m
+2024-05-17 10:26:09 info: =================================
+2024-05-17 10:26:09 info: ======= ENV: development =======
+2024-05-17 10:26:09 info: 🚀 App listening on the port 8080
+2024-05-17 10:26:09 info: =================================
+2024-05-17 10:26:29 info: =================================
+2024-05-17 10:26:29 info: ======= ENV: development =======
+2024-05-17 10:26:29 info: 🚀 App listening on the port 8080
+2024-05-17 10:26:29 info: =================================
+2024-05-17 10:27:11 info: =================================
+2024-05-17 10:27:11 info: ======= ENV: development =======
+2024-05-17 10:27:11 info: 🚀 App listening on the port 8080
+2024-05-17 10:27:11 info: =================================
+2024-05-17 10:27:16 info: =================================
+2024-05-17 10:27:16 info: ======= ENV: development =======
+2024-05-17 10:27:16 info: 🚀 App listening on the port 8080
+2024-05-17 10:27:16 info: =================================
+2024-05-17 10:27:21 info: =================================
+2024-05-17 10:27:21 info: ======= ENV: development =======
+2024-05-17 10:27:21 info: 🚀 App listening on the port 8080
+2024-05-17 10:27:21 info: =================================
+2024-05-17 10:27:37 info: =================================
+2024-05-17 10:27:37 info: ======= ENV: development =======
+2024-05-17 10:27:37 info: 🚀 App listening on the port 8080
+2024-05-17 10:27:37 info: =================================
+2024-05-17 10:32:05 info: =================================
+2024-05-17 10:32:05 info: ======= ENV: development =======
+2024-05-17 10:32:05 info: 🚀 App listening on the port 8080
+2024-05-17 10:32:05 info: =================================
+2024-05-17 10:33:40 info: =================================
+2024-05-17 10:33:40 info: ======= ENV: development =======
+2024-05-17 10:33:40 info: 🚀 App listening on the port 8080
+2024-05-17 10:33:40 info: =================================
+2024-05-17 10:33:47 info: =================================
+2024-05-17 10:33:47 info: ======= ENV: development =======
+2024-05-17 10:33:47 info: 🚀 App listening on the port 8080
+2024-05-17 10:33:47 info: =================================
+2024-05-17 10:34:02 info: =================================
+2024-05-17 10:34:02 info: ======= ENV: development =======
+2024-05-17 10:34:02 info: 🚀 App listening on the port 8080
+2024-05-17 10:34:02 info: =================================
+2024-05-17 10:34:39 info: =================================
+2024-05-17 10:34:39 info: ======= ENV: development =======
+2024-05-17 10:34:39 info: 🚀 App listening on the port 8080
+2024-05-17 10:34:39 info: =================================
+2024-05-17 10:36:07 info: =================================
+2024-05-17 10:36:07 info: ======= ENV: development =======
+2024-05-17 10:36:07 info: 🚀 App listening on the port 8080
+2024-05-17 10:36:07 info: =================================
+2024-05-17 10:36:17 info: =================================
+2024-05-17 10:36:17 info: ======= ENV: development =======
+2024-05-17 10:36:17 info: 🚀 App listening on the port 8080
+2024-05-17 10:36:17 info: =================================
+2024-05-17 10:36:52 info: =================================
+2024-05-17 10:36:52 info: ======= ENV: development =======
+2024-05-17 10:36:52 info: 🚀 App listening on the port 8080
+2024-05-17 10:36:52 info: =================================
+2024-05-17 10:37:51 info: =================================
+2024-05-17 10:37:51 info: ======= ENV: development =======
+2024-05-17 10:37:51 info: 🚀 App listening on the port 8080
+2024-05-17 10:37:51 info: =================================
+2024-05-17 10:37:56 info: =================================
+2024-05-17 10:37:56 info: ======= ENV: development =======
+2024-05-17 10:37:56 info: 🚀 App listening on the port 8080
+2024-05-17 10:37:56 info: =================================
+2024-05-17 10:58:23 info: =================================
+2024-05-17 10:58:23 info: ======= ENV: development =======
+2024-05-17 10:58:23 info: 🚀 App listening on the port 8080
+2024-05-17 10:58:23 info: =================================
+2024-05-17 11:13:24 info: =================================
+2024-05-17 11:13:24 info: ======= ENV: development =======
+2024-05-17 11:13:24 info: 🚀 App listening on the port 8080
+2024-05-17 11:13:24 info: =================================
+2024-05-17 11:22:42 info: [0mOPTIONS /api/signup [32m204[0m 1.326 ms - 0[0m
+2024-05-17 11:22:44 info: [0mPOST /api/signup [32m201[0m 2139.443 ms - 195[0m
+2024-05-17 11:22:44 info: [0mOPTIONS /api/otp/send [32m204[0m 0.418 ms - 0[0m
+2024-05-17 11:22:50 info: [0mPOST /api/otp/send [32m200[0m 5281.557 ms - 56[0m
+2024-05-17 11:23:28 info: [0mOPTIONS /api/otp/verify [32m204[0m 0.171 ms - 0[0m
+2024-05-17 11:23:30 info: [0mPOST /api/otp/verify [32m200[0m 1114.691 ms - 42[0m
+2024-05-17 11:31:07 info: [0mOPTIONS /api/login [32m204[0m 0.165 ms - 0[0m
+2024-05-17 11:31:09 info: [0mPOST /api/login [32m200[0m 2715.012 ms - 194[0m
+2024-05-17 11:45:12 info: [0mGET /api/user [32m200[0m 1684.356 ms - 167[0m
+2024-05-17 11:45:13 info: [0mGET /api/user [32m200[0m 2748.264 ms - 167[0m
+2024-05-17 11:45:14 info: [0mGET /api/dashboard/applications [32m200[0m 2329.221 ms - 2[0m
+2024-05-17 11:45:15 info: [0mGET /api/dashboard/applications [36m304[0m 3042.213 ms - -[0m
+2024-05-17 12:00:33 info: =================================
+2024-05-17 12:00:33 info: ======= ENV: development =======
+2024-05-17 12:00:33 info: 🚀 App listening on the port 8080
+2024-05-17 12:00:33 info: =================================
+2024-05-17 12:00:38 info: =================================
+2024-05-17 12:00:38 info: ======= ENV: development =======
+2024-05-17 12:00:38 info: 🚀 App listening on the port 8080
+2024-05-17 12:00:38 info: =================================
+2024-05-17 12:00:47 info: =================================
+2024-05-17 12:00:47 info: ======= ENV: development =======
+2024-05-17 12:00:47 info: 🚀 App listening on the port 8080
+2024-05-17 12:00:47 info: =================================
+2024-05-17 12:01:06 info: =================================
+2024-05-17 12:01:06 info: ======= ENV: development =======
+2024-05-17 12:01:06 info: 🚀 App listening on the port 8080
+2024-05-17 12:01:06 info: =================================
+2024-05-17 12:01:35 info: =================================
+2024-05-17 12:01:35 info: ======= ENV: development =======
+2024-05-17 12:01:35 info: 🚀 App listening on the port 8080
+2024-05-17 12:01:35 info: =================================
+2024-05-17 12:01:43 info: =================================
+2024-05-17 12:01:43 info: ======= ENV: development =======
+2024-05-17 12:01:43 info: 🚀 App listening on the port 8080
+2024-05-17 12:01:43 info: =================================
+2024-05-17 12:02:01 info: =================================
+2024-05-17 12:02:01 info: ======= ENV: development =======
+2024-05-17 12:02:01 info: 🚀 App listening on the port 8080
+2024-05-17 12:02:01 info: =================================
+2024-05-17 12:04:17 info: [0mDELETE /api/user [32m200[0m 2558.274 ms - 31[0m
+2024-05-17 12:05:56 info: [0mOPTIONS /api/signup [32m204[0m 0.403 ms - 0[0m
+2024-05-17 12:05:58 info: [0mPOST /api/signup [32m201[0m 1810.950 ms - 195[0m
+2024-05-17 12:05:58 info: [0mOPTIONS /api/otp/send [32m204[0m 0.213 ms - 0[0m
+2024-05-17 12:06:03 info: [0mPOST /api/otp/send [32m200[0m 5675.051 ms - 56[0m
+2024-05-17 12:06:21 info: [0mOPTIONS /api/otp/verify [32m204[0m 0.183 ms - 0[0m
+2024-05-17 12:06:22 info: [0mPOST /api/otp/verify [32m200[0m 974.097 ms - 42[0m
+2024-05-17 12:12:57 info: [0mOPTIONS /api/signup [32m204[0m 0.126 ms - 0[0m
+2024-05-17 12:12:59 info: [0mPOST /api/signup [32m201[0m 2219.495 ms - 194[0m
+2024-05-17 12:12:59 info: [0mOPTIONS /api/otp/send [32m204[0m 0.149 ms - 0[0m
+2024-05-17 12:13:04 info: [0mPOST /api/otp/send [32m200[0m 5170.584 ms - 55[0m
+2024-05-17 12:14:11 info: [0mOPTIONS /api/otp/verify [32m204[0m 0.313 ms - 0[0m
+2024-05-17 12:14:13 info: [0mPOST /api/otp/verify [32m200[0m 2105.825 ms - 42[0m
+2024-05-17 12:14:16 info: [0mGET /api/upload [33m404[0m 1.623 ms - 149[0m
+2024-05-17 12:14:16 info: [0mGET /api/upload [33m404[0m 1.541 ms - 149[0m
+2024-05-17 12:14:16 info: [0mGET /api/upload [33m404[0m 1.209 ms - 149[0m
+2024-05-17 12:14:16 info: [0mGET /api/upload [33m404[0m 0.581 ms - 149[0m
+2024-05-17 12:14:16 info: [0mGET /api/upload [33m404[0m 0.824 ms - 149[0m
+2024-05-17 12:14:16 info: [0mGET /api/upload [33m404[0m 0.570 ms - 149[0m
+2024-05-17 12:24:19 info: [0mGET /api/upload [33m404[0m 0.553 ms - 149[0m
+2024-05-17 12:24:19 info: [0mGET /api/upload [33m404[0m 0.876 ms - 149[0m
+2024-05-17 12:24:19 info: [0mGET /api/upload [33m404[0m 1.181 ms - 149[0m
+2024-05-17 12:24:19 info: [0mGET /api/upload [33m404[0m 1.521 ms - 149[0m
+2024-05-17 12:24:19 info: [0mGET /api/upload [33m404[0m 0.447 ms - 149[0m
+2024-05-17 12:24:19 info: [0mGET /api/upload [33m404[0m 0.780 ms - 149[0m
+2024-05-17 12:25:00 info: =================================
+2024-05-17 12:25:00 info: ======= ENV: development =======
+2024-05-17 12:25:00 info: 🚀 App listening on the port 8080
+2024-05-17 12:25:00 info: =================================
+2024-05-17 12:25:51 info: [0mDELETE /api/user [32m200[0m 1673.189 ms - 31[0m
+2024-05-17 12:26:05 info: [0mGET /api/upload [32m200[0m 2.897 ms - 131[0m
+2024-05-17 12:26:27 info: [0mOPTIONS /api/signup [32m204[0m 0.396 ms - 0[0m
+2024-05-17 12:26:29 info: [0mPOST /api/signup [32m201[0m 2055.445 ms - 195[0m
+2024-05-17 12:26:29 info: [0mOPTIONS /api/otp/send [32m204[0m 0.200 ms - 0[0m
+2024-05-17 12:26:34 info: [0mPOST /api/otp/send [32m200[0m 5177.825 ms - 56[0m
+2024-05-17 12:26:58 info: [0mOPTIONS /api/otp/verify [32m204[0m 0.791 ms - 0[0m
+2024-05-17 12:26:59 info: [0mPOST /api/otp/verify [32m200[0m 901.505 ms - 42[0m
+2024-05-17 12:27:03 info: [0mGET /api/upload [32m200[0m 0.597 ms - 131[0m
+2024-05-17 12:27:03 info: [0mGET /api/upload [32m200[0m 0.591 ms - 131[0m
+2024-05-17 12:27:03 info: [0mGET /api/upload [32m200[0m 0.434 ms - 131[0m
+2024-05-17 12:27:03 info: [0mGET /api/upload [36m304[0m 0.863 ms - -[0m
+2024-05-17 12:27:03 info: [0mGET /api/upload [36m304[0m 0.587 ms - -[0m
+2024-05-17 12:27:03 info: [0mGET /api/upload [36m304[0m 0.776 ms - -[0m
+2024-05-17 14:14:07 info: [0mOPTIONS /api/signup [32m204[0m 0.234 ms - 0[0m
+2024-05-17 14:14:11 info: [0mPOST /api/signup [32m201[0m 3641.154 ms - 194[0m
+2024-05-17 14:14:11 info: [0mOPTIONS /api/otp/send [32m204[0m 0.224 ms - 0[0m
+2024-05-17 14:14:16 info: [0mPOST /api/otp/send [32m200[0m 4957.765 ms - 55[0m
+2024-05-17 14:14:33 info: [0mOPTIONS /api/otp/verify [32m204[0m 0.149 ms - 0[0m
+2024-05-17 14:14:34 info: [0mPOST /api/otp/verify [32m200[0m 994.759 ms - 42[0m
+2024-05-17 14:14:37 info: [0mGET /api/upload [32m200[0m 0.995 ms - 131[0m
+2024-05-17 14:14:37 info: [0mGET /api/upload [32m200[0m 0.923 ms - 131[0m
+2024-05-17 14:14:37 info: [0mGET /api/upload [32m200[0m 1.214 ms - 131[0m
+2024-05-17 14:14:37 info: [0mGET /api/upload [36m304[0m 0.959 ms - -[0m
+2024-05-17 14:14:37 info: [0mGET /api/upload [36m304[0m 0.783 ms - -[0m
+2024-05-17 14:14:37 info: [0mGET /api/upload [36m304[0m 1.092 ms - -[0m
+2024-05-17 14:14:58 info: [0mGET /api/upload [36m304[0m 1.629 ms - -[0m
+2024-05-17 14:14:58 info: [0mGET /api/upload [36m304[0m 0.830 ms - -[0m
+2024-05-17 14:14:58 info: [0mGET /api/upload [36m304[0m 0.637 ms - -[0m
+2024-05-17 14:14:58 info: [0mGET /api/upload [36m304[0m 0.690 ms - -[0m
+2024-05-17 14:14:58 info: [0mGET /api/upload [36m304[0m 0.753 ms - -[0m
+2024-05-17 14:14:58 info: [0mGET /api/upload [36m304[0m 1.018 ms - -[0m
+2024-05-17 14:26:53 info: [0mGET /api/upload [36m304[0m 0.545 ms - -[0m
+2024-05-17 14:26:53 info: [0mGET /api/upload [36m304[0m 0.613 ms - -[0m
+2024-05-17 14:26:53 info: [0mGET /api/upload [36m304[0m 0.954 ms - -[0m
+2024-05-17 14:26:53 info: [0mGET /api/upload [36m304[0m 0.880 ms - -[0m
+2024-05-17 14:26:53 info: [0mGET /api/upload [36m304[0m 0.798 ms - -[0m
+2024-05-17 14:26:53 info: [0mGET /api/upload [32m200[0m 0.780 ms - 131[0m
+2024-05-17 14:32:03 info: =================================
+2024-05-17 14:32:03 info: ======= ENV: development =======
+2024-05-17 14:32:03 info: 🚀 App listening on the port 8080
+2024-05-17 14:32:03 info: =================================
+2024-05-17 14:32:58 info: [0mGET /api/upload [36m304[0m 6.900 ms - -[0m
+2024-05-17 14:32:58 info: [0mGET /api/upload [32m200[0m 2.538 ms - 131[0m
+2024-05-17 14:32:58 info: [0mGET /api/upload [32m200[0m 1.447 ms - 131[0m
+2024-05-17 14:32:58 info: [0mGET /api/upload [32m200[0m 1.352 ms - 131[0m
+2024-05-17 14:32:58 info: [0mGET /api/upload [32m200[0m 1.191 ms - 131[0m
+2024-05-17 14:32:58 info: [0mGET /api/upload [32m200[0m 1.102 ms - 131[0m
+2024-05-17 14:33:15 info: [0mGET /api/upload [36m304[0m 1.385 ms - -[0m
+2024-05-17 14:33:15 info: [0mGET /api/upload [36m304[0m 0.834 ms - -[0m
+2024-05-17 14:33:15 info: [0mGET /api/upload [36m304[0m 1.054 ms - -[0m
+2024-05-17 14:33:15 info: [0mGET /api/upload [36m304[0m 1.110 ms - -[0m
+2024-05-17 14:33:15 info: [0mGET /api/upload [36m304[0m 0.906 ms - -[0m
+2024-05-17 14:33:15 info: [0mGET /api/upload [32m200[0m 0.925 ms - 131[0m
+2024-05-17 14:33:28 info: [0mGET /api/upload [36m304[0m 1.439 ms - -[0m
+2024-05-17 14:33:28 info: [0mGET /api/upload [36m304[0m 1.151 ms - -[0m
+2024-05-17 14:33:28 info: [0mGET /api/upload [36m304[0m 0.878 ms - -[0m
+2024-05-17 14:33:28 info: [0mGET /api/upload [36m304[0m 0.935 ms - -[0m
+2024-05-17 14:33:28 info: [0mGET /api/upload [36m304[0m 0.986 ms - -[0m
+2024-05-17 14:33:28 info: [0mGET /api/upload [36m304[0m 0.860 ms - -[0m
+2024-05-17 14:33:45 info: [0mGET /api/upload [36m304[0m 0.699 ms - -[0m
+2024-05-17 14:33:45 info: [0mGET /api/upload [36m304[0m 0.673 ms - -[0m
+2024-05-17 14:34:03 info: [0mGET /api/upload [36m304[0m 0.681 ms - -[0m
+2024-05-17 14:34:03 info: [0mGET /api/upload [36m304[0m 0.746 ms - -[0m
+2024-05-17 14:44:45 info: [0mGET /api/upload [36m304[0m 0.971 ms - -[0m
+2024-05-17 14:44:45 info: [0mGET /api/upload [36m304[0m 0.824 ms - -[0m
+2024-05-17 14:44:45 info: [0mGET /api/upload [36m304[0m 0.682 ms - -[0m
+2024-05-17 14:44:45 info: [0mGET /api/upload [36m304[0m 0.669 ms - -[0m
+2024-05-17 14:44:45 info: [0mGET /api/upload [36m304[0m 0.811 ms - -[0m
+2024-05-17 14:44:45 info: [0mGET /api/upload [36m304[0m 0.881 ms - -[0m
+2024-05-17 14:45:32 info: [0mGET /api/upload [36m304[0m 0.913 ms - -[0m
+2024-05-17 14:45:32 info: [0mGET /api/upload [36m304[0m 0.902 ms - -[0m
+2024-05-17 14:45:32 info: [0mGET /api/upload [36m304[0m 0.975 ms - -[0m
+2024-05-17 14:45:32 info: [0mGET /api/upload [36m304[0m 0.889 ms - -[0m
+2024-05-17 14:45:32 info: [0mGET /api/upload [36m304[0m 0.762 ms - -[0m
+2024-05-17 14:45:32 info: [0mGET /api/upload [36m304[0m 0.899 ms - -[0m
+2024-05-17 14:45:37 info: [0mGET /api/upload [36m304[0m 0.903 ms - -[0m
+2024-05-17 14:45:37 info: [0mGET /api/upload [36m304[0m 0.820 ms - -[0m
+2024-05-17 14:45:37 info: [0mGET /api/upload [36m304[0m 0.886 ms - -[0m
+2024-05-17 14:45:37 info: [0mGET /api/upload [36m304[0m 0.938 ms - -[0m
+2024-05-17 14:45:37 info: [0mGET /api/upload [36m304[0m 1.036 ms - -[0m
+2024-05-17 14:45:37 info: [0mGET /api/upload [36m304[0m 1.088 ms - -[0m
+2024-05-17 14:49:51 info: [0mGET /api/upload [36m304[0m 0.900 ms - -[0m
+2024-05-17 14:49:51 info: [0mGET /api/upload [36m304[0m 0.683 ms - -[0m
+2024-05-17 14:49:51 info: [0mGET /api/upload [36m304[0m 0.575 ms - -[0m
+2024-05-17 14:49:51 info: [0mGET /api/upload [36m304[0m 0.750 ms - -[0m
+2024-05-17 14:49:51 info: [0mGET /api/upload [36m304[0m 0.557 ms - -[0m
+2024-05-17 14:49:51 info: [0mGET /api/upload [36m304[0m 0.627 ms - -[0m
+2024-05-17 14:52:36 info: [0mGET /api/uploadthing [33m404[0m 4.536 ms - 154[0m
+2024-05-17 14:52:36 info: [0mGET /api/uploadthing [33m404[0m 3.478 ms - 154[0m
+2024-05-17 14:52:36 info: [0mGET /api/uploadthing [33m404[0m 2.807 ms - 154[0m
+2024-05-17 14:52:36 info: [0mGET /api/uploadthing [33m404[0m 1.085 ms - 154[0m
+2024-05-17 14:52:36 info: [0mGET /api/uploadthing [33m404[0m 1.491 ms - 154[0m
+2024-05-17 14:52:36 info: [0mGET /api/uploadthing [33m404[0m 1.366 ms - 154[0m
+2024-05-17 14:55:00 info: [0mGET /api/uploadthing [33m404[0m 0.722 ms - 154[0m
+2024-05-17 14:55:00 info: [0mGET /api/uploadthing [33m404[0m 0.702 ms - 154[0m
+2024-05-17 14:55:00 info: [0mGET /api/uploadthing [33m404[0m 0.860 ms - 154[0m
+2024-05-17 14:55:00 info: [0mGET /api/uploadthing [33m404[0m 0.918 ms - 154[0m
+2024-05-17 14:55:00 info: [0mGET /api/uploadthing [33m404[0m 1.249 ms - 154[0m
+2024-05-17 14:55:00 info: [0mGET /api/uploadthing [33m404[0m 1.556 ms - 154[0m
+2024-05-17 14:55:39 info: =================================
+2024-05-17 14:55:39 info: ======= ENV: development =======
+2024-05-17 14:55:39 info: 🚀 App listening on the port 8080
+2024-05-17 14:55:39 info: =================================
+2024-05-17 14:55:42 info: [0mGET /api/uploadthing [32m200[0m 5.425 ms - 131[0m
+2024-05-17 14:55:42 info: [0mGET /api/uploadthing [32m200[0m 1.057 ms - 131[0m
+2024-05-17 14:55:42 info: [0mGET /api/uploadthing [32m200[0m 0.595 ms - 131[0m
+2024-05-17 14:55:42 info: [0mGET /api/uploadthing [32m200[0m 4.834 ms - 131[0m
+2024-05-17 14:55:42 info: [0mGET /api/uploadthing [32m200[0m 1.023 ms - 131[0m
+2024-05-17 14:55:42 info: [0mGET /api/uploadthing [32m200[0m 0.926 ms - 131[0m
+2024-05-17 14:56:05 info: [0mGET /api/uploadthing [36m304[0m 1.805 ms - -[0m
+2024-05-17 14:56:05 info: [0mGET /api/uploadthing [32m200[0m 1.079 ms - 131[0m
+2024-05-17 14:56:05 info: [0mGET /api/uploadthing [32m200[0m 0.969 ms - 131[0m
+2024-05-17 14:56:05 info: [0mGET /api/uploadthing [32m200[0m 1.139 ms - 131[0m
+2024-05-17 14:56:05 info: [0mGET /api/uploadthing [32m200[0m 0.844 ms - 131[0m
+2024-05-17 14:56:05 info: [0mGET /api/uploadthing [32m200[0m 0.895 ms - 131[0m
+2024-05-17 14:56:07 info: [0mGET /api/uploadthing [36m304[0m 0.954 ms - -[0m
+2024-05-17 14:56:07 info: [0mGET /api/uploadthing [32m200[0m 0.838 ms - 131[0m
+2024-05-17 14:56:07 info: [0mGET /api/uploadthing [32m200[0m 0.629 ms - 131[0m
+2024-05-17 14:56:07 info: [0mGET /api/uploadthing [32m200[0m 0.771 ms - 131[0m
+2024-05-17 14:56:07 info: [0mGET /api/uploadthing [32m200[0m 1.040 ms - 131[0m
+2024-05-17 14:56:07 info: [0mGET /api/uploadthing [32m200[0m 0.542 ms - 131[0m
+2024-05-17 14:56:19 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.270 ms - 0[0m
+2024-05-17 14:56:20 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 1004.594 ms - -[0m
+2024-05-17 14:56:26 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 708.329 ms - 4[0m
+2024-05-17 14:56:36 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.293 ms - 0[0m
+2024-05-17 14:56:37 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 922.474 ms - -[0m
+2024-05-17 14:56:44 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 793.745 ms - 4[0m
+2024-05-17 14:56:52 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.221 ms - 0[0m
+2024-05-17 14:56:53 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 905.132 ms - -[0m
+2024-05-17 14:56:56 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 568.022 ms - 4[0m
+2024-05-17 15:03:00 info: [0mOPTIONS /api/kyc/create [32m204[0m 0.488 ms - 0[0m
+2024-05-17 15:03:00 error: [POST] /api/kyc/create >> StatusCode:: 400, Message:: dob must be a Date instance, idFront must be an URL address, idBack must be an URL address, selfie must be an URL address,selfie should not be empty
+2024-05-17 15:03:00 info: [0mPOST /api/kyc/create [33m400[0m 11.323 ms - 162[0m
+2024-05-17 15:03:00 info: [0mGET /api/uploadthing [36m304[0m 0.551 ms - -[0m
+2024-05-17 15:03:00 info: [0mGET /api/uploadthing [36m304[0m 0.499 ms - -[0m
+2024-05-17 15:03:00 info: [0mGET /api/uploadthing [36m304[0m 1.587 ms - -[0m
+2024-05-17 15:03:00 info: [0mGET /api/uploadthing [36m304[0m 0.609 ms - -[0m
+2024-05-17 15:03:00 info: [0mGET /api/uploadthing [36m304[0m 0.452 ms - -[0m
+2024-05-17 15:03:00 info: [0mGET /api/uploadthing [36m304[0m 0.464 ms - -[0m
+2024-05-17 15:12:03 info: [0mOPTIONS /api/signup [32m204[0m 0.152 ms - 0[0m
+2024-05-17 15:12:04 error: [POST] /api/signup >> StatusCode:: 409, Message:: This email utkarsh_s@ece.iitr.ac.in already exists
+2024-05-17 15:12:04 info: [0mPOST /api/signup [33m409[0m 1481.667 ms - 64[0m
+2024-05-17 15:12:59 info: [0mDELETE /api/user [32m200[0m 2821.247 ms - 31[0m
+2024-05-17 15:13:02 info: [0mOPTIONS /api/signup [32m204[0m 0.157 ms - 0[0m
+2024-05-17 15:13:03 info: [0mPOST /api/signup [32m201[0m 971.675 ms - 195[0m
+2024-05-17 15:13:03 info: [0mOPTIONS /api/otp/send [32m204[0m 0.137 ms - 0[0m
+2024-05-17 15:13:09 info: [0mPOST /api/otp/send [32m200[0m 5883.286 ms - 56[0m
+2024-05-17 15:13:28 info: [0mOPTIONS /api/otp/verify [32m204[0m 0.216 ms - 0[0m
+2024-05-17 15:13:29 info: [0mPOST /api/otp/verify [32m200[0m 966.386 ms - 42[0m
+2024-05-17 15:13:35 info: [0mGET /api/uploadthing [36m304[0m 0.727 ms - -[0m
+2024-05-17 15:13:35 info: [0mGET /api/uploadthing [36m304[0m 0.567 ms - -[0m
+2024-05-17 15:13:35 info: [0mGET /api/uploadthing [36m304[0m 0.829 ms - -[0m
+2024-05-17 15:13:35 info: [0mGET /api/uploadthing [36m304[0m 0.660 ms - -[0m
+2024-05-17 15:13:35 info: [0mGET /api/uploadthing [36m304[0m 0.565 ms - -[0m
+2024-05-17 15:13:35 info: [0mGET /api/uploadthing [36m304[0m 0.595 ms - -[0m
+2024-05-17 15:14:50 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.162 ms - 0[0m
+2024-05-17 15:14:51 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 960.910 ms - -[0m
+2024-05-17 15:14:57 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 643.492 ms - 4[0m
+2024-05-17 15:15:03 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.207 ms - 0[0m
+2024-05-17 15:15:04 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 830.879 ms - -[0m
+2024-05-17 15:15:07 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 612.227 ms - 4[0m
+2024-05-17 15:15:12 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.241 ms - 0[0m
+2024-05-17 15:15:12 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 702.193 ms - -[0m
+2024-05-17 15:15:16 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 580.680 ms - 4[0m
+2024-05-17 15:15:17 info: [0mOPTIONS /api/kyc/create [32m204[0m 0.175 ms - 0[0m
+2024-05-17 15:15:17 error: [POST] /api/kyc/create >> StatusCode:: 400, Message:: dob must be a Date instance, idFront must be an URL address, idBack must be an URL address, selfie must be an URL address,selfie should not be empty
+2024-05-17 15:15:17 info: [0mPOST /api/kyc/create [33m400[0m 5.871 ms - 162[0m
+2024-05-17 15:15:17 info: [0mGET /api/uploadthing [36m304[0m 0.562 ms - -[0m
+2024-05-17 15:15:17 info: [0mGET /api/uploadthing [36m304[0m 0.662 ms - -[0m
+2024-05-17 15:15:17 info: [0mGET /api/uploadthing [36m304[0m 0.593 ms - -[0m
+2024-05-17 15:15:17 info: [0mGET /api/uploadthing [36m304[0m 0.538 ms - -[0m
+2024-05-17 15:15:17 info: [0mGET /api/uploadthing [36m304[0m 0.551 ms - -[0m
+2024-05-17 15:15:17 info: [0mGET /api/uploadthing [36m304[0m 0.790 ms - -[0m
+2024-05-17 15:19:11 info: =================================
+2024-05-17 15:19:11 info: ======= ENV: development =======
+2024-05-17 15:19:11 info: 🚀 App listening on the port 8080
+2024-05-17 15:19:11 info: =================================
+2024-05-17 15:21:20 info: =================================
+2024-05-17 15:21:20 info: ======= ENV: development =======
+2024-05-17 15:21:20 info: 🚀 App listening on the port 8080
+2024-05-17 15:21:20 info: =================================
+2024-05-17 15:24:12 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 1.633 ms - 0[0m
+2024-05-17 15:24:13 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 1226.862 ms - -[0m
+2024-05-17 15:24:17 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 706.422 ms - 4[0m
+2024-05-17 15:24:21 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.248 ms - 0[0m
+2024-05-17 15:24:22 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 730.766 ms - -[0m
+2024-05-17 15:24:25 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 709.608 ms - 4[0m
+2024-05-17 15:24:31 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.422 ms - 0[0m
+2024-05-17 15:24:32 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 891.864 ms - -[0m
+2024-05-17 15:24:35 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 553.692 ms - 4[0m
+2024-05-17 15:24:37 info: [0mOPTIONS /api/kyc/create [32m204[0m 0.277 ms - 0[0m
+2024-05-17 15:24:37 error: [POST] /api/kyc/create >> StatusCode:: 400, Message:: dob must be a Date instance, idFront must be an URL address, idBack must be an URL address, selfie must be an URL address,selfie should not be empty
+2024-05-17 15:24:37 info: [0mPOST /api/kyc/create [33m400[0m 13.480 ms - 162[0m
+2024-05-17 15:24:37 info: [0mGET /api/uploadthing [36m304[0m 1.178 ms - -[0m
+2024-05-17 15:24:37 info: [0mGET /api/uploadthing [36m304[0m 0.938 ms - -[0m
+2024-05-17 15:24:37 info: [0mGET /api/uploadthing [36m304[0m 1.148 ms - -[0m
+2024-05-17 15:24:37 info: [0mGET /api/uploadthing [36m304[0m 0.702 ms - -[0m
+2024-05-17 15:24:37 info: [0mGET /api/uploadthing [36m304[0m 0.841 ms - -[0m
+2024-05-17 15:24:37 info: [0mGET /api/uploadthing [36m304[0m 1.109 ms - -[0m
+2024-05-17 15:25:48 info: =================================
+2024-05-17 15:25:48 info: ======= ENV: development =======
+2024-05-17 15:25:48 info: 🚀 App listening on the port 8080
+2024-05-17 15:25:48 info: =================================
+2024-05-17 15:25:51 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 1.784 ms - 0[0m
+2024-05-17 15:25:52 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 1107.169 ms - -[0m
+2024-05-17 15:25:58 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 575.292 ms - 4[0m
+2024-05-17 15:26:58 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.388 ms - 0[0m
+2024-05-17 15:26:59 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 1005.819 ms - -[0m
+2024-05-17 15:27:03 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 713.239 ms - 4[0m
+2024-05-17 15:28:13 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.206 ms - 0[0m
+2024-05-17 15:28:14 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 1057.497 ms - -[0m
+2024-05-17 15:28:21 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 612.276 ms - 4[0m
+2024-05-17 15:28:31 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.296 ms - 0[0m
+2024-05-17 15:28:31 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 753.306 ms - -[0m
+2024-05-17 15:28:35 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 570.463 ms - 4[0m
+2024-05-17 15:28:40 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.238 ms - 0[0m
+2024-05-17 15:28:41 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 970.335 ms - -[0m
+2024-05-17 15:28:44 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 610.290 ms - 4[0m
+2024-05-17 15:28:46 info: [0mOPTIONS /api/kyc/create [32m204[0m 0.174 ms - 0[0m
+2024-05-17 15:28:46 error: [POST] /api/kyc/create >> StatusCode:: 400, Message:: dob must be a Date instance, selfie must be an URL address,selfie should not be empty
+2024-05-17 15:28:46 info: [0mPOST /api/kyc/create [33m400[0m 15.280 ms - 99[0m
+2024-05-17 15:28:46 info: [0mGET /api/uploadthing [36m304[0m 2.303 ms - -[0m
+2024-05-17 15:28:46 info: [0mGET /api/uploadthing [36m304[0m 1.014 ms - -[0m
+2024-05-17 15:28:46 info: [0mGET /api/uploadthing [32m200[0m 1.442 ms - 131[0m
+2024-05-17 15:28:46 info: [0mGET /api/uploadthing [32m200[0m 0.921 ms - 131[0m
+2024-05-17 15:28:46 info: [0mGET /api/uploadthing [32m200[0m 0.846 ms - 131[0m
+2024-05-17 15:28:46 info: [0mGET /api/uploadthing [32m200[0m 0.834 ms - 131[0m
+2024-05-17 15:30:15 info: =================================
+2024-05-17 15:30:15 info: ======= ENV: development =======
+2024-05-17 15:30:15 info: 🚀 App listening on the port 8080
+2024-05-17 15:30:15 info: =================================
+2024-05-17 15:30:18 info: [0mOPTIONS /api/kyc/create [32m204[0m 2.141 ms - 0[0m
+2024-05-17 15:30:18 error: [POST] /api/kyc/create >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'id')
+2024-05-17 15:30:18 info: [0mPOST /api/kyc/create [31m500[0m 25.327 ms - 64[0m
+2024-05-17 15:30:18 info: [0mGET /api/uploadthing [36m304[0m 2.543 ms - -[0m
+2024-05-17 15:30:18 info: [0mGET /api/uploadthing [36m304[0m 0.999 ms - -[0m
+2024-05-17 15:30:18 info: [0mGET /api/uploadthing [36m304[0m 0.842 ms - -[0m
+2024-05-17 15:30:18 info: [0mGET /api/uploadthing [36m304[0m 1.196 ms - -[0m
+2024-05-17 15:30:18 info: [0mGET /api/uploadthing [36m304[0m 1.010 ms - -[0m
+2024-05-17 15:30:18 info: [0mGET /api/uploadthing [36m304[0m 1.019 ms - -[0m
+2024-05-17 15:35:05 info: =================================
+2024-05-17 15:35:05 info: ======= ENV: development =======
+2024-05-17 15:35:05 info: 🚀 App listening on the port 8080
+2024-05-17 15:35:05 info: =================================
+2024-05-17 15:36:42 info: [0mGET /api/uploadthing [36m304[0m 5.512 ms - -[0m
+2024-05-17 15:36:42 info: [0mGET /api/uploadthing [36m304[0m 1.068 ms - -[0m
+2024-05-17 15:36:42 info: [0mGET /api/uploadthing [32m200[0m 0.920 ms - 131[0m
+2024-05-17 15:36:42 info: [0mGET /api/uploadthing [36m304[0m 0.888 ms - -[0m
+2024-05-17 15:36:42 info: [0mGET /api/uploadthing [32m200[0m 0.831 ms - 131[0m
+2024-05-17 15:36:42 info: [0mGET /api/uploadthing [32m200[0m 0.735 ms - 131[0m
+2024-05-17 15:38:45 info: [0mOPTIONS /api/signup [32m204[0m 0.777 ms - 0[0m
+2024-05-17 15:38:48 info: [0mPOST /api/signup [32m201[0m 2790.396 ms - 194[0m
+2024-05-17 15:38:48 info: [0mOPTIONS /api/otp/send [32m204[0m 0.237 ms - 0[0m
+2024-05-17 15:38:54 info: [0mPOST /api/otp/send [32m200[0m 5829.170 ms - 55[0m
+2024-05-17 15:39:08 info: [0mOPTIONS /api/otp/verify [32m204[0m 0.360 ms - 0[0m
+2024-05-17 15:39:10 info: [0mPOST /api/otp/verify [32m200[0m 1878.207 ms - 42[0m
+2024-05-17 15:39:13 info: [0mGET /api/uploadthing [36m304[0m 0.821 ms - -[0m
+2024-05-17 15:39:13 info: [0mGET /api/uploadthing [36m304[0m 0.936 ms - -[0m
+2024-05-17 15:39:13 info: [0mGET /api/uploadthing [36m304[0m 1.578 ms - -[0m
+2024-05-17 15:39:13 info: [0mGET /api/uploadthing [36m304[0m 1.458 ms - -[0m
+2024-05-17 15:39:13 info: [0mGET /api/uploadthing [36m304[0m 1.272 ms - -[0m
+2024-05-17 15:39:13 info: [0mGET /api/uploadthing [36m304[0m 1.023 ms - -[0m
+2024-05-17 15:41:34 info: =================================
+2024-05-17 15:41:34 info: ======= ENV: development =======
+2024-05-17 15:41:34 info: 🚀 App listening on the port 8080
+2024-05-17 15:41:34 info: =================================
+2024-05-17 15:42:23 info: [0mDELETE /api/user [32m200[0m 2444.217 ms - 31[0m
+2024-05-17 15:42:31 info: [0mOPTIONS /api/signup [32m204[0m 0.388 ms - 0[0m
+2024-05-17 15:42:33 info: [0mPOST /api/signup [32m201[0m 1921.634 ms - 195[0m
+2024-05-17 15:42:33 info: [0mOPTIONS /api/otp/send [32m204[0m 0.201 ms - 0[0m
+2024-05-17 15:42:38 info: [0mPOST /api/otp/send [32m200[0m 4959.878 ms - 56[0m
+2024-05-17 15:42:58 info: [0mOPTIONS /api/otp/verify [32m204[0m 0.179 ms - 0[0m
+2024-05-17 15:42:58 error: [POST] /api/otp/verify >> StatusCode:: 403, Message:: Invalid OTP
+2024-05-17 15:42:58 info: [0mPOST /api/otp/verify [33m403[0m 275.233 ms - 25[0m
+2024-05-17 15:43:20 info: [0mOPTIONS /api/otp/verify [32m204[0m 0.114 ms - 0[0m
+2024-05-17 15:43:21 info: [0mPOST /api/otp/verify [32m200[0m 1281.322 ms - 42[0m
+2024-05-17 15:43:23 info: [0mGET /api/uploadthing [32m200[0m 1.319 ms - 131[0m
+2024-05-17 15:43:23 info: [0mGET /api/uploadthing [32m200[0m 0.714 ms - 131[0m
+2024-05-17 15:43:23 info: [0mGET /api/uploadthing [32m200[0m 0.450 ms - 131[0m
+2024-05-17 15:43:23 info: [0mGET /api/uploadthing [36m304[0m 1.150 ms - -[0m
+2024-05-17 15:43:23 info: [0mGET /api/uploadthing [36m304[0m 0.607 ms - -[0m
+2024-05-17 15:43:23 info: [0mGET /api/uploadthing [36m304[0m 0.660 ms - -[0m
+2024-05-17 15:43:56 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.118 ms - 0[0m
+2024-05-17 15:43:57 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 1193.195 ms - -[0m
+2024-05-17 15:44:00 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 747.745 ms - -[0m
+2024-05-17 15:44:01 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 588.111 ms - 4[0m
+2024-05-17 15:44:04 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 571.072 ms - 4[0m
+2024-05-17 15:44:05 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.155 ms - 0[0m
+2024-05-17 15:44:05 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 737.376 ms - -[0m
+2024-05-17 15:44:12 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 862.080 ms - 4[0m

@@ -1,16 +1,16 @@
 import { RequestWithUser } from "@/interfaces/auth.interface";
 import { KYCService } from "@/services/kyc.service";
-import { NextFunction, Response } from "express";
+import { NextFunction, Response  , Request} from "express";
 import Container from "typedi";
 
 
 export class KYCController{
     public kyc = Container.get(KYCService);
 
-    public createKYC = async (req: RequestWithUser, res: Response, next: NextFunction) => {
+    public createKYC = async (req: Request, res: Response, next: NextFunction) => {
         try {
-            const userId = req.user.id;
-            const kycData = req.body;
+            const userId = req.body.userId;
+            const kycData = req.body.data;
             const createKYC = await this.kyc.createKYC(kycData, userId);
             res.status(201).json({ data: createKYC, message: 'KYC created' });
         } catch (error) {

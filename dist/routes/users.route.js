@@ -12,6 +12,7 @@ const _express = require("express");
 const _userscontroller = require("../controllers/users.controller");
 const _usersdto = require("../dtos/users.dto");
 const _validationmiddleware = require("../middlewares/validation.middleware");
+const _authmiddleware = require("../middlewares/auth.middleware");
 function _define_property(obj, key, value) {
     if (key in obj) {
         Object.defineProperty(obj, key, {
@@ -27,14 +28,13 @@ function _define_property(obj, key, value) {
 }
 let UserRoute = class UserRoute {
     initializeRoutes() {
-        this.router.get(`${this.path}`, this.user.getUsers);
-        this.router.get(`${this.path}/:id(\\d+)`, this.user.getUserById);
+        this.router.get(`${this.path}`, _authmiddleware.AuthMiddleware, this.user.getUser);
         this.router.post(`${this.path}`, (0, _validationmiddleware.ValidationMiddleware)(_usersdto.CreateUserDto), this.user.createUser);
         this.router.put(`${this.path}/:id(\\d+)`, (0, _validationmiddleware.ValidationMiddleware)(_usersdto.CreateUserDto, true), this.user.updateUser);
-        this.router.delete(`${this.path}/:id(\\d+)`, this.user.deleteUser);
+        this.router.delete(`${this.path}`, this.user.deleteUser);
     }
     constructor(){
-        _define_property(this, "path", '/users');
+        _define_property(this, "path", '/api/user');
         _define_property(this, "router", (0, _express.Router)());
         _define_property(this, "user", new _userscontroller.UserController());
         this.initializeRoutes();

@@ -1,0 +1,99 @@
+2024-05-13 03:02:41 info: =================================
+2024-05-13 03:02:41 info: ======= ENV: development =======
+2024-05-13 03:02:41 info: 🚀 App listening on the port 8080
+2024-05-13 03:02:41 info: =================================
+2024-05-13 03:05:53 info: [0mPOST /api/signup [32m201[0m 1735.611 ms - 135[0m
+2024-05-13 03:23:11 info: =================================
+2024-05-13 03:23:11 info: ======= ENV: development =======
+2024-05-13 03:23:11 info: 🚀 App listening on the port 8080
+2024-05-13 03:23:11 info: =================================
+2024-05-13 03:23:15 info: [0mGET /api/healthcheck [32m200[0m 3.192 ms - 2[0m
+2024-05-13 03:23:23 info: [0mPOST /api/signup [32m201[0m 2123.667 ms - 138[0m
+2024-05-13 03:29:07 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password should not be empty,password must be a string
+2024-05-13 03:29:07 info: [0mPOST /api/signup [33m400[0m 6.931 ms - 92[0m
+2024-05-13 03:45:57 info: [0mOPTIONS /api/signup [32m204[0m 1.137 ms - 0[0m
+2024-05-13 03:45:59 info: [0mPOST /api/signup [32m201[0m 1956.357 ms - 136[0m
+2024-05-13 03:46:45 info: =================================
+2024-05-13 03:46:45 info: ======= ENV: development =======
+2024-05-13 03:46:45 info: 🚀 App listening on the port 8080
+2024-05-13 03:46:45 info: =================================
+2024-05-13 03:47:06 info: =================================
+2024-05-13 03:47:06 info: ======= ENV: development =======
+2024-05-13 03:47:06 info: 🚀 App listening on the port 8080
+2024-05-13 03:47:06 info: =================================
+2024-05-13 03:47:16 info: =================================
+2024-05-13 03:47:16 info: ======= ENV: development =======
+2024-05-13 03:47:16 info: 🚀 App listening on the port 8080
+2024-05-13 03:47:16 info: =================================
+2024-05-13 03:47:40 info: =================================
+2024-05-13 03:47:40 info: ======= ENV: development =======
+2024-05-13 03:47:40 info: 🚀 App listening on the port 8080
+2024-05-13 03:47:40 info: =================================
+2024-05-13 03:48:02 info: [0mOPTIONS /api/signup [32m204[0m 1.568 ms - 0[0m
+2024-05-13 03:48:03 error: [POST] /api/signup >> StatusCode:: 409, Message:: This email kjqfh@gmail.com already exists
+2024-05-13 03:48:03 info: [0mPOST /api/signup [33m409[0m 1196.581 ms - 55[0m
+2024-05-13 03:48:15 info: [0mOPTIONS /api/signup [32m204[0m 0.107 ms - 0[0m
+2024-05-13 03:48:15 error: [POST] /api/signup >> StatusCode:: 409, Message:: This email kjqfh@gmail.com already exists
+2024-05-13 03:48:15 info: [0mPOST /api/signup [33m409[0m 92.261 ms - 55[0m
+2024-05-13 03:48:29 info: [0mOPTIONS /api/signup [32m204[0m 0.103 ms - 0[0m
+2024-05-13 03:48:30 info: [0mPOST /api/signup [32m201[0m 758.721 ms - 137[0m
+2024-05-13 03:50:18 info: [0mOPTIONS /api/signup [32m204[0m 0.132 ms - 0[0m
+2024-05-13 03:50:19 info: [0mPOST /api/signup [32m201[0m 587.168 ms - 128[0m
+2024-05-13 03:50:28 info: [0mOPTIONS /api/signup [32m204[0m 0.108 ms - 0[0m
+2024-05-13 03:50:28 error: [POST] /api/signup >> StatusCode:: 409, Message:: This email a@b.com already exists
+2024-05-13 03:50:28 info: [0mPOST /api/signup [33m409[0m 90.995 ms - 47[0m
+2024-05-13 03:50:35 info: [0mOPTIONS /api/signup [32m204[0m 0.383 ms - 0[0m
+2024-05-13 03:50:35 info: [0mPOST /api/signup [32m201[0m 582.606 ms - 130[0m
+2024-05-13 03:50:45 info: [0mOPTIONS /api/signup [32m204[0m 0.241 ms - 0[0m
+2024-05-13 03:50:45 error: [POST] /api/signup >> StatusCode:: 409, Message:: This email abc@b.com already exists
+2024-05-13 03:50:45 info: [0mPOST /api/signup [33m409[0m 91.472 ms - 49[0m
+2024-05-13 03:51:52 info: [0mOPTIONS /api/login [32m204[0m 0.128 ms - 0[0m
+2024-05-13 03:51:53 info: [0mPOST /api/login [32m200[0m 228.562 ms - 129[0m
+2024-05-13 03:58:17 info: [0mOPTIONS /api/signup [32m204[0m 0.313 ms - 0[0m
+2024-05-13 03:58:19 info: [0mPOST /api/signup [32m201[0m 2251.477 ms - 132[0m
+2024-05-13 03:58:45 info: [0mOPTIONS /api/signup [32m204[0m 0.114 ms - 0[0m
+2024-05-13 03:58:46 info: [0mPOST /api/signup [32m201[0m 527.730 ms - 133[0m
+2024-05-13 03:59:08 info: [0mOPTIONS /api/signup [32m204[0m 0.136 ms - 0[0m
+2024-05-13 03:59:08 info: [0mPOST /api/signup [32m201[0m 526.132 ms - 134[0m
+2024-05-13 04:00:04 info: [0mOPTIONS /api/signup [32m204[0m 0.122 ms - 0[0m
+2024-05-13 04:00:05 info: [0mPOST /api/signup [32m201[0m 558.157 ms - 134[0m
+2024-05-13 04:01:20 info: [0mOPTIONS /api/signup [32m204[0m 0.122 ms - 0[0m
+2024-05-13 04:01:20 info: [0mPOST /api/signup [32m201[0m 528.181 ms - 137[0m
+2024-05-13 04:02:09 info: [0mOPTIONS /api/login [32m204[0m 0.114 ms - 0[0m
+2024-05-13 04:02:09 error: [POST] /api/login >> StatusCode:: 409, Message:: Password is not matching
+2024-05-13 04:02:09 info: [0mPOST /api/login [33m409[0m 209.556 ms - 38[0m
+2024-05-13 04:02:26 info: [0mOPTIONS /api/login [32m204[0m 0.114 ms - 0[0m
+2024-05-13 04:02:26 error: [POST] /api/login >> StatusCode:: 409, Message:: Password is not matching
+2024-05-13 04:02:26 info: [0mPOST /api/login [33m409[0m 207.610 ms - 38[0m
+2024-05-13 04:04:07 info: [0mOPTIONS /api/signup [32m204[0m 0.111 ms - 0[0m
+2024-05-13 04:04:07 info: [0mPOST /api/signup [32m201[0m 528.068 ms - 136[0m
+2024-05-13 04:04:25 info: [0mOPTIONS /api/login [32m204[0m 0.107 ms - 0[0m
+2024-05-13 04:04:25 info: [0mPOST /api/login [32m200[0m 227.919 ms - 135[0m
+2024-05-13 04:10:29 info: [0mOPTIONS /api/login [32m204[0m 0.129 ms - 0[0m
+2024-05-13 04:10:48 info: [0mOPTIONS /api/signup [32m204[0m 0.099 ms - 0[0m
+2024-05-13 04:10:51 info: [0mPOST /api/signup [32m201[0m 2643.710 ms - 135[0m
+2024-05-13 04:11:05 info: [0mOPTIONS /api/login [32m204[0m 0.221 ms - 0[0m
+2024-05-13 04:11:11 info: [0mOPTIONS /api/login [32m204[0m 0.100 ms - 0[0m
+2024-05-13 04:11:32 info: [0mOPTIONS /api/login [32m204[0m 0.209 ms - 0[0m
+2024-05-13 04:16:05 info: =================================
+2024-05-13 04:16:05 info: ======= ENV: development =======
+2024-05-13 04:16:05 info: 🚀 App listening on the port 8080
+2024-05-13 04:16:05 info: =================================
+2024-05-13 04:16:07 info: [0mOPTIONS /api/login [32m204[0m 1.288 ms - 0[0m
+2024-05-13 04:17:20 info: =================================
+2024-05-13 04:17:20 info: ======= ENV: development =======
+2024-05-13 04:17:20 info: 🚀 App listening on the port 8080
+2024-05-13 04:17:20 info: =================================
+2024-05-13 04:17:23 info: [0mOPTIONS /api/login [32m204[0m 1.217 ms - 0[0m
+2024-05-13 04:17:38 info: [0mOPTIONS /api/login [32m204[0m 0.359 ms - 0[0m
+2024-05-13 04:17:53 info: =================================
+2024-05-13 04:17:53 info: ======= ENV: development =======
+2024-05-13 04:17:53 info: 🚀 App listening on the port 8080
+2024-05-13 04:17:53 info: =================================
+2024-05-13 04:17:54 info: [0mOPTIONS /api/login [32m204[0m 1.931 ms - 0[0m
+2024-05-13 04:18:03 info: =================================
+2024-05-13 04:18:03 info: ======= ENV: development =======
+2024-05-13 04:18:03 info: 🚀 App listening on the port 8080
+2024-05-13 04:18:03 info: =================================
+2024-05-13 04:18:10 info: [0mOPTIONS /api/login [32m204[0m 1.181 ms - 0[0m
+2024-05-13 04:18:11 info: [0mPOST /api/login [32m200[0m 1287.527 ms - 134[0m

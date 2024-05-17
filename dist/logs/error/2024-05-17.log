@@ -1,0 +1,7 @@
+2024-05-17 15:03:00 error: [POST] /api/kyc/create >> StatusCode:: 400, Message:: dob must be a Date instance, idFront must be an URL address, idBack must be an URL address, selfie must be an URL address,selfie should not be empty
+2024-05-17 15:12:04 error: [POST] /api/signup >> StatusCode:: 409, Message:: This email utkarsh_s@ece.iitr.ac.in already exists
+2024-05-17 15:15:17 error: [POST] /api/kyc/create >> StatusCode:: 400, Message:: dob must be a Date instance, idFront must be an URL address, idBack must be an URL address, selfie must be an URL address,selfie should not be empty
+2024-05-17 15:24:37 error: [POST] /api/kyc/create >> StatusCode:: 400, Message:: dob must be a Date instance, idFront must be an URL address, idBack must be an URL address, selfie must be an URL address,selfie should not be empty
+2024-05-17 15:28:46 error: [POST] /api/kyc/create >> StatusCode:: 400, Message:: dob must be a Date instance, selfie must be an URL address,selfie should not be empty
+2024-05-17 15:30:18 error: [POST] /api/kyc/create >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'id')
+2024-05-17 15:42:58 error: [POST] /api/otp/verify >> StatusCode:: 403, Message:: Invalid OTP

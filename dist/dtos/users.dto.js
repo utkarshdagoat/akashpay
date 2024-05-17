@@ -52,8 +52,6 @@ _ts_decorate([
 _ts_decorate([
     (0, _classvalidator.IsString)(),
     (0, _classvalidator.IsNotEmpty)(),
-    (0, _classvalidator.MinLength)(9),
-    (0, _classvalidator.MaxLength)(32),
     _ts_metadata("design:type", String)
 ], CreateUserDto.prototype, "password", void 0);
 let UpdateUserDto = class UpdateUserDto {

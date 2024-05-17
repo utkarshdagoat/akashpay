@@ -1,0 +1,278 @@
+2024-05-15 00:19:51 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.146 ms - 0[0m
+2024-05-15 00:19:52 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 1518.659 ms - 79[0m
+2024-05-15 01:58:39 info: =================================
+2024-05-15 01:58:39 info: ======= ENV: development =======
+2024-05-15 01:58:39 info: 🚀 App listening on the port 8080
+2024-05-15 01:58:39 info: =================================
+2024-05-15 02:00:52 info: =================================
+2024-05-15 02:00:52 info: ======= ENV: development =======
+2024-05-15 02:00:52 info: 🚀 App listening on the port 8080
+2024-05-15 02:00:52 info: =================================
+2024-05-15 02:00:56 info: =================================
+2024-05-15 02:00:56 info: ======= ENV: development =======
+2024-05-15 02:00:56 info: 🚀 App listening on the port 8080
+2024-05-15 02:00:56 info: =================================
+2024-05-15 02:15:32 info: =================================
+2024-05-15 02:15:32 info: ======= ENV: development =======
+2024-05-15 02:15:32 info: 🚀 App listening on the port 8080
+2024-05-15 02:15:32 info: =================================
+2024-05-15 02:21:02 info: =================================
+2024-05-15 02:21:02 info: ======= ENV: development =======
+2024-05-15 02:21:02 info: 🚀 App listening on the port 8080
+2024-05-15 02:21:02 info: =================================
+2024-05-15 02:34:36 info: =================================
+2024-05-15 02:34:36 info: ======= ENV: development =======
+2024-05-15 02:34:36 info: 🚀 App listening on the port 8080
+2024-05-15 02:34:36 info: =================================
+2024-05-15 02:36:09 info: =================================
+2024-05-15 02:36:09 info: ======= ENV: development =======
+2024-05-15 02:36:09 info: 🚀 App listening on the port 8080
+2024-05-15 02:36:09 info: =================================
+2024-05-15 02:36:17 info: =================================
+2024-05-15 02:36:17 info: ======= ENV: development =======
+2024-05-15 02:36:17 info: 🚀 App listening on the port 8080
+2024-05-15 02:36:17 info: =================================
+2024-05-15 02:43:58 info: =================================
+2024-05-15 02:43:58 info: ======= ENV: development =======
+2024-05-15 02:43:58 info: 🚀 App listening on the port 8080
+2024-05-15 02:43:58 info: =================================
+2024-05-15 02:44:02 info: =================================
+2024-05-15 02:44:02 info: ======= ENV: development =======
+2024-05-15 02:44:02 info: 🚀 App listening on the port 8080
+2024-05-15 02:44:02 info: =================================
+2024-05-15 02:44:12 info: =================================
+2024-05-15 02:44:12 info: ======= ENV: development =======
+2024-05-15 02:44:12 info: 🚀 App listening on the port 8080
+2024-05-15 02:44:12 info: =================================
+2024-05-15 02:54:04 info: =================================
+2024-05-15 02:54:04 info: ======= ENV: development =======
+2024-05-15 02:54:04 info: 🚀 App listening on the port 8080
+2024-05-15 02:54:04 info: =================================
+2024-05-15 03:30:30 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 1.233 ms - 0[0m
+2024-05-15 03:30:31 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 1083.274 ms - 79[0m
+2024-05-15 03:35:03 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.252 ms - 0[0m
+2024-05-15 03:35:04 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 1491.661 ms - 79[0m
+2024-05-15 03:45:46 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.269 ms - 0[0m
+2024-05-15 03:45:47 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 1011.516 ms - 79[0m
+2024-05-15 03:46:13 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.107 ms - 0[0m
+2024-05-15 03:46:14 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 873.274 ms - 79[0m
+2024-05-15 03:47:08 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.117 ms - 0[0m
+2024-05-15 03:47:09 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 744.221 ms - 79[0m
+2024-05-15 03:47:43 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.367 ms - 0[0m
+2024-05-15 03:47:44 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 851.792 ms - 79[0m
+2024-05-15 03:48:19 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.434 ms - 0[0m
+2024-05-15 03:48:19 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 856.284 ms - 79[0m
+2024-05-15 08:04:33 info: =================================
+2024-05-15 08:04:33 info: ======= ENV: development =======
+2024-05-15 08:04:33 info: 🚀 App listening on the port 8080
+2024-05-15 08:04:33 info: =================================
+2024-05-15 08:06:47 info: =================================
+2024-05-15 08:06:47 info: ======= ENV: development =======
+2024-05-15 08:06:47 info: 🚀 App listening on the port 8080
+2024-05-15 08:06:47 info: =================================
+2024-05-15 08:06:52 info: =================================
+2024-05-15 08:06:52 info: ======= ENV: development =======
+2024-05-15 08:06:52 info: 🚀 App listening on the port 8080
+2024-05-15 08:06:52 info: =================================
+2024-05-15 08:06:55 info: =================================
+2024-05-15 08:06:55 info: ======= ENV: development =======
+2024-05-15 08:06:55 info: 🚀 App listening on the port 8080
+2024-05-15 08:06:55 info: =================================
+2024-05-15 08:08:03 info: [0mGET /api/dashboard/applications [33m404[0m 4.460 ms - 165[0m
+2024-05-15 08:08:03 info: [0mGET /api/dashboard/applications [33m404[0m 1.029 ms - 165[0m
+2024-05-15 08:09:17 info: [0mGET /api/dashboard/applications [33m404[0m 1.288 ms - 165[0m
+2024-05-15 08:09:26 info: [0mGET /api/dashboard/applications [33m404[0m 0.629 ms - 165[0m
+2024-05-15 08:09:43 info: [0mGET /api/dashboard/applications [33m404[0m 2.066 ms - 165[0m
+2024-05-15 08:10:41 info: [0mGET /api/dashboard/applications [33m404[0m 1.109 ms - 165[0m
+2024-05-15 08:10:41 info: [0mGET /api/dashboard/applications [33m404[0m 0.601 ms - 165[0m
+2024-05-15 08:11:01 info: [0mGET /api/dashboard/applications [33m404[0m 0.873 ms - 165[0m
+2024-05-15 08:11:01 info: [0mGET /api/dashboard/applications [33m404[0m 1.767 ms - 165[0m
+2024-05-15 08:13:56 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password should not be empty,password must be a string
+2024-05-15 08:13:56 info: [0mPOST /api/signup [33m400[0m 5.414 ms - 92[0m
+2024-05-15 08:20:19 info: [0mOPTIONS /api/signup [32m204[0m 0.314 ms - 0[0m
+2024-05-15 08:20:21 info: [0mPOST /api/signup [32m201[0m 1980.135 ms - 138[0m
+2024-05-15 08:20:26 info: [0mOPTIONS /api/login [32m204[0m 0.172 ms - 0[0m
+2024-05-15 08:20:26 info: [0mPOST /api/login [32m200[0m 142.599 ms - 137[0m
+2024-05-15 08:20:27 info: [0mPOST /api/login [32m200[0m 1256.408 ms - 137[0m
+2024-05-15 08:20:45 info: [0mGET /api/dashboard/application [33m404[0m 0.739 ms - 164[0m
+2024-05-15 08:20:45 info: [0mGET /api/dashboard/application [33m404[0m 0.543 ms - 164[0m
+2024-05-15 08:21:06 info: [0mGET /api/dashboard/applications [33m404[0m 0.903 ms - 165[0m
+2024-05-15 08:21:42 info: =================================
+2024-05-15 08:21:42 info: ======= ENV: development =======
+2024-05-15 08:21:42 info: 🚀 App listening on the port 8080
+2024-05-15 08:21:42 info: =================================
+2024-05-15 08:22:05 info: [0mGET /api/dashboard/applications [32m200[0m 3349.175 ms - 11[0m
+2024-05-15 08:22:07 info: [0mGET /api/dashboard/applications [32m200[0m 5277.425 ms - 11[0m
+2024-05-15 08:22:52 info: =================================
+2024-05-15 08:22:52 info: ======= ENV: development =======
+2024-05-15 08:22:52 info: 🚀 App listening on the port 8080
+2024-05-15 08:22:52 info: =================================
+2024-05-15 08:22:57 info: =================================
+2024-05-15 08:22:57 info: ======= ENV: development =======
+2024-05-15 08:22:57 info: 🚀 App listening on the port 8080
+2024-05-15 08:22:57 info: =================================
+2024-05-15 08:23:11 info: =================================
+2024-05-15 08:23:11 info: ======= ENV: development =======
+2024-05-15 08:23:11 info: 🚀 App listening on the port 8080
+2024-05-15 08:23:11 info: =================================
+2024-05-15 08:23:17 info: [0mGET /api/dashboard/applications [32m200[0m 1985.961 ms - 11[0m
+2024-05-15 08:23:18 info: [0mGET /api/dashboard/applications [36m304[0m 2725.939 ms - -[0m
+2024-05-15 08:23:28 info: [0mGET /api/dashboard/applications [36m304[0m 1284.935 ms - -[0m
+2024-05-15 08:23:32 info: [0mGET /api/dashboard/applications [36m304[0m 1086.918 ms - -[0m
+2024-05-15 08:23:32 info: [0mGET /api/dashboard/applications [32m200[0m 1142.778 ms - 11[0m
+2024-05-15 08:23:38 info: [0mGET /api/dashboard/applications [36m304[0m 1297.427 ms - -[0m
+2024-05-15 08:33:31 info: [0mGET /api/dashboard/applications [32m200[0m 2177.567 ms - 11[0m
+2024-05-15 08:33:32 info: [0mGET /api/dashboard/applications [36m304[0m 3158.786 ms - -[0m
+2024-05-15 08:46:32 info: [0mOPTIONS /api/dashboard/applications [32m204[0m 0.282 ms - 0[0m
+2024-05-15 08:46:34 info: [0mPOST /api/dashboard/applications [33m404[0m 1581.210 ms - 166[0m
+2024-05-15 08:47:07 info: [0mGET /api/dashboard/applications [32m200[0m 2129.288 ms - 11[0m
+2024-05-15 08:47:07 info: [0mGET /api/dashboard/applications [32m200[0m 2228.480 ms - 11[0m
+2024-05-15 08:47:24 info: =================================
+2024-05-15 08:47:24 info: ======= ENV: development =======
+2024-05-15 08:47:24 info: 🚀 App listening on the port 8080
+2024-05-15 08:47:24 info: =================================
+2024-05-15 08:47:51 info: =================================
+2024-05-15 08:47:51 info: ======= ENV: development =======
+2024-05-15 08:47:51 info: 🚀 App listening on the port 8080
+2024-05-15 08:47:51 info: =================================
+2024-05-15 08:48:27 info: =================================
+2024-05-15 08:48:27 info: ======= ENV: development =======
+2024-05-15 08:48:27 info: 🚀 App listening on the port 8080
+2024-05-15 08:48:27 info: =================================
+2024-05-15 08:49:41 info: [0mOPTIONS /api/dashboard/applications [32m204[0m 1.217 ms - 0[0m
+2024-05-15 08:49:42 error: [POST] /api/dashboard/applications >> StatusCode:: 400, Message:: callbackUris must be an URL address
+2024-05-15 08:49:42 info: [0mPOST /api/dashboard/applications [33m400[0m 1161.721 ms - 49[0m
+2024-05-15 08:50:43 info: =================================
+2024-05-15 08:50:43 info: ======= ENV: development =======
+2024-05-15 08:50:43 info: 🚀 App listening on the port 8080
+2024-05-15 08:50:43 info: =================================
+2024-05-15 09:53:55 info: =================================
+2024-05-15 09:53:55 info: ======= ENV: development =======
+2024-05-15 09:53:55 info: 🚀 App listening on the port 8080
+2024-05-15 09:53:55 info: =================================
+2024-05-15 09:54:30 error: [GET] /api/dashboard/applications >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-15 09:54:30 info: [0mGET /api/dashboard/applications [33m404[0m 7.720 ms - 42[0m
+2024-05-15 09:54:30 error: [GET] /api/dashboard/applications >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-15 09:54:30 info: [0mGET /api/dashboard/applications [33m404[0m 2.825 ms - 42[0m
+2024-05-15 10:00:28 info: =================================
+2024-05-15 10:00:28 info: ======= ENV: development =======
+2024-05-15 10:00:28 info: 🚀 App listening on the port 8080
+2024-05-15 10:00:28 info: =================================
+2024-05-15 10:05:07 info: =================================
+2024-05-15 10:05:07 info: ======= ENV: development =======
+2024-05-15 10:05:07 info: 🚀 App listening on the port 8080
+2024-05-15 10:05:07 info: =================================
+2024-05-15 10:05:26 info: =================================
+2024-05-15 10:05:26 info: ======= ENV: development =======
+2024-05-15 10:05:26 info: 🚀 App listening on the port 8080
+2024-05-15 10:05:26 info: =================================
+2024-05-15 10:15:16 info: =================================
+2024-05-15 10:15:16 info: ======= ENV: development =======
+2024-05-15 10:15:16 info: 🚀 App listening on the port 8080
+2024-05-15 10:15:16 info: =================================
+2024-05-15 10:17:09 info: [0mOPTIONS /api/dashboard/applications [32m204[0m 1.987 ms - 0[0m
+2024-05-15 10:17:09 error: [POST] /api/dashboard/applications >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-15 10:17:09 info: [0mPOST /api/dashboard/applications [33m404[0m 31.444 ms - 42[0m
+2024-05-15 10:17:30 info: [0mOPTIONS /api/login [32m204[0m 0.325 ms - 0[0m
+2024-05-15 10:17:31 info: [0mPOST /api/login [32m200[0m 1136.210 ms - 137[0m
+2024-05-15 10:17:54 info: [0mOPTIONS /api/login [32m204[0m 0.251 ms - 0[0m
+2024-05-15 10:17:54 info: [0mPOST /api/login [32m200[0m 242.689 ms - 137[0m
+2024-05-15 10:18:04 info: [0mGET /api/dashboard/applications [32m200[0m 2207.374 ms - 11[0m
+2024-05-15 10:18:06 info: [0mGET /api/dashboard/applications [32m200[0m 4068.968 ms - 11[0m
+2024-05-15 10:18:44 info: [0mOPTIONS /api/dashboard/applications [32m204[0m 0.156 ms - 0[0m
+2024-05-15 10:18:46 info: [0mPOST /api/dashboard/applications [32m201[0m 1882.154 ms - 220[0m
+2024-05-15 10:20:38 info: [0mGET /api/dashboard/applications [32m200[0m 1248.916 ms - 222[0m
+2024-05-15 10:20:39 info: [0mGET /api/dashboard/applications [32m200[0m 2413.167 ms - 222[0m
+2024-05-15 10:35:39 info: [0mOPTIONS /api/dashboard/applications [32m204[0m 0.323 ms - 0[0m
+2024-05-15 10:35:42 info: [0mPOST /api/dashboard/applications [32m201[0m 3052.609 ms - 217[0m
+2024-05-15 10:40:34 info: [0mOPTIONS /api/dashboard/applications [32m204[0m 0.164 ms - 0[0m
+2024-05-15 10:40:37 info: [0mPOST /api/dashboard/applications [32m201[0m 2183.913 ms - 214[0m
+2024-05-15 10:44:13 info: [0mGET /api/dashboard/applications [32m200[0m 1300.397 ms - 637[0m
+2024-05-15 10:44:14 info: [0mGET /api/dashboard/applications [32m200[0m 2009.481 ms - 637[0m
+2024-05-15 10:44:27 info: [0mOPTIONS /api/dashboard/applications [32m204[0m 0.403 ms - 0[0m
+2024-05-15 10:44:29 info: [0mPOST /api/dashboard/applications [32m201[0m 1902.605 ms - 230[0m
+2024-05-15 10:44:31 info: [0mGET /api/dashboard/applications [32m200[0m 1160.959 ms - 859[0m
+2024-05-15 10:44:41 info: [0mGET /api/dashboard/applications [36m304[0m 1180.487 ms - -[0m
+2024-05-15 10:44:41 info: [0mGET /api/dashboard/applications [32m200[0m 1348.024 ms - 859[0m
+2024-05-15 10:45:32 info: =================================
+2024-05-15 10:45:32 info: ======= ENV: development =======
+2024-05-15 10:45:32 info: 🚀 App listening on the port 8080
+2024-05-15 10:45:32 info: =================================
+2024-05-15 10:45:39 info: [0mGET /api/dashboard/applications [36m304[0m 3074.197 ms - -[0m
+2024-05-15 10:45:40 info: [0mGET /api/dashboard/applications [32m200[0m 4032.338 ms - 859[0m
+2024-05-15 10:46:05 info: [0mGET /api/dashboard/applications [36m304[0m 1239.514 ms - -[0m
+2024-05-15 10:46:07 info: [0mGET /api/dashboard/applications [32m200[0m 1044.230 ms - 859[0m
+2024-05-15 10:46:07 info: [0mGET /api/dashboard/applications [36m304[0m 1135.994 ms - -[0m
+2024-05-15 10:47:04 info: [0mGET /api/dashboard/applications [32m200[0m 1203.682 ms - 859[0m
+2024-05-15 10:47:05 info: [0mGET /api/dashboard/applications [32m200[0m 2042.060 ms - 859[0m
+2024-05-15 10:47:31 info: [0mGET /api/dashboard/applications [36m304[0m 1187.069 ms - -[0m
+2024-05-15 10:47:31 info: [0mGET /api/dashboard/applications [32m200[0m 1241.307 ms - 859[0m
+2024-05-15 10:47:49 info: [0mGET /api/dashboard/applications [36m304[0m 1284.122 ms - -[0m
+2024-05-15 10:47:50 info: [0mGET /api/dashboard/applications [32m200[0m 2141.565 ms - 859[0m
+2024-05-15 10:49:22 info: [0mGET /api/dashboard/applications [36m304[0m 1290.130 ms - -[0m
+2024-05-15 10:49:37 info: [0mGET /api/dashboard/applications [36m304[0m 1350.263 ms - -[0m
+2024-05-15 10:51:35 info: [0mGET /api/dashboard/applications [36m304[0m 1402.705 ms - -[0m
+2024-05-15 10:51:38 info: [0mGET /api/dashboard/applications [36m304[0m 1369.881 ms - -[0m
+2024-05-15 10:52:21 info: [0mGET /api/dashboard/applications [36m304[0m 1096.549 ms - -[0m
+2024-05-15 10:52:48 info: [0mGET /api/dashboard/applications [36m304[0m 1308.050 ms - -[0m
+2024-05-15 10:52:53 info: [0mGET /api/dashboard/applications [36m304[0m 1053.740 ms - -[0m
+2024-05-15 10:52:54 info: [0mGET /api/dashboard/applications [32m200[0m 2096.398 ms - 859[0m
+2024-05-15 10:53:10 info: [0mGET /api/dashboard/applications [36m304[0m 1226.770 ms - -[0m
+2024-05-15 10:53:32 info: =================================
+2024-05-15 10:53:32 info: ======= ENV: development =======
+2024-05-15 10:53:32 info: 🚀 App listening on the port 8080
+2024-05-15 10:53:32 info: =================================
+2024-05-15 10:53:38 info: [0mGET /api/dashboard/applications [32m200[0m 2071.090 ms - 850[0m
+2024-05-15 10:54:15 info: [0mGET /api/dashboard/applications [36m304[0m 1269.145 ms - -[0m
+2024-05-15 10:54:16 info: [0mGET /api/dashboard/applications [32m200[0m 2203.524 ms - 850[0m
+2024-05-15 10:57:28 info: [0mGET /api/dashboard/applications [32m200[0m 1316.865 ms - 850[0m
+2024-05-15 10:57:29 info: [0mGET /api/dashboard/applications [32m200[0m 2238.910 ms - 850[0m
+2024-05-15 10:57:41 info: [0mGET /api/dashboard/applications [32m200[0m 1011.700 ms - 850[0m
+2024-05-15 10:57:41 info: [0mGET /api/dashboard/applications [36m304[0m 1043.591 ms - -[0m
+2024-05-15 10:57:58 info: [0mGET /api/dashboard/applications [36m304[0m 1275.172 ms - -[0m
+2024-05-15 10:57:58 info: [0mGET /api/dashboard/applications [32m200[0m 1287.596 ms - 850[0m
+2024-05-15 10:58:22 info: [0mGET /api/dashboard/applications [32m200[0m 2078.309 ms - 850[0m
+2024-05-15 10:58:22 info: [0mGET /api/dashboard/applications [36m304[0m 2133.825 ms - -[0m
+2024-05-15 10:58:30 info: [0mGET /api/dashboard/applications [36m304[0m 2121.485 ms - -[0m
+2024-05-15 10:58:30 info: [0mGET /api/dashboard/applications [32m200[0m 2217.805 ms - 850[0m
+2024-05-15 10:59:07 info: [0mGET /api/dashboard/applications [32m200[0m 1144.282 ms - 850[0m
+2024-05-15 10:59:07 info: [0mGET /api/dashboard/applications [32m200[0m 1271.120 ms - 850[0m
+2024-05-15 10:59:20 info: [0mGET /api/dashboard/applications [36m304[0m 1075.811 ms - -[0m
+2024-05-15 10:59:24 error: [GET] /api/dashboard/applications >> StatusCode:: 401, Message:: Wrong authentication token
+2024-05-15 10:59:24 info: [0mGET /api/dashboard/applications [33m401[0m 5021.768 ms - 40[0m
+2024-05-15 23:24:15 error: [GET] /api/dashboard/applications >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-15 23:24:15 info: [0mGET /api/dashboard/applications [33m404[0m 10.540 ms - 42[0m
+2024-05-15 23:24:15 error: [GET] /api/dashboard/applications >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-15 23:24:15 info: [0mGET /api/dashboard/applications [33m404[0m 1.086 ms - 42[0m
+2024-05-15 23:29:45 info: =================================
+2024-05-15 23:29:45 info: ======= ENV: development =======
+2024-05-15 23:29:45 info: 🚀 App listening on the port 8080
+2024-05-15 23:29:45 info: =================================
+2024-05-15 23:40:32 info: =================================
+2024-05-15 23:40:32 info: ======= ENV: development =======
+2024-05-15 23:40:32 info: 🚀 App listening on the port 8080
+2024-05-15 23:40:32 info: =================================
+2024-05-15 23:46:23 info: =================================
+2024-05-15 23:46:23 info: ======= ENV: development =======
+2024-05-15 23:46:23 info: 🚀 App listening on the port 8080
+2024-05-15 23:46:23 info: =================================
+2024-05-15 23:48:08 info: =================================
+2024-05-15 23:48:08 info: ======= ENV: development =======
+2024-05-15 23:48:08 info: 🚀 App listening on the port 8080
+2024-05-15 23:48:08 info: =================================
+2024-05-15 23:50:10 info: =================================
+2024-05-15 23:50:10 info: ======= ENV: development =======
+2024-05-15 23:50:10 info: 🚀 App listening on the port 8080
+2024-05-15 23:50:10 info: =================================
+2024-05-15 23:50:15 info: =================================
+2024-05-15 23:50:15 info: ======= ENV: development =======
+2024-05-15 23:50:15 info: 🚀 App listening on the port 8080
+2024-05-15 23:50:15 info: =================================
+2024-05-15 23:50:18 info: =================================
+2024-05-15 23:50:18 info: ======= ENV: development =======
+2024-05-15 23:50:18 info: 🚀 App listening on the port 8080
+2024-05-15 23:50:18 info: =================================
+2024-05-15 23:51:38 info: =================================
+2024-05-15 23:51:38 info: ======= ENV: development =======
+2024-05-15 23:51:38 info: 🚀 App listening on the port 8080
+2024-05-15 23:51:38 info: =================================

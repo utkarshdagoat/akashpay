@@ -11,7 +11,6 @@ export class CreateKYCDto {
   lastName: string;
 
   @IsNotEmpty()
-  @IsDate()
   dob: Date;
 
   @IsNotEmpty()
@@ -46,7 +45,4 @@ export class CreateKYCDto {
   @IsUrl()
   selfie: string;
 
-  @IsNotEmpty()
-  @IsDate()
-  createdAt: Date;
 }

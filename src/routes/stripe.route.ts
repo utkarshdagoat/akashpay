@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { StripeController } from '@/controllers/stripe.controller';
 import { Routes } from '@interfaces/routes.interface';
-import { AuthMiddleware } from '@middlewares/auth.middleware';
+import { AuthMiddleware, EnsureKYC } from '@middlewares/auth.middleware';
 
 export class StripeRoutes implements Routes {
   public path = '/api/stripe/';
@@ -13,8 +13,7 @@ export class StripeRoutes implements Routes {
   }
 
   private initializeRoutes() {
-    this.router.post(`${this.path}create-session`, AuthMiddleware, this.stripe.createSession);
-    this.router.post(`${this.path}create-payment-intent`, this.stripe.createPaymentIntent);
+    this.router.post(`${this.path}create-payment-intent`, AuthMiddleware , EnsureKYC ,this.stripe.createPaymentIntent);
   }
 }
 /*

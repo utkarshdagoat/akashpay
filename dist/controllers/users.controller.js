@@ -26,29 +26,6 @@ function _define_property(obj, key, value) {
 let UserController = class UserController {
     constructor(){
         _define_property(this, "user", _typedi.Container.get(_usersservice.UserService));
-        _define_property(this, "getUsers", async (req, res, next)=>{
-            try {
-                const findAllUsersData = await this.user.findAllUser();
-                res.status(200).json({
-                    data: findAllUsersData,
-                    message: 'findAll'
-                });
-            } catch (error) {
-                next(error);
-            }
-        });
-        _define_property(this, "getUserById", async (req, res, next)=>{
-            try {
-                const userId = Number(req.params.id);
-                const findOneUserData = await this.user.findUserById(userId);
-                res.status(200).json({
-                    data: findOneUserData,
-                    message: 'findOne'
-                });
-            } catch (error) {
-                next(error);
-            }
-        });
         _define_property(this, "createUser", async (req, res, next)=>{
             try {
                 const userData = req.body;
@@ -76,12 +53,23 @@ let UserController = class UserController {
         });
         _define_property(this, "deleteUser", async (req, res, next)=>{
             try {
-                const userId = Number(req.params.id);
-                const deleteUserData = await this.user.deleteUser(userId);
+                await this.user.deleteUser();
                 res.status(200).json({
-                    data: deleteUserData,
+                    data: "",
                     message: 'deleted'
                 });
+            } catch (error) {
+                next(error);
+            }
+        });
+        _define_property(this, "getUser", async (req, res, next)=>{
+            try {
+                const user = req.user;
+                if (!user) {
+                    res.sendStatus(403);
+                } else {
+                    res.status(200).json(user);
+                }
             } catch (error) {
                 next(error);
             }

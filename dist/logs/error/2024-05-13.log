@@ -1,0 +1,7 @@
+2024-05-13 03:29:07 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password should not be empty,password must be a string
+2024-05-13 03:48:03 error: [POST] /api/signup >> StatusCode:: 409, Message:: This email kjqfh@gmail.com already exists
+2024-05-13 03:48:15 error: [POST] /api/signup >> StatusCode:: 409, Message:: This email kjqfh@gmail.com already exists
+2024-05-13 03:50:28 error: [POST] /api/signup >> StatusCode:: 409, Message:: This email a@b.com already exists
+2024-05-13 03:50:45 error: [POST] /api/signup >> StatusCode:: 409, Message:: This email abc@b.com already exists
+2024-05-13 04:02:09 error: [POST] /api/login >> StatusCode:: 409, Message:: Password is not matching
+2024-05-13 04:02:26 error: [POST] /api/login >> StatusCode:: 409, Message:: Password is not matching

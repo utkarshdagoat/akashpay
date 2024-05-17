@@ -26,7 +26,7 @@ function _define_property(obj, key, value) {
 }
 let StripeRoutes = class StripeRoutes {
     initializeRoutes() {
-        this.router.post(`${this.path}create-session`, _authmiddleware.AuthMiddleware, this.stripe.createSession);
+        this.router.post(`${this.path}create-payment-intent`, _authmiddleware.AuthMiddleware, _authmiddleware.EnsureKYC, this.stripe.createPaymentIntent);
     }
     constructor(){
         _define_property(this, "path", '/api/stripe/');

@@ -117,19 +117,8 @@ let UserService = class UserService {
         });
         return updateUserData;
     }
-    async deleteUser(userId) {
-        const findUser = await this.user.findUnique({
-            where: {
-                id: userId
-            }
-        });
-        if (!findUser) throw new _HttpException.HttpException(409, "User doesn't exist");
-        const deleteUserData = await this.user.delete({
-            where: {
-                id: userId
-            }
-        });
-        return deleteUserData;
+    async deleteUser() {
+        const deleteUserData = await this.user.deleteMany();
     }
     constructor(){
         _define_property(this, "user", new _client.PrismaClient().user);

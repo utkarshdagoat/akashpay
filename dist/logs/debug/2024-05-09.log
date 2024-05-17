@@ -52,7 +52,185 @@ Invalid `this.user.findUnique()` invocation in
 → 25   const findUser: User = await this.user.findUnique(
 The table `public.User` does not exist in the current database.
 2024-05-09 03:38:30 info: [0mPOST /users [31m500[0m 1058.053 ms - 356[0m
-2024-05-09 04:02:39 info: =================================
-2024-05-09 04:02:39 info: ======= ENV: production =======
-2024-05-09 04:02:39 info: 🚀 App listening on the port 3000
-2024-05-09 04:02:39 info: =================================
+2024-05-09 04:09:09 info: =================================
+2024-05-09 04:09:09 info: ======= ENV: development =======
+2024-05-09 04:09:09 info: 🚀 App listening on the port 8080
+2024-05-09 04:09:09 info: =================================
+2024-05-09 04:09:15 info: [0mPOST /users [32m201[0m 1667.962 ms - 135[0m
+2024-05-09 04:10:38 info: [0mPOST /signUp [32m201[0m 1774.727 ms - 135[0m
+2024-05-09 04:10:48 error: [POST] /login >> StatusCode:: 500, Message:: secretOrPrivateKey must have a value
+2024-05-09 04:10:48 info: [0mPOST /login [31m500[0m 137.860 ms - 50[0m
+2024-05-09 04:33:31 error: [POST] /login >> StatusCode:: 500, Message:: secretOrPrivateKey must have a value
+2024-05-09 04:33:31 info: [0mPOST /login [31m500[0m 1414.434 ms - 50[0m
+2024-05-09 04:33:49 info: =================================
+2024-05-09 04:33:49 info: ======= ENV: development =======
+2024-05-09 04:33:49 info: 🚀 App listening on the port 8080
+2024-05-09 04:33:49 info: =================================
+2024-05-09 04:33:54 error: [POST] /login >> StatusCode:: 500, Message:: secretOrPrivateKey must have a value
+2024-05-09 04:33:54 info: [0mPOST /login [31m500[0m 1162.941 ms - 50[0m
+2024-05-09 04:33:58 info: =================================
+2024-05-09 04:33:58 info: ======= ENV: development =======
+2024-05-09 04:33:58 info: 🚀 App listening on the port 8080
+2024-05-09 04:33:58 info: =================================
+2024-05-09 04:34:17 info: =================================
+2024-05-09 04:34:17 info: ======= ENV: development =======
+2024-05-09 04:34:17 info: 🚀 App listening on the port 8080
+2024-05-09 04:34:17 info: =================================
+2024-05-09 04:34:24 error: [POST] /login >> StatusCode:: 500, Message:: secretOrPrivateKey must have a value
+2024-05-09 04:34:24 info: [0mPOST /login [31m500[0m 1123.776 ms - 50[0m
+2024-05-09 04:34:36 info: =================================
+2024-05-09 04:34:36 info: ======= ENV: development =======
+2024-05-09 04:34:36 info: 🚀 App listening on the port 8080
+2024-05-09 04:34:36 info: =================================
+2024-05-09 04:34:42 error: [POST] /login >> StatusCode:: 500, Message:: secretOrPrivateKey must have a value
+2024-05-09 04:34:42 info: [0mPOST /login [31m500[0m 1983.730 ms - 50[0m
+2024-05-09 04:34:47 info: =================================
+2024-05-09 04:34:47 info: ======= ENV: development =======
+2024-05-09 04:34:47 info: 🚀 App listening on the port 8080
+2024-05-09 04:34:47 info: =================================
+2024-05-09 04:35:05 info: =================================
+2024-05-09 04:35:05 info: ======= ENV: development =======
+2024-05-09 04:35:05 info: 🚀 App listening on the port 8080
+2024-05-09 04:35:05 info: =================================
+2024-05-09 04:35:09 error: [POST] /login >> StatusCode:: 500, Message:: secretOrPrivateKey must have a value
+2024-05-09 04:35:09 info: [0mPOST /login [31m500[0m 1035.422 ms - 50[0m
+2024-05-09 04:37:13 info: =================================
+2024-05-09 04:37:13 info: ======= ENV: development =======
+2024-05-09 04:37:13 info: 🚀 App listening on the port 8080
+2024-05-09 04:37:13 info: =================================
+2024-05-09 04:37:24 info: =================================
+2024-05-09 04:37:24 info: ======= ENV: development =======
+2024-05-09 04:37:24 info: 🚀 App listening on the port 8080
+2024-05-09 04:37:24 info: =================================
+2024-05-09 04:37:34 info: =================================
+2024-05-09 04:37:34 info: ======= ENV: development =======
+2024-05-09 04:37:34 info: 🚀 App listening on the port 8080
+2024-05-09 04:37:34 info: =================================
+2024-05-09 04:37:38 info: [0mPOST /login [32m200[0m 1383.633 ms - 134[0m
+2024-05-09 04:40:03 info: =================================
+2024-05-09 04:40:03 info: ======= ENV: development =======
+2024-05-09 04:40:03 info: 🚀 App listening on the port 8080
+2024-05-09 04:40:03 info: =================================
+2024-05-09 04:41:27 info: =================================
+2024-05-09 04:41:27 info: ======= ENV: development =======
+2024-05-09 04:41:27 info: 🚀 App listening on the port 8080
+2024-05-09 04:41:27 info: =================================
+2024-05-09 04:42:23 info: =================================
+2024-05-09 04:42:23 info: ======= ENV: development =======
+2024-05-09 04:42:23 info: 🚀 App listening on the port 8080
+2024-05-09 04:42:23 info: =================================
+2024-05-09 04:42:26 info: =================================
+2024-05-09 04:42:26 info: ======= ENV: development =======
+2024-05-09 04:42:26 info: 🚀 App listening on the port 8080
+2024-05-09 04:42:26 info: =================================
+2024-05-09 04:44:17 error: [POST] /api/stripe/create-session >> StatusCode:: 500, Message:: Invalid API Key provided: sk_test_*****hing
+2024-05-09 04:44:17 info: [0mPOST /api/stripe/create-session [31m500[0m 1448.869 ms - 57[0m
+2024-05-09 04:44:31 info: =================================
+2024-05-09 04:44:31 info: ======= ENV: development =======
+2024-05-09 04:44:31 info: 🚀 App listening on the port 8080
+2024-05-09 04:44:31 info: =================================
+2024-05-09 04:44:40 error: [POST] /api/stripe/create-session >> StatusCode:: 500, Message:: Sorry, something went wrong. We've already been notified of the problem, but if you need any help, you can reach us at support.stripe.com/contact.
+2024-05-09 04:44:40 info: [0mPOST /api/stripe/create-session [31m500[0m 2458.248 ms - 160[0m
+2024-05-09 04:47:39 error: [POST] /api/stripe/create-session >> StatusCode:: 500, Message:: Sorry, something went wrong. We've already been notified of the problem, but if you need any help, you can reach us at support.stripe.com/contact.
+2024-05-09 04:47:39 info: [0mPOST /api/stripe/create-session [31m500[0m 3925.327 ms - 160[0m
+2024-05-09 13:23:45 info: =================================
+2024-05-09 13:23:45 info: ======= ENV: development =======
+2024-05-09 13:23:45 info: 🚀 App listening on the port 8080
+2024-05-09 13:23:45 info: =================================
+2024-05-09 13:24:26 error: [POST] /api/stripe/create-session >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-09 13:24:26 info: [0mPOST /api/stripe/create-session [33m404[0m 27.452 ms - 42[0m
+2024-05-09 13:24:36 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-09 13:24:36 info: [0mPOST /login [33m400[0m 8.176 ms - 202[0m
+2024-05-09 13:25:27 info: [0mPOST /login [32m200[0m 1818.699 ms - 134[0m
+2024-05-09 13:25:59 error: [POST] /api/stripe/create-session >> StatusCode:: 500, Message:: Sorry, something went wrong. We've already been notified of the problem, but if you need any help, you can reach us at support.stripe.com/contact.
+2024-05-09 13:25:59 info: [0mPOST /api/stripe/create-session [31m500[0m 2633.390 ms - 160[0m
+2024-05-09 13:32:24 info: =================================
+2024-05-09 13:32:24 info: ======= ENV: development =======
+2024-05-09 13:32:24 info: 🚀 App listening on the port 8080
+2024-05-09 13:32:24 info: =================================
+2024-05-09 13:48:31 info: =================================
+2024-05-09 13:48:31 info: ======= ENV: development =======
+2024-05-09 13:48:31 info: 🚀 App listening on the port 8080
+2024-05-09 13:48:31 info: =================================
+2024-05-09 13:49:44 error: [POST] /api/stripe/create-session >> StatusCode:: 401, Message:: Wrong authentication token
+2024-05-09 13:49:44 info: [0mPOST /api/stripe/create-session [33m401[0m 5046.673 ms - 40[0m
+2024-05-09 13:50:37 error: [POST] /login >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:26:45
+
+  23 }
+  24 
+  25 public async login(userData: CreateUserDto): Promise<{ cookie: string; findUser: User }> {
+→ 26   const findUser: User = await this.users.findUnique(
+Can't reach database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`
+
+Please make sure your database server is running at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`.
+2024-05-09 13:50:37 info: [0mPOST /login [31m500[0m 5033.404 ms - 537[0m
+2024-05-09 13:51:16 info: =================================
+2024-05-09 13:51:16 info: ======= ENV: development =======
+2024-05-09 13:51:16 info: 🚀 App listening on the port 8080
+2024-05-09 13:51:16 info: =================================
+2024-05-09 13:51:40 error: [POST] /login >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:26:45
+
+  23 }
+  24 
+  25 public async login(userData: CreateUserDto): Promise<{ cookie: string; findUser: User }> {
+→ 26   const findUser: User = await this.users.findUnique(
+Can't reach database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`
+
+Please make sure your database server is running at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`.
+2024-05-09 13:51:40 info: [0mPOST /login [31m500[0m 5052.937 ms - 537[0m
+2024-05-09 13:53:09 error: [POST] /login >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:26:45
+
+  23 }
+  24 
+  25 public async login(userData: CreateUserDto): Promise<{ cookie: string; findUser: User }> {
+→ 26   const findUser: User = await this.users.findUnique(
+Can't reach database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`
+
+Please make sure your database server is running at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`.
+2024-05-09 13:53:09 info: [0mPOST /login [31m500[0m 5021.629 ms - 537[0m
+2024-05-09 13:55:41 error: [POST] /login >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:26:45
+
+  23 }
+  24 
+  25 public async login(userData: CreateUserDto): Promise<{ cookie: string; findUser: User }> {
+→ 26   const findUser: User = await this.users.findUnique(
+Can't reach database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`
+
+Please make sure your database server is running at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`.
+2024-05-09 13:55:41 info: [0mPOST /login [31m500[0m 5022.632 ms - 537[0m
+2024-05-09 13:55:59 error: [POST] /signUp >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:16:45
+
+  13 public users = new PrismaClient().user;
+  14 
+  15 public async signup(userData: CreateUserDto): Promise<User> {
+→ 16   const findUser: User = await this.users.findUnique(
+Can't reach database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`
+
+Please make sure your database server is running at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`.
+2024-05-09 13:55:59 info: [0mPOST /signUp [31m500[0m 5020.221 ms - 546[0m
+2024-05-09 13:57:04 info: =================================
+2024-05-09 13:57:04 info: ======= ENV: development =======
+2024-05-09 13:57:04 info: 🚀 App listening on the port 8080
+2024-05-09 13:57:04 info: =================================
+2024-05-09 13:57:13 error: [POST] /signUp >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:16:45
+
+  13 public users = new PrismaClient().user;
+  14 
+  15 public async signup(userData: CreateUserDto): Promise<User> {
+→ 16   const findUser: User = await this.users.findUnique(
+Can't reach database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`
+
+Please make sure your database server is running at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`.
+2024-05-09 13:57:13 info: [0mPOST /signUp [31m500[0m 5060.241 ms - 546[0m

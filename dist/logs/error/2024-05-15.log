@@ -1,0 +1,132 @@
+2024-05-15 02:16:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/payment.service.ts[0m:[93m53[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m53[0m                 'ES256',
+[7m  [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/payment.service.ts[0m:[93m53[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m53[0m                 'ES256',
+[7m  [0m [91m                       ~[0m
+
+    at createTSError (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:863:19)
+    at /home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-05-15 02:26:46 error: uncaughtException: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/controllers/auth.controller.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/routes/auth.route.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/server.ts
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/controllers/auth.controller.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/routes/auth.route.ts
+- /home/utkarsh/dev/akash-pay/services/core/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/home/utkarsh/dev/akash-pay/services/core/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/home/utkarsh/dev/akash-pay/services/core/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-05-15 02:45:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/payment.controller.ts[0m:[93m62[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m62[0m     }
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/payment.controller.ts[0m:[93m62[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m62[0m     }
+[7m  [0m [91m    ~[0m
+
+    at createTSError (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:863:19)
+    at /home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-05-15 08:13:56 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password should not be empty,password must be a string
+2024-05-15 08:23:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/dashboard.controller.ts[0m:[93m5[0m:[93m64[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m5[0m import { Application } from '@/interfaces/dashboard.interface';}
+[7m [0m [91m                                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/dashboard.controller.ts[0m:[93m5[0m:[93m64[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m5[0m import { Application } from '@/interfaces/dashboard.interface';}
+[7m [0m [91m                                                               ~[0m
+
+    at createTSError (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:863:19)
+    at /home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-05-15 08:49:42 error: [POST] /api/dashboard/applications >> StatusCode:: 400, Message:: callbackUris must be an URL address
+2024-05-15 09:54:30 error: [GET] /api/dashboard/applications >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-15 09:54:30 error: [GET] /api/dashboard/applications >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-15 10:04:51 error: uncaughtException: decorator is not a function
+TypeError: decorator is not a function
+    at DecorateProperty (/home/utkarsh/dev/akash-pay/services/core/node_modules/reflect-metadata/Reflect.js:553:33)
+    at Reflect.decorate (/home/utkarsh/dev/akash-pay/services/core/node_modules/reflect-metadata/Reflect.js:123:24)
+    at Object.__decorate (/home/utkarsh/dev/akash-pay/services/core/node_modules/tslib/tslib.js:98:96)
+    at Object.<anonymous> (/home/utkarsh/dev/akash-pay/services/core/src/dtos/dashboard.dto.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-05-15 10:17:09 error: [POST] /api/dashboard/applications >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-15 10:59:24 error: [GET] /api/dashboard/applications >> StatusCode:: 401, Message:: Wrong authentication token
+2024-05-15 23:24:15 error: [GET] /api/dashboard/applications >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-15 23:24:15 error: [GET] /api/dashboard/applications >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-15 23:26:39 error: uncaughtException: listen EADDRINUSE: address already in use :::8080
+Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (/home/utkarsh/dev/akash-pay/services/core/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/utkarsh/dev/akash-pay/services/core/src/app.ts:33:14)
+    at Object.<anonymous> (/home/utkarsh/dev/akash-pay/services/core/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1621:12)
+2024-05-15 23:26:54 error: uncaughtException: listen EADDRINUSE: address already in use :::8080
+Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (/home/utkarsh/dev/akash-pay/services/core/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/utkarsh/dev/akash-pay/services/core/src/app.ts:33:14)
+    at Object.<anonymous> (/home/utkarsh/dev/akash-pay/services/core/src/server.ts:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1621:12)

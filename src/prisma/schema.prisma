@@ -56,9 +56,17 @@ model application {
   id Int @id @default(autoincrement())
   name String
   description String
-  callbackUris String[]
-  clientSecret String
+  clientSecret String @unique
+  appId String @default(uuid()) @unique
   creator User @relation(fields: [creatorId], references: [id])
   creatorId Int
+  createdAt DateTime @default(now())
+}
+
+
+model Session {
+  id Int @id @default(autoincrement())
+  sid String @default(uuid()) @unique
+  email String @unique
   createdAt DateTime @default(now())
 }

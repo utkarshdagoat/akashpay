@@ -1,5 +1,5 @@
 import { Service } from 'typedi'
-import { PrismaClient } from '@prisma/client';
+import { KYC, PrismaClient } from '@prisma/client';
 import { CreateKYCDto } from '@/dtos/kyc.dto';
 import { HttpException } from '@/exceptions/HttpException';
 import { kycStatus } from '@prisma/client';
@@ -76,5 +76,12 @@ export class KYCService {
             console.error(error)
             throw new HttpException(500, 'Cannot update kyc status at the moment')
         }
+    }
+    public getKyc(userId: number): Promise<KYC> {
+        return this.kyc.findUnique({
+            where: {
+                userId: userId
+            }
+        })
     }
 }

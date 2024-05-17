@@ -14,6 +14,9 @@ const _jsonwebtoken = require("jsonwebtoken");
 const _typedi = require("typedi");
 const _config = require("../config");
 const _HttpException = require("../exceptions/HttpException");
+const _nodemailer = _interop_require_default(require("nodemailer"));
+const _mail = require("../config/mail");
+const _randomstring = _interop_require_default(require("randomstring"));
 function _define_property(obj, key, value) {
     if (key in obj) {
         Object.defineProperty(obj, key, {
@@ -26,6 +29,11 @@ function _define_property(obj, key, value) {
         obj[key] = value;
     }
     return obj;
+}
+function _interop_require_default(obj) {
+    return obj && obj.__esModule ? obj : {
+        default: obj
+    };
 }
 function _object_spread(target) {
     for(var i = 1; i < arguments.length; i++){
@@ -71,6 +79,12 @@ function _ts_decorate(decorators, target, key, desc) {
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for(var i = decorators.length - 1; i >= 0; i--)if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+}
+function generateOTP() {
+    return _randomstring.default.generate({
+        length: 6,
+        charset: 'numeric'
+    });
 }
 let AuthService = class AuthService {
     async signup(userData) {
@@ -130,8 +144,91 @@ let AuthService = class AuthService {
     createCookie(tokenData) {
         return `Authorization=${tokenData.token}; HttpOnly; Max-Age=${tokenData.expiresIn};`;
     }
+    async sendOTP(email) {
+        try {
+            const OTP = generateOTP();
+            const createOtp = await this.otp.create({
+                data: {
+                    email,
+                    code: OTP
+                }
+            });
+            await this.sendMail(email, OTP);
+            return createOtp;
+        } catch (error) {
+            return new _HttpException.HttpException(500, 'Unable to send OTP');
+        }
+    }
+    async sendMail(email, otp) {
+        try {
+            const options = {
+                host: process.env.SMTP_HOST,
+                port: Number(process.env.SMTP_PORT),
+                auth: {
+                    user: process.env.SMTP_MAIL,
+                    pass: process.env.SMTP_APP_PASS
+                }
+            };
+            const transporter = await _nodemailer.default.createTransport(options);
+            const mailOptions = {
+                from: process.env.SMPT_MAIL,
+                to: email,
+                subject: _mail.MAIL_SUBJECT,
+                html: (0, _mail.MAIL_BODY)(otp)
+            };
+            const res = await transporter.sendMail(mailOptions);
+        } catch (error) {
+            console.log(error);
+            throw new _HttpException.HttpException(500, 'Unable to send email');
+        }
+    }
+    async verifyOTP(email, otp) {
+        const findOtp = await this.otp.findFirst({
+            where: {
+                email,
+                code: otp
+            }
+        });
+        if (!findOtp) {
+            throw new _HttpException.HttpException(403, 'Invalid OTP');
+        }
+        const deleteOtp = await this.otp.delete({
+            where: {
+                id: findOtp.id
+            }
+        });
+        return true;
+    }
+    async verifyEmail(email) {
+        try {
+            const findUser = await this.users.findUnique({
+                where: {
+                    email
+                }
+            });
+            const updateUser = await this.users.update({
+                where: {
+                    id: findUser.id
+                },
+                data: {
+                    emailVerified: true
+                }
+            });
+            if (!findUser) {
+                throw new _HttpException.HttpException(404, 'User not found');
+            }
+            if (!updateUser) {
+                throw new _HttpException.HttpException(500, 'Unable to change user email status');
+            }
+            return true;
+        } catch (error) {
+            console.error(error);
+            throw new _HttpException.HttpException(500, 'Unable to verify email');
+        }
+    }
     constructor(){
         _define_property(this, "users", new _client.PrismaClient().user);
+        _define_property(this, "otp", new _client.PrismaClient().oTP);
     }
 };
 AuthService = _ts_decorate([

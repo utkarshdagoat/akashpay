@@ -5,7 +5,8 @@ import { StripeRoutes } from '@/routes/stripe.route';
 import { ValidateEnv } from '@utils/validateEnv';
 import { DashBoardRoutes } from '@/routes/dashboard.route';
 import { PaymentRoutes } from '@/routes/payment.route';
+import { KYCRoutes } from '@/routes/kyc.route';
 ValidateEnv();
 
-const app = new App([new UserRoute(), new AuthRoute(), new StripeRoutes() , new DashBoardRoutes() , new PaymentRoutes()]);
+const app = new App([new UserRoute(), new AuthRoute(), new StripeRoutes() , new DashBoardRoutes() , new PaymentRoutes() , new KYCRoutes()]);
 app.listen();

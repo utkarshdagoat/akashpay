@@ -1,0 +1,48 @@
+2024-05-12 07:09:35 error: [POST] /signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 07:09:54 error: [POST] /signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 07:11:01 error: [POST] /signup >> StatusCode:: 409, Message:: This email abcd@gmail.com already exists
+2024-05-12 08:16:13 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 08:16:45 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 08:17:07 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 08:18:02 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 08:18:52 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-12 08:19:53 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password should not be empty,password must be a string
+2024-05-12 08:20:10 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password should not be empty,password must be a string
+2024-05-12 08:20:32 error: [POST] /api/signup >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:16:45
+
+  13 public users = new PrismaClient().user;
+  14 
+  15 public async signup(userData: CreateUserDto): Promise<User> {
+→ 16   const findUser: User = await this.users.findUnique({
+         where: {
+       ?   email?: String,
+       ?   id?: Int
+         }
+       })
+
+Argument where of type UserWhereUniqueInput needs at least one argument. Available args are listed in green.
+
+Note: Lines with ? are optional.
+
+2024-05-12 08:21:48 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password should not be empty,password must be a string
+2024-05-12 08:22:03 error: [POST] /api/signup >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:16:45
+
+  13 public users = new PrismaClient().user;
+  14 
+  15 public async signup(userData: CreateUserDto): Promise<User> {
+→ 16   const findUser: User = await this.users.findUnique({
+         where: {
+       ?   email?: String,
+       ?   id?: Int
+         }
+       })
+
+Argument where of type UserWhereUniqueInput needs at least one argument. Available args are listed in green.
+
+Note: Lines with ? are optional.
+
+2024-05-12 08:24:57 error: [POST] /api/signup >> StatusCode:: 400, Message:: email must be an email, password should not be empty,password must be a string

@@ -21,6 +21,8 @@ const _swaggeruiexpress = _interop_require_default(require("swagger-ui-express")
 const _config = require("./config");
 const _errormiddleware = require("./middlewares/error.middleware");
 const _logger = require("./utils/logger");
+const _express1 = require("uploadthing/express");
+const _uploadthing = require("./utils/uploadthing");
 function _define_property(obj, key, value) {
     if (key in obj) {
         Object.defineProperty(obj, key, {
@@ -67,8 +69,18 @@ let App = class App {
             extended: true
         }));
         this.app.use((0, _cookieparser.default)());
+        this.app.use("/api/uploadthing", (0, _express1.createRouteHandler)({
+            router: _uploadthing.uploadRouter,
+            config: {
+                uploadthingId: process.env.UPLOADTHING_ID,
+                uploadthingSecret: process.env.UPLOADTHING_SECRET
+            }
+        }));
     }
     initializeRoutes(routes) {
+        this.app.get('/api/healthcheck', (req, res)=>{
+            res.status(200).send('OK');
+        });
         routes.forEach((route)=>{
             this.app.use('/', route.router);
         });

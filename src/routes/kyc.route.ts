@@ -4,7 +4,7 @@ import { Routes } from "@/interfaces/routes.interface";
 import { KYCController } from "@/controllers/kyc.controller";
 import { CreateKYCDto } from "@/dtos/kyc.dto";
 
-export class DashBoardRoutes implements Routes {
+export class KYCRoutes implements Routes {
     public path = "/api/kyc";
     public router = Router();
     public dashboardController = new KYCController();

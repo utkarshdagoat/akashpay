@@ -34,3 +34,98 @@ Invalid `this.user.findUnique()` invocation in
   24 public async createUser(userData: CreateUserDto): Promise<User> {
 → 25   const findUser: User = await this.user.findUnique(
 The table `public.User` does not exist in the current database.
+2024-05-09 04:10:48 error: [POST] /login >> StatusCode:: 500, Message:: secretOrPrivateKey must have a value
+2024-05-09 04:33:31 error: [POST] /login >> StatusCode:: 500, Message:: secretOrPrivateKey must have a value
+2024-05-09 04:33:54 error: [POST] /login >> StatusCode:: 500, Message:: secretOrPrivateKey must have a value
+2024-05-09 04:34:24 error: [POST] /login >> StatusCode:: 500, Message:: secretOrPrivateKey must have a value
+2024-05-09 04:34:42 error: [POST] /login >> StatusCode:: 500, Message:: secretOrPrivateKey must have a value
+2024-05-09 04:35:09 error: [POST] /login >> StatusCode:: 500, Message:: secretOrPrivateKey must have a value
+2024-05-09 04:38:30 error: uncaughtException: Cannot read properties of undefined (reading 'destination_currency')
+TypeError: Cannot read properties of undefined (reading 'destination_currency')
+    at StripeController.createSession (/home/utkarsh/dev/akash-pay/services/core/src/controllers/stripe.controller.ts:15:52)
+    at Layer.handle [as handle_request] (/home/utkarsh/dev/akash-pay/services/core/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/utkarsh/dev/akash-pay/services/core/node_modules/express/lib/router/route.js:149:13)
+    at AuthMiddleware (/home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts:29:9)
+2024-05-09 04:40:22 error: uncaughtException: Cannot read properties of undefined (reading 'destination_currency')
+TypeError: Cannot read properties of undefined (reading 'destination_currency')
+    at StripeController.createSession (/home/utkarsh/dev/akash-pay/services/core/src/controllers/stripe.controller.ts:15:52)
+    at Layer.handle [as handle_request] (/home/utkarsh/dev/akash-pay/services/core/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/utkarsh/dev/akash-pay/services/core/node_modules/express/lib/router/route.js:149:13)
+    at AuthMiddleware (/home/utkarsh/dev/akash-pay/services/core/src/middlewares/auth.middleware.ts:29:9)
+2024-05-09 04:41:31 error: uncaughtException: Invalid API Key provided: sk_test_*****hing
+Error: Invalid API Key provided: sk_test_*****hing
+    at res.toJSON.then.Error_js_1.StripeAPIError.message (/home/utkarsh/dev/akash-pay/services/core/node_modules/stripe/cjs/RequestSender.js:96:31)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-09 04:44:17 error: [POST] /api/stripe/create-session >> StatusCode:: 500, Message:: Invalid API Key provided: sk_test_*****hing
+2024-05-09 04:44:40 error: [POST] /api/stripe/create-session >> StatusCode:: 500, Message:: Sorry, something went wrong. We've already been notified of the problem, but if you need any help, you can reach us at support.stripe.com/contact.
+2024-05-09 04:47:39 error: [POST] /api/stripe/create-session >> StatusCode:: 500, Message:: Sorry, something went wrong. We've already been notified of the problem, but if you need any help, you can reach us at support.stripe.com/contact.
+2024-05-09 13:24:26 error: [POST] /api/stripe/create-session >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-09 13:24:36 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2024-05-09 13:25:59 error: [POST] /api/stripe/create-session >> StatusCode:: 500, Message:: Sorry, something went wrong. We've already been notified of the problem, but if you need any help, you can reach us at support.stripe.com/contact.
+2024-05-09 13:49:44 error: [POST] /api/stripe/create-session >> StatusCode:: 401, Message:: Wrong authentication token
+2024-05-09 13:50:37 error: [POST] /login >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:26:45
+
+  23 }
+  24 
+  25 public async login(userData: CreateUserDto): Promise<{ cookie: string; findUser: User }> {
+→ 26   const findUser: User = await this.users.findUnique(
+Can't reach database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`
+
+Please make sure your database server is running at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`.
+2024-05-09 13:51:40 error: [POST] /login >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:26:45
+
+  23 }
+  24 
+  25 public async login(userData: CreateUserDto): Promise<{ cookie: string; findUser: User }> {
+→ 26   const findUser: User = await this.users.findUnique(
+Can't reach database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`
+
+Please make sure your database server is running at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`.
+2024-05-09 13:53:09 error: [POST] /login >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:26:45
+
+  23 }
+  24 
+  25 public async login(userData: CreateUserDto): Promise<{ cookie: string; findUser: User }> {
+→ 26   const findUser: User = await this.users.findUnique(
+Can't reach database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`
+
+Please make sure your database server is running at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`.
+2024-05-09 13:55:41 error: [POST] /login >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:26:45
+
+  23 }
+  24 
+  25 public async login(userData: CreateUserDto): Promise<{ cookie: string; findUser: User }> {
+→ 26   const findUser: User = await this.users.findUnique(
+Can't reach database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`
+
+Please make sure your database server is running at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`.
+2024-05-09 13:55:59 error: [POST] /signUp >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:16:45
+
+  13 public users = new PrismaClient().user;
+  14 
+  15 public async signup(userData: CreateUserDto): Promise<User> {
+→ 16   const findUser: User = await this.users.findUnique(
+Can't reach database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`
+
+Please make sure your database server is running at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`.
+2024-05-09 13:57:13 error: [POST] /signUp >> StatusCode:: 500, Message:: 
+Invalid `this.users.findUnique()` invocation in
+/home/utkarsh/dev/akash-pay/services/core/src/services/auth.service.ts:16:45
+
+  13 public users = new PrismaClient().user;
+  14 
+  15 public async signup(userData: CreateUserDto): Promise<User> {
+→ 16   const findUser: User = await this.users.findUnique(
+Can't reach database server at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`
+
+Please make sure your database server is running at `dpg-cot8vmq1hbls738n8f2g-a.singapore-postgres.render.com`:`5432`.

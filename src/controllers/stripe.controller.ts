@@ -1,47 +1,38 @@
 import { RequestWithUser } from '@/interfaces/auth.interface';
 import { NextFunction, Request, Response } from 'express';
-const Stripe = require('stripe');
+import { PrismaClient, kycStatus } from '@prisma/client';
+import Stripe from 'stripe';
 export class StripeController {
-  public stripe = Stripe(process.env.STRIPE_SECRET_KEY);
+  public kyc = new PrismaClient().kYC;
+  public stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
   public OnrampSessionResource = Stripe.StripeResource.extend({
     create: Stripe.StripeResource.method({
       method: 'POST',
       path: 'crypto/onramp_sessions',
     }),
   });
-  public createSession = async (req: RequestWithUser, res: Response, next: NextFunction): Promise<void> => {
-    const { transaction_details } = req.body;
-    try {
 
-      const onrampSession = await new this.OnrampSessionResource(this.stripe).create({
-        transaction_details: {
-          destination_currency: transaction_details["destination_currency"],
-          destination_exchange_amount: transaction_details["destination_exchange_amount"],
-          destination_network: transaction_details["destination_network"],
-        },
-        customer_ip_address: req.socket.remoteAddress,
-      });
-
-      res.send({
-        clientSecret: onrampSession.client_secret,
-      });
-    } catch (error) {
-      next(error);
-    }
-  }
-
-  public createPaymentIntent = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  public createPaymentIntent = async (req: RequestWithUser, res: Response, next: NextFunction): Promise<void> => {
     const { amount } = req.body;
     try {
+      const kyc = await this.kyc.findUnique({
+        where: {
+          userId: req.user.id
+        }
+      })
+      if (kyc.status !== kycStatus.APPROVED) {
+        res.status(401).send('User KYC is not approved');
+        throw Error
+      }
       const customer = await this.stripe.customers.create
         ({
-          name: 'Jenny Rosen',
+          name: `${kyc.firstName} ${kyc.lastName}`,
           address: {
-            line1: '510 Townsend St',
-            postal_code: '98140',
-            city: 'San Francisco',
-            state: 'CA',
-            country: 'US',
+            line1: kyc.address,
+            postal_code: kyc.postalCode,
+            city: kyc.city,
+            state: kyc.state,
+            country: kyc.country,
           },
         });
       const paymentIntent = await this.stripe.paymentIntents.create({
