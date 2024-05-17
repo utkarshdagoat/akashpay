@@ -21,8 +21,10 @@ model User {
   password    String
   emailVerified Boolean @default(false)
   application application[]
-  kyc KYC?
+  kyc KYC? 
   kycStatus kycStatus @default(NOTSUBMITTED)
+  transactions Transaction[]
+
 }
 
 model OTP {
@@ -36,7 +38,7 @@ model OTP {
 model KYC {
   id Int @id @default(autoincrement())
   userId Int  @unique
-  user User @relation(fields: [userId], references: [id])
+  user User @relation(fields: [userId], references: [id] , onDelete: Cascade) 
   firstName String
   lastName String
   dob DateTime
@@ -68,5 +70,15 @@ model Session {
   id Int @id @default(autoincrement())
   sid String @default(uuid()) @unique
   email String @unique
+  createdAt DateTime @default(now())
+}
+
+
+model Transaction {
+  id Int @id @default(autoincrement())
+  amount Float
+  walletAddress String
+  userId Int
+  user User @relation(fields: [userId], references: [id])
   createdAt DateTime @default(now())
 }

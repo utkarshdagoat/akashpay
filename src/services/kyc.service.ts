@@ -41,22 +41,16 @@ export class KYCService {
     }
 
     public async getKycStatus(userId: number): Promise<any> {
-        try {
-            const findKYC = await this.kyc.findUnique({
-                where: {
-                    userId: userId
-                }
-            })
-            if (!findKYC) throw new HttpException(404, `KYC not found for user ${userId}`)
-            return findKYC.status
-        }catch(error){
-            console.error(error)
-            throw new HttpException(500, 'Cannot get kyc status at the moment')
-        }
+        const findKYC = await this.kyc.findUnique({
+            where: {
+                userId: userId
+            }
+        })
+        if (!findKYC) return kycStatus.NOTSUBMITTED 
+        return findKYC.status
     }
 
     public async updateKycStatus(userId: number, status: kycStatus): Promise<any> {
-        try {
             const findKYC = await this.kyc.findUnique({
                 where: {
                     userId: userId
@@ -72,10 +66,7 @@ export class KYCService {
                 }
             })
             return updateKYC.status
-        }catch(error){
-            console.error(error)
-            throw new HttpException(500, 'Cannot update kyc status at the moment')
-        }
+
     }
     public getKyc(userId: number): Promise<KYC> {
         return this.kyc.findUnique({

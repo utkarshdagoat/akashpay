@@ -12,7 +12,7 @@ export class PaymentRoutes implements Routes {
   }
 
   private initializeRoutes() {
-    this.router.post(`${this.path}transferToCosmos`, AuthMiddleware, this.payment.ethToNoble);
-    this.router.post(`${this.path}convertToOsmo`,AuthMiddleware, this.payment.convertToOsmo);
+    this.router.post(`${this.path}transfer-to-cosmos`, AuthMiddleware, this.payment.ethToNoble);
+    this.router.post(`${this.path}transfer-to-osmo`,AuthMiddleware, this.payment.convertToOsmo);
   }
 }

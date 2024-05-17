@@ -18,9 +18,9 @@ export class KYCController{
         }
     }
 
-    public updateKYCStatus = async (req: RequestWithUser, res: Response, next: NextFunction) => {
+    public updateKYCStatus = async (req: Request, res: Response, next: NextFunction) => {
         try {
-            const userId = req.user.id;
+            const userId = Number(req.body.id);
             const { status } = req.body;
             const updateStatus = await this.kyc.updateKycStatus(userId, status);
             res.status(200).json({ data: updateStatus, message: 'KYC status updated' });

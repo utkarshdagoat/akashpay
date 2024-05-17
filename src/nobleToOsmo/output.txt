@@ -1,0 +1,2659 @@
+[
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/eth.svg",
+    "coingeckoId": "ethereum",
+    "volatility": 2,
+    "usdPrice": 2919.39
+  },
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "address": "0xfd064a18f3bf249cf1f87fc203e90d8f650f2d63",
+    "name": "Circle USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "cctp-421613-to-grand-1"
+    ],
+    "subGraphOnly": true,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "address": "0xEe01c0CD76354C383B8c7B4e65EA88D00B06f36f",
+    "name": "Wrapped WETH",
+    "symbol": "WETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/weth.svg",
+    "coingeckoId": "weth",
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "name": "Axelar",
+    "address": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "name": "Axelar Wrapped wstETH",
+    "address": "0x9cfB13E6c11054ac9fcB92BA89644F30775436e4",
+    "symbol": "axl-wstETH",
+    "axelarNetworkSymbol": "axl-wstETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wsteth.svg",
+    "coingeckoId": "wrapped-steth",
+    "subGraphIds": [
+      "wsteth-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 3408.65
+  },
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "name": "Axelar Wrapped WETH",
+    "address": "0xeA700DCe55e72C4C08b97AcFc7dF214EC30F4a64",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0x21ba4f6aEdA155DD77Cc33Fb93646910543F0380",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x2a87806561C550ba2dA9677c5323413E6e539740",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "name": "Axelar Wrapped FTM",
+    "address": "0x594D8b81eC765410536ab59E98091700b99508D8",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "name": "Axelar Wrapped BNB",
+    "address": "0xA9A2D8F279ABC436a18DBB1df3FB233039935D0A",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0x4B13D583F45Aa01fb2bE18a7AAfE14DE183B1Ac9",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "421613",
+    "name": "Testnet Sushi Token",
+    "address": "0xD772a13cf187272e2A914aD90e06c47990014975",
+    "symbol": "tSUSHI",
+    "axelarNetworkSymbol": "tSUSHI",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6758.png",
+    "coingeckoId": "sushi",
+    "subGraphIds": [
+      "0x42cf40c325b764af70ce0cef78ab550b212cb66a812e442e425630523b303785"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.047
+  },
+  {
+    "type": "evm",
+    "chainId": "43113",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18,
+    "logoURI": "https://axelarscan.io/logos/chains/avalanche.svg",
+    "coingeckoId": "avalanche-2",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "43113",
+    "address": "0xd00ae08403B9bbb9124bB305C09058E32C39A48c",
+    "name": "Wrapped AVAX",
+    "symbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://axelarscan.io/logos/chains/avalanche.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "43113",
+    "address": "0x5425890298aed601595a70AB815c96711a31Bc65",
+    "name": "Circle USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "cctp-43113-to-grand-1"
+    ],
+    "subGraphOnly": true,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "43113",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0x57F1c63497AEe0bE305B8852b354CEc793da43bB",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "43113",
+    "name": "Axelar",
+    "address": "0xa8B51e6517f9A6Ab7b247bF10b71b1A738eD8E50",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "43113",
+    "name": "Axelar Wrapped WETH",
+    "address": "0xe840BE8D9aB1ACD5AfC7168b05EC350B7FD18709",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "43113",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0xB923E2374639D0605388D91CFedAfCeCE03Cfd8f",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "43113",
+    "name": "Axelar Wrapped FTM",
+    "address": "0xeF721BaBf08A2eE5BCcfd2f2A34CbF4Dc9A56959",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "43113",
+    "name": "Axelar Wrapped BNB",
+    "address": "0xd020f566723e8402f925A891605c02ce7AF2477F",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "43113",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0xF58537d9061f7257e44442Fb7870A094AAE92B43",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "84531",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/eth.svg",
+    "coingeckoId": "ethereum",
+    "volatility": 2,
+    "usdPrice": 2919.39
+  },
+  {
+    "type": "evm",
+    "chainId": "84531",
+    "address": "0xf175520c52418dfe19c8098071a252da48cd1c19",
+    "name": "Circle USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "cctp-84531-to-grand-1"
+    ],
+    "subGraphOnly": true,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "84531",
+    "address": "0x4200000000000000000000000000000000000006",
+    "name": "Wrapped WETH",
+    "symbol": "WETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/weth.svg",
+    "coingeckoId": "weth",
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "84531",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "84531",
+    "name": "Axelar",
+    "address": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "84531",
+    "name": "Axelar Wrapped WETH",
+    "address": "0xeA700DCe55e72C4C08b97AcFc7dF214EC30F4a64",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "84531",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0x21ba4f6aEdA155DD77Cc33Fb93646910543F0380",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "84531",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x2a87806561C550ba2dA9677c5323413E6e539740",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "84531",
+    "name": "Axelar Wrapped FTM",
+    "address": "0x594D8b81eC765410536ab59E98091700b99508D8",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "84531",
+    "name": "Axelar Wrapped BNB",
+    "address": "0xA9A2D8F279ABC436a18DBB1df3FB233039935D0A",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "84531",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0x4B13D583F45Aa01fb2bE18a7AAfE14DE183B1Ac9",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "84531",
+    "name": "Testnet Sushi Token",
+    "address": "0xD772a13cf187272e2A914aD90e06c47990014975",
+    "symbol": "tSUSHI",
+    "axelarNetworkSymbol": "tSUSHI",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6758.png",
+    "coingeckoId": "sushi",
+    "subGraphIds": [
+      "0x42cf40c325b764af70ce0cef78ab550b212cb66a812e442e425630523b303785"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.047
+  },
+  {
+    "type": "evm",
+    "chainId": "97",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "name": "BNB",
+    "symbol": "BNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/bnb.svg",
+    "coingeckoId": "binancecoin",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 593.48
+  },
+  {
+    "type": "evm",
+    "chainId": "97",
+    "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/12591/small/binance-coin-logo.png?1600947313",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "97",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0xc2fA98faB811B785b81c64Ac875b31CC9E40F9D2",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "97",
+    "name": "Axelar",
+    "address": "0xfC3B4feb754d8082F745940347600D373f03dcaC",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "97",
+    "name": "Axelar Wrapped WETH",
+    "address": "0x409A57A5Ee1F37FB58b3A3eB9717398F328da1eD",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "97",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0x920fA0DbB65cE928C29103AeC7B5c188bbea2f24",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "97",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x1B29EC62efC689c462b4E0512457175793cEc9e6",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "97",
+    "name": "Axelar Wrapped FTM",
+    "address": "0x90dEcD89a744a0CFbB3cc8DE08A5f3B14875B6C4",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "97",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0xa893Fd868c3159B294f6416F512203be53315fd8",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "97",
+    "name": "Testnet Sushi Token",
+    "address": "0xD772a13cf187272e2A914aD90e06c47990014975",
+    "symbol": "tSUSHI",
+    "axelarNetworkSymbol": "tSUSHI",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6758.png",
+    "coingeckoId": "sushi",
+    "subGraphIds": [
+      "0x42cf40c325b764af70ce0cef78ab550b212cb66a812e442e425630523b303785"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.047
+  },
+  {
+    "type": "evm",
+    "chainId": "44787",
+    "address": "0xF194afDf50B03e69Bd7D057c1Aa9e10c9954E4C9",
+    "name": "Celo",
+    "symbol": "CELO",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/celo.svg",
+    "coingeckoId": "celo",
+    "volatility": 2,
+    "usdPrice": 0.777879
+  },
+  {
+    "type": "evm",
+    "chainId": "44787",
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "name": "Celo Dollar",
+    "symbol": "cUSD",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/7236.png",
+    "coingeckoId": "celo-dollar",
+    "volatility": 1,
+    "usdPrice": 0.998506
+  },
+  {
+    "type": "evm",
+    "chainId": "44787",
+    "address": "0x10c892A6EC43a53E45D0B916B4b7D383B1b78C0F",
+    "name": "Celo Euro",
+    "symbol": "cEUR",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/13161/small/icon-celo-dollar-color-1000-circle-cropped.png?1605771134",
+    "coingeckoId": "celo-euro",
+    "volatility": 3,
+    "usdPrice": 1.074
+  },
+  {
+    "type": "evm",
+    "chainId": "44787",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "44787",
+    "name": "Axelar",
+    "address": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "44787",
+    "name": "Axelar Wrapped WETH",
+    "address": "0xeA700DCe55e72C4C08b97AcFc7dF214EC30F4a64",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "44787",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0x21ba4f6aEdA155DD77Cc33Fb93646910543F0380",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "44787",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x2a87806561C550ba2dA9677c5323413E6e539740",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "44787",
+    "name": "Axelar Wrapped FTM",
+    "address": "0x594D8b81eC765410536ab59E98091700b99508D8",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "44787",
+    "name": "Axelar Wrapped BNB",
+    "address": "0xA9A2D8F279ABC436a18DBB1df3FB233039935D0A",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "44787",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0x4B13D583F45Aa01fb2bE18a7AAfE14DE183B1Ac9",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "44787",
+    "name": "Testnet Sushi Token",
+    "address": "0xD772a13cf187272e2A914aD90e06c47990014975",
+    "symbol": "tSUSHI",
+    "axelarNetworkSymbol": "tSUSHI",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6758.png",
+    "coingeckoId": "sushi",
+    "subGraphIds": [
+      "0x42cf40c325b764af70ce0cef78ab550b212cb66a812e442e425630523b303785"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.047
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/eth.svg",
+    "coingeckoId": "ethereum",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 2919.39
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "address": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
+    "name": "Circle USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "cctp-5-to-grand-1"
+    ],
+    "subGraphOnly": true,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+    "name": "Wrapped ETH",
+    "symbol": "WETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/weth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "address": "0xdc31Ee1784292379Fbb2964b3B9C4124D8F89C60",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/9956/thumb/4943.png?1636636734",
+    "coingeckoId": "dai",
+    "volatility": 1,
+    "usdPrice": 0.999597
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "name": "Axelar",
+    "address": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "name": "Wrapped liquid staked Ether 2.0",
+    "address": "0x6320cD32aA674d2898A68ec82e869385Fc5f7E2f",
+    "symbol": "wstETH",
+    "axelarNetworkSymbol": "wstETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wsteth.svg",
+    "coingeckoId": "wrapped-steth",
+    "subGraphIds": [
+      "wsteth-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 3408.65
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0x21ba4f6aEdA155DD77Cc33Fb93646910543F0380",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x2a87806561C550ba2dA9677c5323413E6e539740",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "name": "Axelar Wrapped FTM",
+    "address": "0x594D8b81eC765410536ab59E98091700b99508D8",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "name": "Axelar Wrapped BNB",
+    "address": "0xA9A2D8F279ABC436a18DBB1df3FB233039935D0A",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0x4B13D583F45Aa01fb2bE18a7AAfE14DE183B1Ac9",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "5",
+    "name": "Testnet Sushi Token",
+    "address": "0xD772a13cf187272e2A914aD90e06c47990014975",
+    "symbol": "tSUSHI",
+    "axelarNetworkSymbol": "tSUSHI",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6758.png",
+    "coingeckoId": "sushi",
+    "subGraphIds": [
+      "0x42cf40c325b764af70ce0cef78ab550b212cb66a812e442e425630523b303785"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.047
+  },
+  {
+    "type": "evm",
+    "chainId": "4002",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "name": "Fantom",
+    "symbol": "FTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/ftm.svg",
+    "coingeckoId": "fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 0.714232
+  },
+  {
+    "type": "evm",
+    "chainId": "4002",
+    "address": "0xf1277d1Ed8AD466beddF92ef448A132661956621",
+    "name": "Wrapped FTM",
+    "symbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/ftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "4002",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0x75Cc4fDf1ee3E781C1A3Ee9151D5c6Ce34Cf5C61",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "4002",
+    "name": "Axelar",
+    "address": "0x66A5df72619982a2Ef49e8317079b6806d56f66B",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "4002",
+    "name": "Axelar Wrapped WETH",
+    "address": "0xB17053aE763aCfD65A58e265aa9A4a59b25A7a87",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "4002",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0x3C12d813bb36295A8361C4740A732Bb700df6Db0",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "4002",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x8776aDD48553518641a589C39792cc409d4C8B84",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "4002",
+    "name": "Wrapped FTM",
+    "address": "0x812666209b90344Ec8e528375298ab9045c2Bd08",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "4002",
+    "name": "Axelar Wrapped BNB",
+    "address": "0x8DA729FC44366eFE36d522B865FeC34653e85F6e",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "4002",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0xD6f858A1E75e9a06c42dcd86BB876C5E9FccA572",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "4002",
+    "name": "Testnet Sushi Token",
+    "address": "0xD772a13cf187272e2A914aD90e06c47990014975",
+    "symbol": "tSUSHI",
+    "axelarNetworkSymbol": "tSUSHI",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6758.png",
+    "coingeckoId": "sushi",
+    "subGraphIds": [
+      "0x42cf40c325b764af70ce0cef78ab550b212cb66a812e442e425630523b303785"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.047
+  },
+  {
+    "type": "evm",
+    "chainId": "59140",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/eth.svg",
+    "coingeckoId": "ethereum",
+    "volatility": 2,
+    "usdPrice": 2919.39
+  },
+  {
+    "type": "evm",
+    "chainId": "59140",
+    "address": "0xf56dc6695cf1f5c364edebc7dc7077ac9b586068",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+    "coingeckoId": "usd-coin",
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "59140",
+    "address": "0x2C1b868d6596a18e32E61B901E4060C872647b6C",
+    "name": "Wrapped WETH",
+    "symbol": "WETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/weth.svg",
+    "coingeckoId": "weth",
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "59140",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "59140",
+    "name": "Axelar",
+    "address": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "59140",
+    "name": "Axelar Wrapped WETH",
+    "address": "0xeA700DCe55e72C4C08b97AcFc7dF214EC30F4a64",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "59140",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0x21ba4f6aEdA155DD77Cc33Fb93646910543F0380",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "59140",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x2a87806561C550ba2dA9677c5323413E6e539740",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "59140",
+    "name": "Axelar Wrapped FTM",
+    "address": "0x594D8b81eC765410536ab59E98091700b99508D8",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "59140",
+    "name": "Axelar Wrapped BNB",
+    "address": "0xA9A2D8F279ABC436a18DBB1df3FB233039935D0A",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "59140",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0x4B13D583F45Aa01fb2bE18a7AAfE14DE183B1Ac9",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "5001",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "name": "MNT",
+    "symbol": "MNT",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/30980/small/token-logo.png?1689320029",
+    "coingeckoId": "mantle",
+    "volatility": 2,
+    "usdPrice": 1.01
+  },
+  {
+    "type": "evm",
+    "chainId": "5001",
+    "address": "0xEe01c0CD76354C383B8c7B4e65EA88D00B06f36f",
+    "name": "Wrapped MNT",
+    "symbol": "WMNT",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/30983/small/mantle.jpeg?1689416644",
+    "coingeckoId": "mantle",
+    "volatility": 2,
+    "usdPrice": 1.01
+  },
+  {
+    "type": "evm",
+    "chainId": "5001",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "5001",
+    "name": "Axelar",
+    "address": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "5001",
+    "name": "Axelar Wrapped WETH",
+    "address": "0xeA700DCe55e72C4C08b97AcFc7dF214EC30F4a64",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "5001",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0x21ba4f6aEdA155DD77Cc33Fb93646910543F0380",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "5001",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x2a87806561C550ba2dA9677c5323413E6e539740",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "5001",
+    "name": "Axelar Wrapped FTM",
+    "address": "0x594D8b81eC765410536ab59E98091700b99508D8",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "5001",
+    "name": "Axelar Wrapped BNB",
+    "address": "0xA9A2D8F279ABC436a18DBB1df3FB233039935D0A",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "5001",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0x4B13D583F45Aa01fb2bE18a7AAfE14DE183B1Ac9",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "1287",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "name": "Moonbeam",
+    "symbol": "DEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/glmr.svg",
+    "coingeckoId": "moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 3,
+    "usdPrice": 0.282712
+  },
+  {
+    "type": "evm",
+    "chainId": "1287",
+    "address": "0x1436aE0dF0A8663F18c0Ec51d7e2E46591730715",
+    "name": "Moonbeam",
+    "symbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/glmr.svg",
+    "coingeckoId": "moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 3,
+    "usdPrice": 0.282712
+  },
+  {
+    "type": "evm",
+    "chainId": "`1287`",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0xD1633F7Fb3d716643125d6415d4177bC36b7186b",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "1287",
+    "name": "Axelar",
+    "address": "0xB4D56B6AD4DD2B48e68D2a26C25A04dC1c0eE393",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "1287",
+    "name": "Axelar Wrapped WETH",
+    "address": "0x4faB8Ad67eF3173501c512B9367f0B0f62287fE7",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "1287",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0xde3dB4FD7D7A5Cc7D8811b7BaFA4103FD90282f3",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "1287",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x64aae6319934995Bf30e67EBBBA9750256E07283",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "1287",
+    "name": "Axelar Wrapped FTM",
+    "address": "0x40EebD34eC6CB4C0644a18494365171b1dcE97eb",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "1287",
+    "name": "Axelar Wrapped BNB",
+    "address": "0x8d0BBbA567Ae73a06A8678e53Dc7ADD0AF6b7039",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "1287",
+    "name": "Testnet Sushi Token",
+    "address": "0xD772a13cf187272e2A914aD90e06c47990014975",
+    "symbol": "tSUSHI",
+    "axelarNetworkSymbol": "tSUSHI",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6758.png",
+    "coingeckoId": "sushi",
+    "subGraphIds": [
+      "0x42cf40c325b764af70ce0cef78ab550b212cb66a812e442e425630523b303785"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.047
+  },
+  {
+    "type": "evm",
+    "chainId": "420",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/eth.svg",
+    "coingeckoId": "ethereum",
+    "volatility": 2,
+    "usdPrice": 2919.39
+  },
+  {
+    "type": "evm",
+    "chainId": "420",
+    "address": "0xe05606174bac4a6364b31bd0eca4bf4dd368f8c6",
+    "name": "Circle USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "cctp-optimism-to-noble"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "420",
+    "address": "0x4200000000000000000000000000000000000006",
+    "name": "Wrapped WETH",
+    "symbol": "WETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/weth.svg",
+    "coingeckoId": "weth",
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "420",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "420",
+    "name": "Axelar",
+    "address": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "420",
+    "name": "Axelar Wrapped wstETH",
+    "address": "0x9cfB13E6c11054ac9fcB92BA89644F30775436e4",
+    "symbol": "axl-wstETH",
+    "axelarNetworkSymbol": "axl-wstETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wsteth.svg",
+    "coingeckoId": "wrapped-steth",
+    "subGraphIds": [
+      "wsteth-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 3408.65
+  },
+  {
+    "type": "evm",
+    "chainId": "420",
+    "name": "Axelar Wrapped WETH",
+    "address": "0xeA700DCe55e72C4C08b97AcFc7dF214EC30F4a64",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "420",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0x21ba4f6aEdA155DD77Cc33Fb93646910543F0380",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "420",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x2a87806561C550ba2dA9677c5323413E6e539740",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "420",
+    "name": "Axelar Wrapped FTM",
+    "address": "0x594D8b81eC765410536ab59E98091700b99508D8",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "420",
+    "name": "Axelar Wrapped BNB",
+    "address": "0xA9A2D8F279ABC436a18DBB1df3FB233039935D0A",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "420",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0x4B13D583F45Aa01fb2bE18a7AAfE14DE183B1Ac9",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "80001",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "name": "MATIC",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-docs/main/public/images/chains/polygon.svg",
+    "coingeckoId": "matic-network",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 0.681834
+  },
+  {
+    "type": "evm",
+    "chainId": "80001",
+    "address": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+    "name": "WMATIC",
+    "symbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-docs/main/public/images/chains/polygon.svg",
+    "coingeckoId": "matic-network",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 0.681834
+  },
+  {
+    "type": "evm",
+    "chainId": "80001",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0x2c852e740B62308c46DD29B982FBb650D063Bd07",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "80001",
+    "name": "Axelar",
+    "address": "0x9c79782d2B13CAC0Fa2FB00D188104fe6f98E533",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "80001",
+    "name": "Axelar Wrapped wstETH",
+    "address": "0xb48D2ce84900ff4dFFaf53CbE5ea8Ec6195cb67b",
+    "symbol": "axl-wstETH",
+    "axelarNetworkSymbol": "axl-wstETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wsteth.svg",
+    "coingeckoId": "wrapped-steth",
+    "subGraphIds": [
+      "wsteth-wei"
+    ],
+    "subGraphOnly": false,
+    "volatility": 2,
+    "usdPrice": 3408.65
+  },
+  {
+    "type": "evm",
+    "chainId": "80001",
+    "name": "Axelar Wrapped WETH",
+    "address": "0x786D82A436EA836A8669919D605FfeaEFa51744e",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "80001",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x6DD60c05FdA1255A44Ffaa9A8200b5b179A578D6",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "80001",
+    "name": "Axelar Wrapped FTM",
+    "address": "0x62b6F2A4eE6a4801bfcD2056d19c6d71654D2582",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "80001",
+    "name": "Axelar Wrapped BNB",
+    "address": "0x55fDE07dEF3261a41fC59B783D27A6357e8A86Df",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "80001",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0xb6a2f51C219A66866263Cb18DD41EE6C51B464cB",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "80001",
+    "name": "Testnet Sushi Token",
+    "address": "0xD772a13cf187272e2A914aD90e06c47990014975",
+    "symbol": "tSUSHI",
+    "axelarNetworkSymbol": "tSUSHI",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6758.png",
+    "coingeckoId": "sushi",
+    "subGraphIds": [
+      "0x42cf40c325b764af70ce0cef78ab550b212cb66a812e442e425630523b303785"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.047
+  },
+  {
+    "type": "evm",
+    "chainId": "534351",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/eth.svg",
+    "coingeckoId": "ethereum",
+    "volatility": 2,
+    "usdPrice": 2919.39
+  },
+  {
+    "type": "evm",
+    "chainId": "534351",
+    "address": "0x5300000000000000000000000000000000000004",
+    "name": "Wrapped WETH",
+    "symbol": "WETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/weth.svg",
+    "coingeckoId": "weth",
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "534351",
+    "address": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+    "name": "Axelar USDC",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/images/tokens/usdc.svg",
+    "coingeckoId": "axlusdc",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "volatility": 0,
+    "usdPrice": 0.997666
+  },
+  {
+    "type": "evm",
+    "chainId": "534351",
+    "name": "Axelar",
+    "address": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "534351",
+    "name": "Axelar Wrapped WETH",
+    "address": "0xeA700DCe55e72C4C08b97AcFc7dF214EC30F4a64",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "534351",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0x21ba4f6aEdA155DD77Cc33Fb93646910543F0380",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "534351",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x2a87806561C550ba2dA9677c5323413E6e539740",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "534351",
+    "name": "Axelar Wrapped FTM",
+    "address": "0x594D8b81eC765410536ab59E98091700b99508D8",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "534351",
+    "name": "Axelar Wrapped BNB",
+    "address": "0xA9A2D8F279ABC436a18DBB1df3FB233039935D0A",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "534351",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0x4B13D583F45Aa01fb2bE18a7AAfE14DE183B1Ac9",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "cosmos",
+    "chainId": "grand-1",
+    "address": "uusdc",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "cctp-optimism-to-noble",
+      "cctp-421613-to-grand-1",
+      "cctp-5-to-grand-1",
+      "cctp-84531-to-grand-1",
+      "cctp-43113-to-grand-1"
+    ],
+    "subGraphOnly": true,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "314159",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0xCb7996d51Ff923b2C6076d42C065a6ca000D32A1",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "314159",
+    "name": "Axelar",
+    "address": "0x68C07f87517F7300DdBC1793135362aFbfE65843",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "314159",
+    "name": "Axelar Wrapped WETH",
+    "address": "0xcCDF43cC00A2d88c3A9D7B0e0BeD39E9B899F723",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "314159",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0x08349ecC52e1Ba8351f2564117f3918BCbF90Ff0",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "314159",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0x0497Cae18E666A7d9cC13715DB0b5c13CE04C177",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "314159",
+    "name": "Axelar Wrapped FTM",
+    "address": "0xa82783a70de6a47Fa0f4d664D2998cB5D5C5291C",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "314159",
+    "name": "Axelar Wrapped BNB",
+    "address": "0x0797715C25C31022c710DEce62A17AAE91281567",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "314159",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0x3bA33A79504d5A9C398e2C6f284b61F182739aC7",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "2221",
+    "name": "Axelar Wrapped aUSDC",
+    "address": "0xAa03872057AD496Bd6f3eE85b85e1e4DABdb1a5d",
+    "symbol": "aUSDC",
+    "axelarNetworkSymbol": "aUSDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/usdc.svg",
+    "coingeckoId": "usd-coin",
+    "subGraphIds": [
+      "uausdc"
+    ],
+    "subGraphOnly": false,
+    "volatility": 0,
+    "usdPrice": 1
+  },
+  {
+    "type": "evm",
+    "chainId": "2221",
+    "name": "Axelar",
+    "address": "0xA3A2b6F3b34F513BA0084D504E8a6162bd7C7EE6",
+    "symbol": "wAXL",
+    "axelarNetworkSymbol": "AXL",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/axl.svg",
+    "coingeckoId": "axelar",
+    "subGraphIds": [
+      "uaxl"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.036
+  },
+  {
+    "type": "evm",
+    "chainId": "2221",
+    "name": "Axelar Wrapped WETH",
+    "address": "0x3F8a312113ED10833F27bbC1ee08A8cDB4df16B4",
+    "symbol": "axlWETH",
+    "axelarNetworkSymbol": "axlWETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/eth.svg",
+    "coingeckoId": "weth",
+    "subGraphIds": [
+      "eth-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 2920.3
+  },
+  {
+    "type": "evm",
+    "chainId": "2221",
+    "name": "Axelar Wrapped WMATIC",
+    "address": "0x5e372F445C6afc91Aaca0d6C0Fa170d5f8F30f49",
+    "symbol": "WMATIC",
+    "axelarNetworkSymbol": "WMATIC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wmatic.svg",
+    "coingeckoId": "wrapped-matic",
+    "subGraphIds": [
+      "wmatic-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2
+  },
+  {
+    "type": "evm",
+    "chainId": "2221",
+    "name": "Axelar Wrapped WAVAX",
+    "address": "0xf3280d7a127Bb743918040fB99108728388e3c9e",
+    "symbol": "WAVAX",
+    "axelarNetworkSymbol": "WAVAX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wavax.svg",
+    "coingeckoId": "wrapped-avax",
+    "subGraphIds": [
+      "wavax-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 33.65
+  },
+  {
+    "type": "evm",
+    "chainId": "2221",
+    "name": "Axelar Wrapped FTM",
+    "address": "0xd7ba4DE2d9cDF1D34D0aE608F3725Aed1A32821E",
+    "symbol": "WFTM",
+    "axelarNetworkSymbol": "WFTM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wftm.svg",
+    "coingeckoId": "wrapped-fantom",
+    "subGraphIds": [
+      "wftm-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 0.714988
+  },
+  {
+    "type": "evm",
+    "chainId": "2221",
+    "name": "Axelar Wrapped BNB",
+    "address": "0x500c333DC86813F930299a68B990F57D1ca6e243",
+    "symbol": "WBNB",
+    "axelarNetworkSymbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wbnb.svg",
+    "coingeckoId": "wbnb",
+    "subGraphIds": [
+      "wbnb-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 2,
+    "usdPrice": 593.56
+  },
+  {
+    "type": "evm",
+    "chainId": "2221",
+    "name": "Axelar Wrapped WDEV",
+    "address": "0xe9a3a0E5C9cFed51E1D60d57e10DeE4478415e52",
+    "symbol": "WDEV",
+    "axelarNetworkSymbol": "WDEV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/wglmr.svg",
+    "coingeckoId": "wrapped-moonbeam",
+    "subGraphIds": [
+      "wdev-wei"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 0.282684
+  },
+  {
+    "type": "evm",
+    "chainId": "2221",
+    "name": "Testnet Sushi Token",
+    "address": "0xD772a13cf187272e2A914aD90e06c47990014975",
+    "symbol": "tSUSHI",
+    "axelarNetworkSymbol": "tSUSHI",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/6758.png",
+    "coingeckoId": "sushi",
+    "subGraphIds": [
+      "0x42cf40c325b764af70ce0cef78ab550b212cb66a812e442e425630523b303785"
+    ],
+    "subGraphOnly": true,
+    "volatility": 3,
+    "usdPrice": 1.047
+  }
+]

@@ -1,4 +1,4 @@
-import { IsNotEmpty,  IsString, IsDate, IsUrl } from 'class-validator';
+import { IsNotEmpty,  IsString, IsDate, IsUrl, IsNumber } from 'class-validator';
 
 
 export class CreateKYCDto {
@@ -45,4 +45,13 @@ export class CreateKYCDto {
   @IsUrl()
   selfie: string;
 
+}
+
+export class CreateKYCPayload {
+  @IsNotEmpty()
+  data: CreateKYCDto;
+
+  @IsNotEmpty()
+  @IsNumber()
+  userId: string;
 }

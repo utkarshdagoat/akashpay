@@ -12,6 +12,7 @@ import {
 const {
     swapExactAmountIn,
 } = osmosis.gamm.v1beta1.MessageComposer.withTypeUrl;
+import { convertNobleToOsmo } from "@/nobleToOsmo/src";
 import axios from 'axios'
 import { SigningStargateClient, coin } from "@cosmjs/stargate";
 export class PaymentUtil {
@@ -22,14 +23,16 @@ export class PaymentUtil {
             process.env.ARBITRUM_RPC,
             process.env.ESCROW_PRIV_KEY,
             process.env.NOBLE_ADDRESS,
-            amount
+            amount * 1000000
         )
-        if (!process.env.MNEMONIC) throw new HttpException(500, 'Internal Server Error (PaymentUtil.ts)')
+        console.log(messageHex, attestation)
+        if (!process.env.NOBLE_MNEMONIC) throw new HttpException(500, 'Internal Server Error (PaymentUtil.ts)')
         const txHash = await recieveMessage(
-            process.env.MNEMONIC,
+            process.env.NOBLE_MNEMONIC,
             messageHex,
             attestation
         )
+        console.log(txHash)
         return txHash
     }
     static deriveCosmosAddress = (
@@ -38,33 +41,17 @@ export class PaymentUtil {
     ): string => {
         return toBech32(chainPrefix, fromBech32(address).data);
     };
-    static  async convertToOsmo(amount: string , reciepentAddress: string) {
-        if (!process.env.MNEMONIC && process.env.NOBLE_RPC && process.env.NOBLE_OSMO_CHANNEL && process.env.GAS) throw new HttpException(500, 'Internal Server Error (PaymentUtil.ts)')
-        const offlineSigner = await DirectSecp256k1HdWallet.fromMnemonic(process.env.MNEMONIC, {
-            prefix: "noble"
-        })
-        const signerAddress = (await offlineSigner.getAccounts())[0].address;
-        const osmoReciepentAddress = PaymentUtil.deriveCosmosAddress("osmo", reciepentAddress)
-
-        const signer = await SigningStargateClient.connectWithSigner(
+    static async convertToOsmo(amount: string, reciepentAddress: string) {
+        if (!process.env.NOBLE_MNEMONIC && !process.env.NOBLE_RPC && !process.env.NOBLE_OSMO_CHANNEL && !process.env.GAS) throw new HttpException(500, 'Check the enviorment Variables ,Internal Server Error (PaymentUtil.ts)')
+        const txHash = await convertNobleToOsmo(
+            process.env.NOBLE_MNEMONIC,
+            amount,
             process.env.NOBLE_RPC,
-            offlineSigner
-        );
-        signer.sendIbcTokens(
-            signerAddress,
-            osmoReciepentAddress,
-            { denom: "uusdc", amount },
-            "transfer",
             process.env.NOBLE_OSMO_CHANNEL,
-            undefined,
-            new Date().getTime() / 1000 + 300,
-            { amount: [], gas: process.env.GAS }
-        ).then((res) => {
-            return res.transactionHash
-        }).catch((err) => {
-            console.error(err)
-            throw new HttpException(500, 'Internal Server Error (PaymentUtil.ts)-[Code-2]')
-        })
+            reciepentAddress
+        )
+        console.log(txHash)
+        return txHash
     }
     public async uosmoTouAkt(amount: string) {
         //TODO: Cannot implement this on testnet due to no active nodes

@@ -4,6 +4,7 @@ import { PrismaClient, kycStatus } from '@prisma/client';
 import Stripe from 'stripe';
 export class StripeController {
   public kyc = new PrismaClient().kYC;
+  public transaction = new PrismaClient().transaction;
   public stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
   public OnrampSessionResource = Stripe.StripeResource.extend({
     create: Stripe.StripeResource.method({
@@ -13,7 +14,8 @@ export class StripeController {
   });
 
   public createPaymentIntent = async (req: RequestWithUser, res: Response, next: NextFunction): Promise<void> => {
-    const { amount } = req.body;
+    const { amount , walletAddress } = req.body;
+    console.log(amount)
     try {
       const kyc = await this.kyc.findUnique({
         where: {
@@ -32,15 +34,25 @@ export class StripeController {
             postal_code: kyc.postalCode,
             city: kyc.city,
             state: kyc.state,
-            country: kyc.country,
+            country:'US',
           },
         });
+      const AmountInCents = amount * 100;
       const paymentIntent = await this.stripe.paymentIntents.create({
-        amount,
+        amount: AmountInCents,
         currency: 'usd',
         description: 'Software development services',
         customer: customer.id
       });
+      if(paymentIntent){
+        const transaction = await this.transaction.create({
+          data: {
+            userId: req.user.id,
+            amount: amount,
+            walletAddress
+          }
+        })
+      }
       res.send({
         clientSecret: paymentIntent.client_secret,
       });

@@ -1,0 +1,5 @@
+
+> all-bridge@1.0.0 start
+> ts-node src/index.ts
+
+200

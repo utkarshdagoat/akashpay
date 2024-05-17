@@ -41,7 +41,8 @@ export const AuthMiddleware = async (req: RequestWithUser, res: Response, next: 
 export const EnsureKYC = async (req: RequestWithUser, res: Response, next: NextFunction) => {
   const kyc = new PrismaClient().kYC;
   try {
-    const kycData = await kyc.findFirst({ where: { userId: req.user.id } });
+    console.log(req.user.id)
+    const kycData = await kyc.findUnique({ where: { userId: req.user.id } });
     if(!kycData) {
       next(new HttpException(401, 'User has not completed KYC'));
     }else{
