@@ -1,0 +1,1037 @@
+2024-05-18 00:01:09 info: [0mGET /api/user [36m304[0m 1495.099 ms - -[0m
+2024-05-18 00:01:23 info: [0mGET /api/user [36m304[0m 1394.830 ms - -[0m
+2024-05-18 00:02:45 info: [0mGET /api/user [36m304[0m 1569.311 ms - -[0m
+2024-05-18 00:04:10 info: [0mGET /api/user [36m304[0m 1622.786 ms - -[0m
+2024-05-18 00:04:17 info: [0mGET /api/user [36m304[0m 1840.612 ms - -[0m
+2024-05-18 00:04:20 info: [0mGET /api/user [36m304[0m 1413.787 ms - -[0m
+2024-05-18 00:05:11 info: [0mGET /api/kyc/status [32m200[0m 2480.862 ms - 52[0m
+2024-05-18 00:05:12 info: [0mGET /api/kyc/status [32m200[0m 2767.279 ms - 52[0m
+2024-05-18 00:08:03 info: [0mGET /api/kyc/status [36m304[0m 1705.142 ms - -[0m
+2024-05-18 00:08:03 info: [0mGET /api/kyc/status [32m200[0m 1704.191 ms - 52[0m
+2024-05-18 00:12:21 info: [0mGET /api/kyc/status [32m200[0m 1643.092 ms - 52[0m
+2024-05-18 00:12:21 info: [0mGET /api/kyc/status [36m304[0m 1859.285 ms - -[0m
+2024-05-18 00:12:50 info: [0mGET /api/kyc/status [36m304[0m 1740.108 ms - -[0m
+2024-05-18 00:30:22 info: [0mGET /api/user [36m304[0m 1346.652 ms - -[0m
+2024-05-18 00:30:38 info: [0mGET /api/kyc/status [36m304[0m 3302.598 ms - -[0m
+2024-05-18 00:30:38 info: [0mGET /api/kyc/status [32m200[0m 3656.224 ms - 52[0m
+2024-05-18 00:37:18 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.463 ms - 0[0m
+2024-05-18 00:37:22 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 401, Message:: User KYC is not approved
+2024-05-18 00:37:22 info: [0mPOST /api/stripe/create-payment-intent [33m401[0m 3466.149 ms - 38[0m
+2024-05-18 00:38:39 info: =================================
+2024-05-18 00:38:39 info: ======= ENV: development =======
+2024-05-18 00:38:39 info: 🚀 App listening on the port 8080
+2024-05-18 00:38:39 info: =================================
+2024-05-18 00:38:48 info: [0mGET /api/user [32m200[0m 1617.300 ms - 167[0m
+2024-05-18 00:38:48 info: [0mGET /api/user [32m200[0m 1614.758 ms - 167[0m
+2024-05-18 00:38:51 info: [0mGET /api/kyc/status [32m200[0m 2330.281 ms - 52[0m
+2024-05-18 00:38:51 info: [0mGET /api/kyc/status [36m304[0m 2325.471 ms - -[0m
+2024-05-18 00:39:20 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.344 ms - 0[0m
+2024-05-18 00:39:22 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 401, Message:: User KYC is not approved
+2024-05-18 00:39:22 info: [0mPOST /api/stripe/create-payment-intent [33m401[0m 2359.577 ms - 38[0m
+2024-05-18 00:42:17 info: =================================
+2024-05-18 00:42:17 info: ======= ENV: development =======
+2024-05-18 00:42:17 info: 🚀 App listening on the port 8080
+2024-05-18 00:42:17 info: =================================
+2024-05-18 00:43:36 info: =================================
+2024-05-18 00:43:36 info: ======= ENV: development =======
+2024-05-18 00:43:36 info: 🚀 App listening on the port 8080
+2024-05-18 00:43:36 info: =================================
+2024-05-18 00:44:43 info: =================================
+2024-05-18 00:44:43 info: ======= ENV: development =======
+2024-05-18 00:44:43 info: 🚀 App listening on the port 8080
+2024-05-18 00:44:43 info: =================================
+2024-05-18 00:44:46 info: [0mGET /api/user [36m304[0m 1370.138 ms - -[0m
+2024-05-18 00:44:46 info: [0mGET /api/user [32m200[0m 1472.284 ms - 167[0m
+2024-05-18 00:44:51 info: [0mGET /api/kyc/status [36m304[0m 2593.438 ms - -[0m
+2024-05-18 00:44:51 info: [0mGET /api/kyc/status [32m200[0m 2600.444 ms - 52[0m
+2024-05-18 00:44:58 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.296 ms - 0[0m
+2024-05-18 00:45:01 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 401, Message:: User KYC is not approved
+2024-05-18 00:45:01 info: [0mPOST /api/stripe/create-payment-intent [33m401[0m 2353.016 ms - 38[0m
+2024-05-18 00:45:49 info: =================================
+2024-05-18 00:45:49 info: ======= ENV: development =======
+2024-05-18 00:45:49 info: 🚀 App listening on the port 8080
+2024-05-18 00:45:49 info: =================================
+2024-05-18 00:45:58 info: [0mPUT /api/kyc/status [32m200[0m 1868.243 ms - 50[0m
+2024-05-18 00:46:09 info: [0mGET /api/user [0m-[0m - ms - -[0m
+2024-05-18 00:46:09 info: [0mGET /api/user [0m-[0m - ms - -[0m
+2024-05-18 00:46:12 info: [0mGET /api/kyc/status [32m200[0m 1334.655 ms - 52[0m
+2024-05-18 00:46:13 info: [0mGET /api/kyc/status [32m200[0m 2480.986 ms - 52[0m
+2024-05-18 00:46:35 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.303 ms - 0[0m
+2024-05-18 00:46:39 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 4256.260 ms - 79[0m
+2024-05-18 00:47:46 info: =================================
+2024-05-18 00:47:46 info: ======= ENV: development =======
+2024-05-18 00:47:46 info: 🚀 App listening on the port 8080
+2024-05-18 00:47:46 info: =================================
+2024-05-18 00:47:56 info: [0mGET /api/user [36m304[0m 1359.912 ms - -[0m
+2024-05-18 00:47:58 info: [0mGET /api/user [32m200[0m 3066.651 ms - 167[0m
+2024-05-18 00:48:20 info: [0mGET /api/user [36m304[0m 1293.635 ms - -[0m
+2024-05-18 00:48:20 info: [0mGET /api/user [32m200[0m 1302.305 ms - 167[0m
+2024-05-18 00:48:22 info: [0mGET /api/kyc/status [32m200[0m 2485.217 ms - 52[0m
+2024-05-18 00:48:22 info: [0mGET /api/kyc/status [36m304[0m 2490.740 ms - -[0m
+2024-05-18 00:48:27 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.430 ms - 0[0m
+2024-05-18 00:48:32 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 500, Message:: Amount must be at least ₹0.50 inr
+2024-05-18 00:48:32 info: [0mPOST /api/stripe/create-payment-intent [31m500[0m 5019.560 ms - 49[0m
+2024-05-18 00:48:58 info: [0mGET /api/user [36m304[0m 1335.564 ms - -[0m
+2024-05-18 00:48:59 info: [0mGET /api/user [32m200[0m 2425.153 ms - 167[0m
+2024-05-18 00:49:00 info: [0mGET /api/user [32m200[0m 1256.242 ms - 167[0m
+2024-05-18 00:49:00 info: [0mGET /api/user [36m304[0m 1369.971 ms - -[0m
+2024-05-18 00:49:01 info: [0mGET /api/kyc/status [32m200[0m 1629.637 ms - 52[0m
+2024-05-18 00:49:02 info: [0mGET /api/kyc/status [36m304[0m 1998.742 ms - -[0m
+2024-05-18 00:49:48 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.138 ms - 0[0m
+2024-05-18 00:49:52 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 500, Message:: Amount must be at least ₹0.50 inr
+2024-05-18 00:49:52 info: [0mPOST /api/stripe/create-payment-intent [31m500[0m 4193.298 ms - 49[0m
+2024-05-18 00:50:12 info: =================================
+2024-05-18 00:50:12 info: ======= ENV: development =======
+2024-05-18 00:50:12 info: 🚀 App listening on the port 8080
+2024-05-18 00:50:12 info: =================================
+2024-05-18 00:50:22 info: [0mGET /api/user [32m200[0m 1402.616 ms - 167[0m
+2024-05-18 00:50:22 info: [0mGET /api/user [32m200[0m 1497.811 ms - 167[0m
+2024-05-18 00:50:24 info: [0mGET /api/kyc/status [36m304[0m 2214.266 ms - -[0m
+2024-05-18 00:50:24 info: [0mGET /api/kyc/status [32m200[0m 2223.425 ms - 52[0m
+2024-05-18 00:50:35 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.288 ms - 0[0m
+2024-05-18 00:50:40 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 500, Message:: Amount must be at least ₹0.50 inr
+2024-05-18 00:50:40 info: [0mPOST /api/stripe/create-payment-intent [31m500[0m 5091.234 ms - 49[0m
+2024-05-18 00:52:12 info: [0mGET /api/user [32m200[0m 1309.110 ms - 167[0m
+2024-05-18 00:52:12 info: [0mGET /api/user [36m304[0m 1400.865 ms - -[0m
+2024-05-18 00:52:13 info: [0mGET /api/kyc/status [32m200[0m 1537.903 ms - 52[0m
+2024-05-18 00:52:15 info: [0mGET /api/kyc/status [36m304[0m 2651.271 ms - -[0m
+2024-05-18 00:52:20 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.131 ms - 0[0m
+2024-05-18 00:52:24 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 500, Message:: Amount must be at least ₹0.50 inr
+2024-05-18 00:52:24 info: [0mPOST /api/stripe/create-payment-intent [31m500[0m 3870.209 ms - 49[0m
+2024-05-18 00:53:43 info: [0mGET /api/user [36m304[0m 1384.683 ms - -[0m
+2024-05-18 00:53:45 info: [0mGET /api/user [32m200[0m 2867.170 ms - 167[0m
+2024-05-18 00:53:45 info: [0mGET /api/kyc/status [36m304[0m 1604.587 ms - -[0m
+2024-05-18 00:53:45 info: [0mGET /api/kyc/status [32m200[0m 1614.621 ms - 52[0m
+2024-05-18 00:53:56 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.156 ms - 0[0m
+2024-05-18 00:54:00 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 4069.046 ms - 79[0m
+2024-05-18 00:56:56 info: =================================
+2024-05-18 00:56:56 info: ======= ENV: development =======
+2024-05-18 00:56:56 info: 🚀 App listening on the port 8080
+2024-05-18 00:56:56 info: =================================
+2024-05-18 00:58:16 info: =================================
+2024-05-18 00:58:16 info: ======= ENV: development =======
+2024-05-18 00:58:16 info: 🚀 App listening on the port 8080
+2024-05-18 00:58:16 info: =================================
+2024-05-18 00:58:21 info: [0mGET /api/kyc/status [32m200[0m 2873.134 ms - 52[0m
+2024-05-18 00:58:21 info: [0mGET /api/kyc/status [36m304[0m 2868.332 ms - -[0m
+2024-05-18 00:58:24 info: [0mOPTIONS /api/logout [32m204[0m 0.391 ms - 0[0m
+2024-05-18 00:58:25 info: [0mGET /api/dashboard/applications [32m200[0m 2371.693 ms - 2[0m
+2024-05-18 00:58:26 info: [0mGET /api/dashboard/applications [32m200[0m 3676.298 ms - 2[0m
+2024-05-18 00:58:28 info: [0mPOST /api/logout [32m200[0m 3897.310 ms - 195[0m
+2024-05-18 00:58:38 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 00:58:38 info: [0mGET /api/user [33m404[0m 1.662 ms - 42[0m
+2024-05-18 00:58:38 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 00:58:38 info: [0mGET /api/user [33m404[0m 0.898 ms - 42[0m
+2024-05-18 00:58:57 info: [0mOPTIONS /api/signup [32m204[0m 0.095 ms - 0[0m
+2024-05-18 00:58:57 error: [POST] /api/signup >> StatusCode:: 409, Message:: This email utkarsh382004@gmail.com already exists
+2024-05-18 00:58:57 info: [0mPOST /api/signup [33m409[0m 537.316 ms - 63[0m
+2024-05-18 01:00:35 info: [0mDELETE /api/user [32m200[0m 1870.221 ms - 31[0m
+2024-05-18 01:00:37 info: [0mOPTIONS /api/signup [32m204[0m 0.239 ms - 0[0m
+2024-05-18 01:00:39 info: [0mPOST /api/signup [32m201[0m 1385.890 ms - 194[0m
+2024-05-18 01:00:39 info: [0mOPTIONS /api/otp/send [32m204[0m 0.164 ms - 0[0m
+2024-05-18 01:00:45 info: [0mPOST /api/otp/send [32m200[0m 6451.644 ms - 55[0m
+2024-05-18 01:00:55 info: [0mOPTIONS /api/otp/verify [32m204[0m 0.105 ms - 0[0m
+2024-05-18 01:00:57 info: [0mPOST /api/otp/verify [32m200[0m 2459.355 ms - 42[0m
+2024-05-18 01:01:01 info: [0mGET /api/uploadthing [32m200[0m 1.187 ms - 131[0m
+2024-05-18 01:01:01 info: [0mGET /api/uploadthing [36m304[0m 0.534 ms - -[0m
+2024-05-18 01:01:01 info: [0mGET /api/uploadthing [32m200[0m 0.355 ms - 131[0m
+2024-05-18 01:01:01 info: [0mGET /api/uploadthing [36m304[0m 0.434 ms - -[0m
+2024-05-18 01:01:01 info: [0mGET /api/uploadthing [32m200[0m 0.537 ms - 131[0m
+2024-05-18 01:01:01 info: [0mGET /api/uploadthing [32m200[0m 0.420 ms - 131[0m
+2024-05-18 01:01:48 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.153 ms - 0[0m
+2024-05-18 01:01:49 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 1329.940 ms - -[0m
+2024-05-18 01:01:52 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 750.093 ms - -[0m
+2024-05-18 01:01:55 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 611.880 ms - 4[0m
+2024-05-18 01:01:56 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 700.491 ms - 4[0m
+2024-05-18 01:01:57 info: [0mOPTIONS /api/uploadthing?actionType=upload&slug=imageUploader [32m204[0m 0.124 ms - 0[0m
+2024-05-18 01:01:57 info: [0mPOST /api/uploadthing?actionType=upload&slug=imageUploader [32m200[0m 787.293 ms - -[0m
+2024-05-18 01:02:01 info: [0mPOST /api/uploadthing/?slug=imageUploader [32m200[0m 564.093 ms - 4[0m
+2024-05-18 01:02:03 info: [0mOPTIONS /api/kyc/create [32m204[0m 0.148 ms - 0[0m
+2024-05-18 01:02:04 info: [0mPOST /api/kyc/create [32m201[0m 1550.705 ms - 510[0m
+2024-05-18 01:02:21 info: [0mOPTIONS /api/login [32m204[0m 0.112 ms - 0[0m
+2024-05-18 01:02:21 error: [POST] /api/login >> StatusCode:: 409, Message:: Password is not matching
+2024-05-18 01:02:21 info: [0mPOST /api/login [33m409[0m 399.206 ms - 38[0m
+2024-05-18 01:02:37 info: [0mOPTIONS /api/login [32m204[0m 0.443 ms - 0[0m
+2024-05-18 01:02:37 info: [0mPOST /api/login [32m200[0m 481.799 ms - 193[0m
+2024-05-18 01:04:28 info: [0mOPTIONS /api/login [32m204[0m 0.132 ms - 0[0m
+2024-05-18 01:04:29 error: [POST] /api/login >> StatusCode:: 409, Message:: This email utkarsh382004@gmial.com was not found
+2024-05-18 01:04:29 info: [0mPOST /api/login [33m409[0m 338.432 ms - 62[0m
+2024-05-18 01:04:35 info: [0mOPTIONS /api/login [32m204[0m 0.109 ms - 0[0m
+2024-05-18 01:04:35 info: [0mPOST /api/login [32m200[0m 178.618 ms - 193[0m
+2024-05-18 01:04:50 info: [0mGET /api/user [32m200[0m 1608.316 ms - 166[0m
+2024-05-18 01:04:51 info: [0mGET /api/user [32m200[0m 1734.650 ms - 166[0m
+2024-05-18 01:04:53 info: [0mGET /api/user [32m200[0m 1417.069 ms - 166[0m
+2024-05-18 01:04:54 info: [0mGET /api/user [36m304[0m 2188.576 ms - -[0m
+2024-05-18 01:04:55 info: [0mGET /api/kyc/status [32m200[0m 1492.875 ms - 53[0m
+2024-05-18 01:04:57 info: [0mGET /api/kyc/status [32m200[0m 3609.924 ms - 53[0m
+2024-05-18 01:05:10 error: [PUT] /api/kyc/status >> StatusCode:: 404, Message:: KYC not found for user 58
+2024-05-18 01:05:10 info: [0mPUT /api/kyc/status [33m404[0m 129.182 ms - 39[0m
+2024-05-18 01:05:23 info: [0mGET /api/user [36m304[0m 1337.577 ms - -[0m
+2024-05-18 01:05:23 info: [0mGET /api/user [32m200[0m 1728.072 ms - 166[0m
+2024-05-18 01:05:36 info: [0mPUT /api/kyc/status [32m200[0m 1790.665 ms - 50[0m
+2024-05-18 01:05:40 info: [0mGET /api/user [36m304[0m 1222.691 ms - -[0m
+2024-05-18 01:05:41 info: [0mGET /api/user [32m200[0m 1704.421 ms - 166[0m
+2024-05-18 01:05:42 info: [0mGET /api/kyc/status [32m200[0m 1352.864 ms - 52[0m
+2024-05-18 01:05:42 info: [0mGET /api/kyc/status [32m200[0m 2049.951 ms - 52[0m
+2024-05-18 01:05:46 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.103 ms - 0[0m
+2024-05-18 01:05:50 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 4231.847 ms - 79[0m
+2024-05-18 01:08:14 info: =================================
+2024-05-18 01:08:14 info: ======= ENV: development =======
+2024-05-18 01:08:14 info: 🚀 App listening on the port 8080
+2024-05-18 01:08:14 info: =================================
+2024-05-18 01:08:23 info: =================================
+2024-05-18 01:08:23 info: ======= ENV: development =======
+2024-05-18 01:08:23 info: 🚀 App listening on the port 8080
+2024-05-18 01:08:23 info: =================================
+2024-05-18 01:08:27 info: [0mGET /api/user [32m200[0m 1726.507 ms - 166[0m
+2024-05-18 01:08:27 info: [0mGET /api/user [36m304[0m 1724.598 ms - -[0m
+2024-05-18 01:08:29 info: [0mGET /api/user [32m200[0m 1349.613 ms - 166[0m
+2024-05-18 01:08:29 info: [0mGET /api/user [36m304[0m 1356.085 ms - -[0m
+2024-05-18 01:08:32 info: [0mGET /api/kyc/status [36m304[0m 2682.431 ms - -[0m
+2024-05-18 01:08:32 info: [0mGET /api/kyc/status [32m200[0m 2677.729 ms - 52[0m
+2024-05-18 01:08:37 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.482 ms - 0[0m
+2024-05-18 01:08:42 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 4826.325 ms - 79[0m
+2024-05-18 01:09:00 info: [0mGET /api/user [32m200[0m 1576.427 ms - 166[0m
+2024-05-18 01:09:01 info: [0mGET /api/user [36m304[0m 2859.304 ms - -[0m
+2024-05-18 01:10:18 info: [0mGET /api/user [36m304[0m 1886.980 ms - -[0m
+2024-05-18 01:10:19 info: [0mGET /api/user [32m200[0m 3053.996 ms - 166[0m
+2024-05-18 01:11:24 info: [0mGET /api/user [36m304[0m 1673.738 ms - -[0m
+2024-05-18 01:11:24 info: [0mGET /api/user [32m200[0m 1706.514 ms - 166[0m
+2024-05-18 01:11:28 info: [0mGET /api/user [36m304[0m 1318.687 ms - -[0m
+2024-05-18 01:11:29 info: [0mGET /api/user [32m200[0m 1706.720 ms - 166[0m
+2024-05-18 01:11:30 info: [0mGET /api/kyc/status [36m304[0m 2024.056 ms - -[0m
+2024-05-18 01:11:31 info: [0mGET /api/kyc/status [32m200[0m 2851.853 ms - 52[0m
+2024-05-18 01:11:33 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.119 ms - 0[0m
+2024-05-18 01:11:36 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 3317.821 ms - 79[0m
+2024-05-18 01:11:37 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 3566.416 ms - 79[0m
+2024-05-18 01:11:56 info: [0mGET /api/user [36m304[0m 1274.855 ms - -[0m
+2024-05-18 01:11:57 info: [0mGET /api/user [32m200[0m 1945.858 ms - 166[0m
+2024-05-18 01:15:26 info: [0mGET /api/user [32m200[0m 1487.027 ms - 166[0m
+2024-05-18 01:15:26 info: [0mGET /api/user [36m304[0m 1531.858 ms - -[0m
+2024-05-18 01:16:56 info: =================================
+2024-05-18 01:16:56 info: ======= ENV: development =======
+2024-05-18 01:16:56 info: 🚀 App listening on the port 8080
+2024-05-18 01:16:56 info: =================================
+2024-05-18 01:18:35 info: [0mGET /api/user [32m200[0m 1500.162 ms - 166[0m
+2024-05-18 01:18:36 info: [0mGET /api/user [32m200[0m 3044.385 ms - 166[0m
+2024-05-18 01:23:13 info: [0mGET /api/user [32m200[0m 1431.178 ms - 166[0m
+2024-05-18 01:41:10 info: =================================
+2024-05-18 01:41:10 info: ======= ENV: development =======
+2024-05-18 01:41:10 info: 🚀 App listening on the port 8080
+2024-05-18 01:41:10 info: =================================
+2024-05-18 01:44:47 info: =================================
+2024-05-18 01:44:47 info: ======= ENV: development =======
+2024-05-18 01:44:47 info: 🚀 App listening on the port 8080
+2024-05-18 01:44:48 info: =================================
+2024-05-18 01:48:37 info: =================================
+2024-05-18 01:48:37 info: ======= ENV: development =======
+2024-05-18 01:48:37 info: 🚀 App listening on the port 8080
+2024-05-18 01:48:37 info: =================================
+2024-05-18 01:49:25 info: =================================
+2024-05-18 01:49:25 info: ======= ENV: development =======
+2024-05-18 01:49:25 info: 🚀 App listening on the port 8080
+2024-05-18 01:49:25 info: =================================
+2024-05-18 01:55:38 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 1.188 ms - 0[0m
+2024-05-18 01:55:38 info: [0mPOST /api/make-payment/transfer-to-cosmos [33m404[0m 11.821 ms - 175[0m
+2024-05-18 01:57:05 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.206 ms - 0[0m
+2024-05-18 01:57:05 info: [0mPOST /api/make-payment/transfer-to-cosmos [33m404[0m 1.966 ms - 175[0m
+2024-05-18 01:57:41 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.150 ms - 0[0m
+2024-05-18 01:57:41 info: [0mPOST /api/make-payment/transfer-to-cosmos [33m404[0m 1.212 ms - 175[0m
+2024-05-18 01:59:12 info: =================================
+2024-05-18 01:59:12 info: ======= ENV: development =======
+2024-05-18 01:59:12 info: 🚀 App listening on the port 8080
+2024-05-18 01:59:12 info: =================================
+2024-05-18 01:59:20 info: [0mGET /api/user [32m200[0m 1593.649 ms - 166[0m
+2024-05-18 01:59:20 info: [0mGET /api/user [32m200[0m 1630.839 ms - 166[0m
+2024-05-18 01:59:23 info: [0mGET /api/user [32m200[0m 1232.082 ms - 166[0m
+2024-05-18 01:59:24 info: [0mGET /api/user [36m304[0m 1616.210 ms - -[0m
+2024-05-18 01:59:26 info: [0mGET /api/kyc/status [36m304[0m 2454.198 ms - -[0m
+2024-05-18 01:59:26 info: [0mGET /api/kyc/status [32m200[0m 2463.337 ms - 52[0m
+2024-05-18 01:59:34 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.472 ms - 0[0m
+2024-05-18 01:59:41 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 6570.965 ms - 79[0m
+2024-05-18 02:00:02 info: [0mGET /api/user [32m200[0m 1291.192 ms - 166[0m
+2024-05-18 02:00:02 info: [0mGET /api/user [36m304[0m 1375.047 ms - -[0m
+2024-05-18 02:00:02 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.210 ms - 0[0m
+2024-05-18 02:01:06 error: [POST] /api/make-payment/transfer-to-cosmos >> StatusCode:: 500, Message:: Internal Server Error (PaymentUtil.ts)
+2024-05-18 02:01:06 info: [0mPOST /api/make-payment/transfer-to-cosmos [31m500[0m 63642.522 ms - 52[0m
+2024-05-18 02:02:20 info: =================================
+2024-05-18 02:02:20 info: ======= ENV: development =======
+2024-05-18 02:02:20 info: 🚀 App listening on the port 8080
+2024-05-18 02:02:20 info: =================================
+2024-05-18 02:03:28 info: =================================
+2024-05-18 02:03:28 info: ======= ENV: development =======
+2024-05-18 02:03:28 info: 🚀 App listening on the port 8080
+2024-05-18 02:03:28 info: =================================
+2024-05-18 02:03:45 info: =================================
+2024-05-18 02:03:45 info: ======= ENV: development =======
+2024-05-18 02:03:45 info: 🚀 App listening on the port 8080
+2024-05-18 02:03:45 info: =================================
+2024-05-18 02:05:29 info: [0mGET /api/user [32m200[0m 1510.436 ms - 166[0m
+2024-05-18 02:05:29 info: [0mGET /api/user [36m304[0m 1603.869 ms - -[0m
+2024-05-18 02:05:29 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.308 ms - 0[0m
+2024-05-18 02:06:41 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 71324.742 ms - 121[0m
+2024-05-18 02:06:41 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.177 ms - 0[0m
+2024-05-18 02:06:41 info: [0mPOST /api/make-payment/transfer-to-osmo [33m404[0m 3.609 ms - 173[0m
+2024-05-18 02:09:06 info: =================================
+2024-05-18 02:09:06 info: ======= ENV: development =======
+2024-05-18 02:09:06 info: 🚀 App listening on the port 8080
+2024-05-18 02:09:06 info: =================================
+2024-05-18 02:09:09 info: [0mGET /api/user [32m200[0m 1546.226 ms - 166[0m
+2024-05-18 02:09:09 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.301 ms - 0[0m
+2024-05-18 02:09:10 info: [0mGET /api/user [36m304[0m 2384.956 ms - -[0m
+2024-05-18 02:10:18 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 69058.094 ms - 121[0m
+2024-05-18 02:10:18 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.174 ms - 0[0m
+2024-05-18 02:10:18 info: [0mPOST /api/make-payment/transfer-to-osmo [33m404[0m 3.449 ms - 173[0m
+2024-05-18 02:11:29 info: =================================
+2024-05-18 02:11:29 info: ======= ENV: development =======
+2024-05-18 02:11:29 info: 🚀 App listening on the port 8080
+2024-05-18 02:11:29 info: =================================
+2024-05-18 02:11:54 info: =================================
+2024-05-18 02:11:54 info: ======= ENV: development =======
+2024-05-18 02:11:54 info: 🚀 App listening on the port 8080
+2024-05-18 02:11:54 info: =================================
+2024-05-18 02:12:28 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 2.088 ms - 0[0m
+2024-05-18 02:12:38 info: =================================
+2024-05-18 02:12:38 info: ======= ENV: development =======
+2024-05-18 02:12:38 info: 🚀 App listening on the port 8080
+2024-05-18 02:12:38 info: =================================
+2024-05-18 02:12:43 info: [0mGET /api/user [32m200[0m 1390.119 ms - 166[0m
+2024-05-18 02:12:43 info: [0mGET /api/user [32m200[0m 1713.699 ms - 166[0m
+2024-05-18 02:12:44 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.402 ms - 0[0m
+2024-05-18 02:13:49 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 64792.817 ms - 121[0m
+2024-05-18 02:13:49 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.150 ms - 0[0m
+2024-05-18 02:13:50 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:13:50 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 1355.991 ms - 73[0m
+2024-05-18 02:17:20 info: [0mGET /api/user [32m200[0m 1412.461 ms - 166[0m
+2024-05-18 02:17:20 info: [0mGET /api/user [32m200[0m 1436.394 ms - 166[0m
+2024-05-18 02:17:21 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.132 ms - 0[0m
+2024-05-18 02:17:30 info: =================================
+2024-05-18 02:17:30 info: ======= ENV: development =======
+2024-05-18 02:17:30 info: 🚀 App listening on the port 8080
+2024-05-18 02:17:30 info: =================================
+2024-05-18 02:17:44 info: =================================
+2024-05-18 02:17:44 info: ======= ENV: development =======
+2024-05-18 02:17:44 info: 🚀 App listening on the port 8080
+2024-05-18 02:17:44 info: =================================
+2024-05-18 02:18:34 info: =================================
+2024-05-18 02:18:34 info: ======= ENV: development =======
+2024-05-18 02:18:34 info: 🚀 App listening on the port 8080
+2024-05-18 02:18:34 info: =================================
+2024-05-18 02:18:38 info: [0mGET /api/user [32m200[0m 1423.171 ms - 166[0m
+2024-05-18 02:18:38 info: [0mGET /api/user [36m304[0m 1845.236 ms - -[0m
+2024-05-18 02:18:38 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.389 ms - 0[0m
+2024-05-18 02:19:33 info: =================================
+2024-05-18 02:19:33 info: ======= ENV: development =======
+2024-05-18 02:19:33 info: 🚀 App listening on the port 8080
+2024-05-18 02:19:33 info: =================================
+2024-05-18 02:19:44 info: [0mGET /api/user [32m200[0m 1533.997 ms - 166[0m
+2024-05-18 02:19:45 info: [0mGET /api/user [36m304[0m 1868.650 ms - -[0m
+2024-05-18 02:19:45 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.445 ms - 0[0m
+2024-05-18 02:21:04 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 79191.185 ms - 121[0m
+2024-05-18 02:21:04 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.230 ms - 0[0m
+2024-05-18 02:21:05 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:21:05 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 1331.017 ms - 73[0m
+2024-05-18 02:22:52 info: =================================
+2024-05-18 02:22:52 info: ======= ENV: development =======
+2024-05-18 02:22:52 info: 🚀 App listening on the port 8080
+2024-05-18 02:22:52 info: =================================
+2024-05-18 02:22:59 info: [0mGET /api/user [32m200[0m 1480.782 ms - 166[0m
+2024-05-18 02:22:59 info: [0mGET /api/user [36m304[0m 1510.943 ms - -[0m
+2024-05-18 02:23:00 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.477 ms - 0[0m
+2024-05-18 02:24:46 info: =================================
+2024-05-18 02:24:46 info: ======= ENV: development =======
+2024-05-18 02:24:46 info: 🚀 App listening on the port 8080
+2024-05-18 02:24:46 info: =================================
+2024-05-18 02:24:50 info: [0mGET /api/user [36m304[0m 1313.663 ms - -[0m
+2024-05-18 02:24:50 info: [0mGET /api/user [32m200[0m 1460.683 ms - 166[0m
+2024-05-18 02:24:50 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.304 ms - 0[0m
+2024-05-18 02:26:09 error: [POST] /api/make-payment/transfer-to-cosmos >> StatusCode:: 500, Message:: Bad status on response: 503
+2024-05-18 02:26:09 info: [0mPOST /api/make-payment/transfer-to-cosmos [31m500[0m 78797.449 ms - 41[0m
+2024-05-18 02:39:04 info: =================================
+2024-05-18 02:39:04 info: ======= ENV: development =======
+2024-05-18 02:39:04 info: 🚀 App listening on the port 8080
+2024-05-18 02:39:04 info: =================================
+2024-05-18 02:40:57 info: =================================
+2024-05-18 02:40:57 info: ======= ENV: development =======
+2024-05-18 02:40:57 info: 🚀 App listening on the port 8080
+2024-05-18 02:40:57 info: =================================
+2024-05-18 02:41:32 info: =================================
+2024-05-18 02:41:32 info: ======= ENV: development =======
+2024-05-18 02:41:32 info: 🚀 App listening on the port 8080
+2024-05-18 02:41:32 info: =================================
+2024-05-18 02:42:18 info: =================================
+2024-05-18 02:42:18 info: ======= ENV: development =======
+2024-05-18 02:42:18 info: 🚀 App listening on the port 8080
+2024-05-18 02:42:18 info: =================================
+2024-05-18 02:42:28 info: =================================
+2024-05-18 02:42:28 info: ======= ENV: development =======
+2024-05-18 02:42:28 info: 🚀 App listening on the port 8080
+2024-05-18 02:42:28 info: =================================
+2024-05-18 02:44:20 info: =================================
+2024-05-18 02:44:20 info: ======= ENV: development =======
+2024-05-18 02:44:20 info: 🚀 App listening on the port 8080
+2024-05-18 02:44:20 info: =================================
+2024-05-18 02:45:56 info: =================================
+2024-05-18 02:45:56 info: ======= ENV: development =======
+2024-05-18 02:45:56 info: 🚀 App listening on the port 8080
+2024-05-18 02:45:56 info: =================================
+2024-05-18 02:46:20 info: =================================
+2024-05-18 02:46:20 info: ======= ENV: development =======
+2024-05-18 02:46:20 info: 🚀 App listening on the port 8080
+2024-05-18 02:46:20 info: =================================
+2024-05-18 02:46:38 info: =================================
+2024-05-18 02:46:38 info: ======= ENV: development =======
+2024-05-18 02:46:38 info: 🚀 App listening on the port 8080
+2024-05-18 02:46:38 info: =================================
+2024-05-18 02:48:15 info: =================================
+2024-05-18 02:48:15 info: ======= ENV: development =======
+2024-05-18 02:48:15 info: 🚀 App listening on the port 8080
+2024-05-18 02:48:15 info: =================================
+2024-05-18 02:49:38 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 2.174 ms - 0[0m
+2024-05-18 02:49:55 info: =================================
+2024-05-18 02:49:55 info: ======= ENV: development =======
+2024-05-18 02:49:55 info: 🚀 App listening on the port 8080
+2024-05-18 02:49:55 info: =================================
+2024-05-18 02:50:01 info: [0mGET /api/user [32m200[0m 1327.198 ms - 166[0m
+2024-05-18 02:50:01 info: [0mGET /api/user [36m304[0m 1719.112 ms - -[0m
+2024-05-18 02:50:02 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.406 ms - 0[0m
+2024-05-18 02:51:22 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 80376.370 ms - 121[0m
+2024-05-18 02:51:22 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.181 ms - 0[0m
+2024-05-18 02:51:25 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:51:25 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 2211.132 ms - 73[0m
+2024-05-18 02:52:54 info: =================================
+2024-05-18 02:52:54 info: ======= ENV: development =======
+2024-05-18 02:52:54 info: 🚀 App listening on the port 8080
+2024-05-18 02:52:54 info: =================================
+2024-05-18 02:52:58 info: [0mGET /api/user [32m200[0m 1706.663 ms - 166[0m
+2024-05-18 02:52:58 info: [0mGET /api/user [36m304[0m 1767.557 ms - -[0m
+2024-05-18 02:53:06 info: [0mGET /api/user [36m304[0m 1410.382 ms - -[0m
+2024-05-18 02:53:06 info: [0mGET /api/user [32m200[0m 1444.052 ms - 166[0m
+2024-05-18 02:53:06 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.520 ms - 0[0m
+2024-05-18 02:54:15 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 69181.897 ms - 121[0m
+2024-05-18 02:54:15 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.606 ms - 0[0m
+2024-05-18 02:54:17 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:54:17 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 1478.600 ms - 73[0m
+2024-05-18 02:56:02 info: =================================
+2024-05-18 02:56:02 info: ======= ENV: development =======
+2024-05-18 02:56:02 info: 🚀 App listening on the port 8080
+2024-05-18 02:56:02 info: =================================
+2024-05-18 02:56:38 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 2.018 ms - 0[0m
+2024-05-18 02:57:09 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.197 ms - 0[0m
+2024-05-18 02:57:12 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:57:12 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 2981.640 ms - 73[0m
+2024-05-18 02:57:40 info: =================================
+2024-05-18 02:57:40 info: ======= ENV: development =======
+2024-05-18 02:57:40 info: 🚀 App listening on the port 8080
+2024-05-18 02:57:40 info: =================================
+2024-05-18 02:57:47 info: =================================
+2024-05-18 02:57:47 info: ======= ENV: development =======
+2024-05-18 02:57:47 info: 🚀 App listening on the port 8080
+2024-05-18 02:57:47 info: =================================
+2024-05-18 02:57:49 info: [0mGET /api/user [32m200[0m 1569.231 ms - 166[0m
+2024-05-18 02:57:49 info: [0mGET /api/user [36m304[0m 1642.716 ms - -[0m
+2024-05-18 02:57:50 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.355 ms - 0[0m
+2024-05-18 02:57:51 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:57:51 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 1536.631 ms - 73[0m
+2024-05-18 02:58:07 info: =================================
+2024-05-18 02:58:07 info: ======= ENV: development =======
+2024-05-18 02:58:07 info: 🚀 App listening on the port 8080
+2024-05-18 02:58:07 info: =================================
+2024-05-18 02:58:08 info: [0mGET /api/user [36m304[0m 1300.580 ms - -[0m
+2024-05-18 02:58:09 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 1.127 ms - 0[0m
+2024-05-18 02:58:09 info: [0mGET /api/user [32m200[0m 2210.101 ms - 166[0m
+2024-05-18 02:58:11 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:58:11 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 1964.534 ms - 73[0m
+2024-05-18 02:58:32 info: =================================
+2024-05-18 02:58:32 info: ======= ENV: development =======
+2024-05-18 02:58:32 info: 🚀 App listening on the port 8080
+2024-05-18 02:58:32 info: =================================
+2024-05-18 02:58:36 info: [0mGET /api/user [36m304[0m 1366.284 ms - -[0m
+2024-05-18 02:58:36 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.472 ms - 0[0m
+2024-05-18 02:58:37 info: [0mGET /api/user [32m200[0m 2276.393 ms - 166[0m
+2024-05-18 02:58:38 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:58:38 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 1566.091 ms - 73[0m
+2024-05-18 02:59:20 info: =================================
+2024-05-18 02:59:20 info: ======= ENV: development =======
+2024-05-18 02:59:20 info: 🚀 App listening on the port 8080
+2024-05-18 02:59:20 info: =================================
+2024-05-18 02:59:25 info: [0mGET /api/user [36m304[0m 1612.949 ms - -[0m
+2024-05-18 02:59:25 info: [0mGET /api/user [32m200[0m 1604.842 ms - 166[0m
+2024-05-18 02:59:25 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.427 ms - 0[0m
+2024-05-18 02:59:27 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:59:27 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 1526.083 ms - 73[0m
+2024-05-18 02:59:49 info: =================================
+2024-05-18 02:59:49 info: ======= ENV: development =======
+2024-05-18 02:59:49 info: 🚀 App listening on the port 8080
+2024-05-18 02:59:49 info: =================================
+2024-05-18 02:59:52 info: [0mGET /api/user [36m304[0m 1357.157 ms - -[0m
+2024-05-18 02:59:53 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 1.292 ms - 0[0m
+2024-05-18 02:59:53 info: [0mGET /api/user [32m200[0m 1699.581 ms - 166[0m
+2024-05-18 02:59:54 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:59:54 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 1432.905 ms - 73[0m
+2024-05-18 03:01:03 info: =================================
+2024-05-18 03:01:03 info: ======= ENV: development =======
+2024-05-18 03:01:03 info: 🚀 App listening on the port 8080
+2024-05-18 03:01:03 info: =================================
+2024-05-18 03:01:52 info: =================================
+2024-05-18 03:01:52 info: ======= ENV: development =======
+2024-05-18 03:01:52 info: 🚀 App listening on the port 8080
+2024-05-18 03:01:52 info: =================================
+2024-05-18 03:02:04 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 2.228 ms - 0[0m
+2024-05-18 03:02:05 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 03:02:05 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 1421.654 ms - 73[0m
+2024-05-18 03:03:20 info: =================================
+2024-05-18 03:03:20 info: ======= ENV: development =======
+2024-05-18 03:03:20 info: 🚀 App listening on the port 8080
+2024-05-18 03:03:20 info: =================================
+2024-05-18 03:03:24 info: [0mGET /api/user [32m200[0m 1647.892 ms - 166[0m
+2024-05-18 03:03:24 info: [0mGET /api/user [32m200[0m 1915.681 ms - 166[0m
+2024-05-18 03:03:25 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.428 ms - 0[0m
+2024-05-18 03:03:26 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 03:03:26 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 1391.284 ms - 73[0m
+2024-05-18 03:07:40 info: =================================
+2024-05-18 03:07:40 info: ======= ENV: development =======
+2024-05-18 03:07:40 info: 🚀 App listening on the port 8080
+2024-05-18 03:07:40 info: =================================
+2024-05-18 03:07:57 info: [0mGET /api/user [32m200[0m 1411.125 ms - 166[0m
+2024-05-18 03:07:57 info: [0mGET /api/user [32m200[0m 1432.811 ms - 166[0m
+2024-05-18 03:07:58 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.437 ms - 0[0m
+2024-05-18 03:08:02 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 3841.938 ms - 32[0m
+2024-05-18 03:09:19 info: =================================
+2024-05-18 03:09:19 info: ======= ENV: development =======
+2024-05-18 03:09:19 info: 🚀 App listening on the port 8080
+2024-05-18 03:09:19 info: =================================
+2024-05-18 03:09:24 info: [0mGET /api/user [32m200[0m 1310.655 ms - 166[0m
+2024-05-18 03:09:24 info: [0mGET /api/user [36m304[0m 1487.461 ms - -[0m
+2024-05-18 03:09:24 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.387 ms - 0[0m
+2024-05-18 03:09:29 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 4638.469 ms - 32[0m
+2024-05-18 03:10:37 info: =================================
+2024-05-18 03:10:37 info: ======= ENV: development =======
+2024-05-18 03:10:37 info: 🚀 App listening on the port 8080
+2024-05-18 03:10:37 info: =================================
+2024-05-18 03:11:48 info: =================================
+2024-05-18 03:11:48 info: ======= ENV: development =======
+2024-05-18 03:11:48 info: 🚀 App listening on the port 8080
+2024-05-18 03:11:48 info: =================================
+2024-05-18 03:12:10 info: [0mGET /api/user [32m200[0m 1498.517 ms - 166[0m
+2024-05-18 03:12:10 info: [0mGET /api/user [36m304[0m 1555.383 ms - -[0m
+2024-05-18 03:12:10 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.819 ms - 0[0m
+2024-05-18 03:12:14 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 3334.527 ms - 32[0m
+2024-05-18 03:13:28 info: =================================
+2024-05-18 03:13:28 info: ======= ENV: development =======
+2024-05-18 03:13:28 info: 🚀 App listening on the port 8080
+2024-05-18 03:13:28 info: =================================
+2024-05-18 03:13:36 info: =================================
+2024-05-18 03:13:36 info: ======= ENV: development =======
+2024-05-18 03:13:36 info: 🚀 App listening on the port 8080
+2024-05-18 03:13:36 info: =================================
+2024-05-18 03:14:02 info: =================================
+2024-05-18 03:14:02 info: ======= ENV: development =======
+2024-05-18 03:14:02 info: 🚀 App listening on the port 8080
+2024-05-18 03:14:02 info: =================================
+2024-05-18 03:14:15 info: =================================
+2024-05-18 03:14:15 info: ======= ENV: development =======
+2024-05-18 03:14:15 info: 🚀 App listening on the port 8080
+2024-05-18 03:14:15 info: =================================
+2024-05-18 03:14:28 info: =================================
+2024-05-18 03:14:28 info: ======= ENV: development =======
+2024-05-18 03:14:28 info: 🚀 App listening on the port 8080
+2024-05-18 03:14:28 info: =================================
+2024-05-18 03:14:31 info: [0mGET /api/user [36m304[0m 1493.445 ms - -[0m
+2024-05-18 03:14:32 info: [0mGET /api/user [32m200[0m 1782.197 ms - 166[0m
+2024-05-18 03:14:32 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.599 ms - 0[0m
+2024-05-18 03:14:36 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 4462.456 ms - 32[0m
+2024-05-18 03:15:42 info: =================================
+2024-05-18 03:15:42 info: ======= ENV: development =======
+2024-05-18 03:15:42 info: 🚀 App listening on the port 8080
+2024-05-18 03:15:42 info: =================================
+2024-05-18 03:18:09 info: =================================
+2024-05-18 03:18:09 info: ======= ENV: development =======
+2024-05-18 03:18:09 info: 🚀 App listening on the port 8080
+2024-05-18 03:18:09 info: =================================
+2024-05-18 03:18:18 info: =================================
+2024-05-18 03:18:18 info: ======= ENV: development =======
+2024-05-18 03:18:18 info: 🚀 App listening on the port 8080
+2024-05-18 03:18:18 info: =================================
+2024-05-18 03:18:26 info: =================================
+2024-05-18 03:18:26 info: ======= ENV: development =======
+2024-05-18 03:18:26 info: 🚀 App listening on the port 8080
+2024-05-18 03:18:26 info: =================================
+2024-05-18 03:18:31 info: =================================
+2024-05-18 03:18:31 info: ======= ENV: development =======
+2024-05-18 03:18:31 info: 🚀 App listening on the port 8080
+2024-05-18 03:18:31 info: =================================
+2024-05-18 03:18:57 info: [0mGET /api/user [36m304[0m 1572.894 ms - -[0m
+2024-05-18 03:18:58 info: [0mGET /api/user [32m200[0m 1932.956 ms - 166[0m
+2024-05-18 03:18:58 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.576 ms - 0[0m
+2024-05-18 03:19:11 info: [0mPOST /api/make-payment/transfer-to-osmo [32m200[0m 13110.550 ms - 121[0m
+2024-05-18 03:19:11 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.273 ms - 0[0m
+2024-05-18 03:19:13 error: [POST] /api/make-payment/transfer-to-cosmos >> StatusCode:: 500, Message:: invalid BigNumber string (argument="value", value="NaN", code=INVALID_ARGUMENT, version=bignumber/5.7.0)
+2024-05-18 03:19:13 info: [0mPOST /api/make-payment/transfer-to-cosmos [31m500[0m 2006.714 ms - 122[0m
+2024-05-18 03:19:42 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.239 ms - 0[0m
+2024-05-18 03:19:53 info: =================================
+2024-05-18 03:19:53 info: ======= ENV: development =======
+2024-05-18 03:19:53 info: 🚀 App listening on the port 8080
+2024-05-18 03:19:53 info: =================================
+2024-05-18 03:20:01 info: =================================
+2024-05-18 03:20:01 info: ======= ENV: development =======
+2024-05-18 03:20:01 info: 🚀 App listening on the port 8080
+2024-05-18 03:20:01 info: =================================
+2024-05-18 03:20:08 info: =================================
+2024-05-18 03:20:08 info: ======= ENV: development =======
+2024-05-18 03:20:08 info: 🚀 App listening on the port 8080
+2024-05-18 03:20:08 info: =================================
+2024-05-18 03:20:13 info: =================================
+2024-05-18 03:20:13 info: ======= ENV: development =======
+2024-05-18 03:20:13 info: 🚀 App listening on the port 8080
+2024-05-18 03:20:13 info: =================================
+2024-05-18 03:20:19 info: [0mGET /api/user [36m304[0m 1621.330 ms - -[0m
+2024-05-18 03:20:20 info: [0mGET /api/user [32m200[0m 1878.569 ms - 166[0m
+2024-05-18 03:20:20 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.634 ms - 0[0m
+2024-05-18 03:21:39 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 79584.347 ms - 121[0m
+2024-05-18 03:21:39 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.555 ms - 0[0m
+2024-05-18 03:21:48 info: [0mPOST /api/make-payment/transfer-to-osmo [32m200[0m 8546.078 ms - 121[0m
+2024-05-18 03:22:05 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.581 ms - 0[0m
+2024-05-18 03:22:26 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.142 ms - 0[0m
+2024-05-18 03:22:34 error: [POST] /api/make-payment/transfer-to-cosmos >> StatusCode:: 500, Message:: Returned error: execution reverted: ERC20: transfer amount exceeds balance
+2024-05-18 03:22:34 info: [0mPOST /api/make-payment/transfer-to-cosmos [31m500[0m 7351.251 ms - 88[0m
+2024-05-18 03:22:43 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.169 ms - 0[0m
+2024-05-18 03:22:48 error: [POST] /api/make-payment/transfer-to-cosmos >> StatusCode:: 500, Message:: Returned error: execution reverted: ERC20: transfer amount exceeds balance
+2024-05-18 03:22:48 info: [0mPOST /api/make-payment/transfer-to-cosmos [31m500[0m 5159.139 ms - 88[0m
+2024-05-18 03:23:12 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 67586.458 ms - 121[0m
+2024-05-18 03:23:12 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.300 ms - 0[0m
+2024-05-18 03:23:23 info: [0mPOST /api/make-payment/transfer-to-osmo [32m200[0m 10622.699 ms - 121[0m
+2024-05-18 03:27:27 info: =================================
+2024-05-18 03:27:27 info: ======= ENV: development =======
+2024-05-18 03:27:27 info: 🚀 App listening on the port 8080
+2024-05-18 03:27:27 info: =================================
+2024-05-18 03:27:39 info: [0mGET /api/user [32m200[0m 1523.074 ms - 166[0m
+2024-05-18 03:27:39 info: [0mGET /api/user [32m200[0m 1525.623 ms - 166[0m
+2024-05-18 03:27:43 info: [0mGET /api/user [36m304[0m 1457.208 ms - -[0m
+2024-05-18 03:27:43 info: [0mGET /api/user [32m200[0m 1759.015 ms - 166[0m
+2024-05-18 03:27:46 info: [0mGET /api/kyc/status [36m304[0m 3045.599 ms - -[0m
+2024-05-18 03:27:46 info: [0mGET /api/kyc/status [32m200[0m 3042.156 ms - 52[0m
+2024-05-18 03:28:06 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.973 ms - 0[0m
+2024-05-18 03:28:12 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 6344.364 ms - 79[0m
+2024-05-18 03:28:42 info: [0mGET /api/user [36m304[0m 1501.168 ms - -[0m
+2024-05-18 03:28:42 info: [0mGET /api/user [32m200[0m 1737.333 ms - 166[0m
+2024-05-18 03:28:43 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.276 ms - 0[0m
+2024-05-18 03:29:44 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 61337.797 ms - 121[0m
+2024-05-18 03:29:44 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.241 ms - 0[0m
+2024-05-18 03:29:56 info: [0mPOST /api/make-payment/transfer-to-osmo [32m200[0m 12520.958 ms - 121[0m
+2024-05-18 04:08:15 info: [0mGET /api/user [0m-[0m - ms - -[0m
+2024-05-18 04:43:46 info: =================================
+2024-05-18 04:43:46 info: ======= ENV: development =======
+2024-05-18 04:43:46 info: 🚀 App listening on the port 8080
+2024-05-18 04:43:46 info: =================================
+2024-05-18 04:43:54 info: [0mGET /api/user [36m304[0m 1526.724 ms - -[0m
+2024-05-18 04:43:54 info: [0mGET /api/user [32m200[0m 1557.301 ms - 166[0m
+2024-05-18 04:44:00 info: [0mGET /api/user [36m304[0m 2397.050 ms - -[0m
+2024-05-18 04:44:01 info: [0mGET /api/user [32m200[0m 3180.854 ms - 166[0m
+2024-05-18 04:44:03 info: [0mGET /api/kyc/status [32m200[0m 2788.391 ms - 52[0m
+2024-05-18 04:44:03 info: [0mGET /api/kyc/status [36m304[0m 2793.321 ms - -[0m
+2024-05-18 04:49:06 info: [0mGET /api/kyc/status [36m304[0m 3216.521 ms - -[0m
+2024-05-18 04:49:06 info: [0mGET /api/kyc/status [32m200[0m 3584.311 ms - 52[0m
+2024-05-18 04:49:30 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.327 ms - 0[0m
+2024-05-18 04:49:37 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 7231.529 ms - 79[0m
+2024-05-18 04:49:40 info: [0mGET /api/user [32m200[0m 1277.578 ms - 166[0m
+2024-05-18 04:49:40 info: [0mGET /api/user [32m200[0m 1755.984 ms - 166[0m
+2024-05-18 04:52:31 info: [0mGET /api/user [32m200[0m 1446.336 ms - 166[0m
+2024-05-18 04:52:32 info: [0mGET /api/user [36m304[0m 2445.963 ms - -[0m
+2024-05-18 04:52:33 info: [0mGET /api/kyc/status [32m200[0m 1465.804 ms - 52[0m
+2024-05-18 04:52:33 info: [0mGET /api/kyc/status [32m200[0m 1835.786 ms - 52[0m
+2024-05-18 04:53:07 info: [0mGET /api/kyc/status [36m304[0m 2452.811 ms - -[0m
+2024-05-18 04:53:28 info: [0mGET /api/user [36m304[0m 1436.158 ms - -[0m
+2024-05-18 04:53:28 info: [0mGET /api/user [32m200[0m 1449.550 ms - 166[0m
+2024-05-18 04:53:30 info: [0mGET /api/kyc/status [36m304[0m 1463.999 ms - -[0m
+2024-05-18 04:53:30 info: [0mGET /api/kyc/status [32m200[0m 1493.546 ms - 52[0m
+2024-05-18 04:53:39 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.241 ms - 0[0m
+2024-05-18 04:53:43 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 4330.218 ms - 79[0m
+2024-05-18 04:54:01 info: [0mGET /api/user [32m200[0m 1339.817 ms - 166[0m
+2024-05-18 04:54:02 info: [0mGET /api/user [32m200[0m 1553.713 ms - 166[0m
+2024-05-18 04:54:02 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.247 ms - 0[0m
+2024-05-18 04:55:17 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 74524.141 ms - 121[0m
+2024-05-18 04:55:17 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.186 ms - 0[0m
+2024-05-18 04:55:22 info: [0mPOST /api/make-payment/transfer-to-osmo [31m500[0m 5057.596 ms - 32[0m
+2024-05-18 04:59:40 info: =================================
+2024-05-18 04:59:40 info: ======= ENV: development =======
+2024-05-18 04:59:40 info: 🚀 App listening on the port 8080
+2024-05-18 04:59:40 info: =================================
+2024-05-18 04:59:51 info: [0mGET /api/user [32m200[0m 3367.185 ms - 166[0m
+2024-05-18 04:59:52 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.559 ms - 0[0m
+2024-05-18 04:59:53 info: [0mGET /api/user [32m200[0m 4438.169 ms - 166[0m
+2024-05-18 05:01:18 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 85714.984 ms - 121[0m
+2024-05-18 05:01:18 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.151 ms - 0[0m
+2024-05-18 05:01:32 info: [0mPOST /api/make-payment/transfer-to-osmo [32m200[0m 14460.187 ms - 121[0m
+2024-05-18 05:02:29 info: [0mGET /api/user [32m200[0m 1442.341 ms - 166[0m
+2024-05-18 05:02:29 info: [0mGET /api/user [36m304[0m 2003.128 ms - -[0m
+2024-05-18 05:02:31 info: [0mGET /api/user [36m304[0m 1291.664 ms - -[0m
+2024-05-18 05:02:31 info: [0mGET /api/user [32m200[0m 1372.594 ms - 166[0m
+2024-05-18 05:02:33 info: [0mGET /api/kyc/status [36m304[0m 2214.325 ms - -[0m
+2024-05-18 05:02:33 info: [0mGET /api/kyc/status [32m200[0m 2208.922 ms - 52[0m
+2024-05-18 05:02:34 info: [0mGET /api/dashboard/applications [32m200[0m 2261.769 ms - 2[0m
+2024-05-18 05:02:35 info: [0mGET /api/dashboard/applications [32m200[0m 3062.005 ms - 2[0m
+2024-05-18 05:05:08 info: [0mOPTIONS /api/logout [32m204[0m 0.137 ms - 0[0m
+2024-05-18 05:05:09 info: [0mPOST /api/logout [0m-[0m - ms - -[0m
+2024-05-18 05:05:11 info: [0mGET /api/user [32m200[0m 1228.098 ms - 166[0m
+2024-05-18 05:05:11 info: [0mGET /api/user [36m304[0m 1377.832 ms - -[0m
+2024-05-18 05:05:13 info: [0mGET /api/dashboard/applications [36m304[0m 2001.689 ms - -[0m
+2024-05-18 05:05:14 info: [0mGET /api/dashboard/applications [32m200[0m 2280.534 ms - 2[0m
+2024-05-18 05:05:16 info: [0mGET /api/user [32m200[0m 1722.653 ms - 166[0m
+2024-05-18 05:05:16 info: [0mGET /api/kyc/status [0m-[0m - ms - -[0m
+2024-05-18 05:05:16 info: [0mGET /api/kyc/status [0m-[0m - ms - -[0m
+2024-05-18 05:05:16 info: [0mGET /api/user [0m-[0m - ms - -[0m
+2024-05-18 05:05:18 info: [0mGET /api/dashboard/applications [36m304[0m 1541.371 ms - -[0m
+2024-05-18 05:05:18 info: [0mOPTIONS /api/logout [32m204[0m 0.173 ms - 0[0m
+2024-05-18 05:05:19 info: [0mGET /api/dashboard/applications [32m200[0m 1784.582 ms - 2[0m
+2024-05-18 05:05:20 info: [0mPOST /api/logout [32m200[0m 1320.889 ms - 194[0m
+2024-05-18 05:05:30 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:30 info: [0mGET /api/user [33m404[0m 1.733 ms - 42[0m
+2024-05-18 05:05:30 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:30 info: [0mGET /api/user [33m404[0m 0.870 ms - 42[0m
+2024-05-18 05:05:34 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:34 info: [0mGET /api/user [33m404[0m 1.012 ms - 42[0m
+2024-05-18 05:05:34 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:34 info: [0mGET /api/user [33m404[0m 1.150 ms - 42[0m
+2024-05-18 05:05:37 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:37 info: [0mGET /api/user [33m404[0m 1.548 ms - 42[0m
+2024-05-18 05:05:37 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:37 info: [0mGET /api/user [33m404[0m 1.010 ms - 42[0m
+2024-05-18 05:05:40 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:40 info: [0mGET /api/user [33m404[0m 0.899 ms - 42[0m
+2024-05-18 05:05:40 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:40 info: [0mGET /api/user [33m404[0m 0.515 ms - 42[0m
+2024-05-18 05:06:24 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:06:24 info: [0mGET /api/user [33m404[0m 0.767 ms - 42[0m
+2024-05-18 05:06:24 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:06:24 info: [0mGET /api/user [33m404[0m 0.851 ms - 42[0m
+2024-05-18 05:06:29 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:06:29 info: [0mGET /api/user [33m404[0m 1.200 ms - 42[0m
+2024-05-18 05:06:29 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:06:29 info: [0mGET /api/user [33m404[0m 0.784 ms - 42[0m
+2024-05-18 05:13:30 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:13:30 info: [0mGET /api/user [33m404[0m 0.827 ms - 42[0m
+2024-05-18 05:13:30 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:13:30 info: [0mGET /api/user [33m404[0m 0.920 ms - 42[0m
+2024-05-18 05:14:52 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:14:52 info: [0mGET /api/user [33m404[0m 1.636 ms - 42[0m
+2024-05-18 05:14:52 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:14:52 info: [0mGET /api/user [33m404[0m 1.037 ms - 42[0m
+2024-05-18 05:15:20 info: [0mOPTIONS /api/login [32m204[0m 0.174 ms - 0[0m
+2024-05-18 05:15:21 info: [0mPOST /api/login [32m200[0m 1483.327 ms - 193[0m
+2024-05-18 05:15:22 info: [0mGET /api/user [32m200[0m 1250.148 ms - 166[0m
+2024-05-18 05:15:23 info: [0mGET /api/user [32m200[0m 1715.383 ms - 166[0m
+2024-05-18 05:15:32 info: [0mGET /api/user [32m200[0m 1751.094 ms - 166[0m
+2024-05-18 05:15:32 info: [0mGET /api/user [36m304[0m 2187.995 ms - -[0m
+2024-05-18 05:15:34 info: [0mGET /api/kyc/status [32m200[0m 2397.887 ms - 52[0m
+2024-05-18 05:15:34 info: [0mGET /api/kyc/status [32m200[0m 2719.165 ms - 52[0m
+2024-05-18 05:15:43 info: [0mOPTIONS /api/stripe/create-payment-intent [32m204[0m 0.142 ms - 0[0m
+2024-05-18 05:15:49 info: [0mPOST /api/stripe/create-payment-intent [32m200[0m 5564.762 ms - 79[0m
+2024-05-18 05:16:05 info: [0mGET /api/user [32m200[0m 1355.692 ms - 166[0m
+2024-05-18 05:16:06 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.165 ms - 0[0m
+2024-05-18 05:16:06 info: [0mGET /api/user [32m200[0m 2271.587 ms - 166[0m
+2024-05-18 05:17:16 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 70156.709 ms - 121[0m
+2024-05-18 05:17:16 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.151 ms - 0[0m
+2024-05-18 05:17:30 info: [0mPOST /api/make-payment/transfer-to-osmo [32m200[0m 14357.613 ms - 121[0m
+2024-05-18 05:23:43 info: =================================
+2024-05-18 05:23:43 info: ======= ENV: development =======
+2024-05-18 05:23:43 info: 🚀 App listening on the port 8080
+2024-05-18 05:23:43 info: =================================
+2024-05-18 05:24:45 info: [0mGET /api/user [36m304[0m 1425.786 ms - -[0m
+2024-05-18 05:24:46 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.463 ms - 0[0m
+2024-05-18 05:24:46 info: [0mGET /api/user [32m200[0m 2582.781 ms - 166[0m
+2024-05-18 05:26:06 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 80562.438 ms - 110[0m
+2024-05-18 05:26:06 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.174 ms - 0[0m
+2024-05-18 05:26:18 info: [0mPOST /api/make-payment/transfer-to-osmo [32m200[0m 11354.316 ms - 110[0m
+2024-05-18 05:27:50 info: [0mGET /api/user [0m-[0m - ms - -[0m
+2024-05-18 05:27:52 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.272 ms - 0[0m
+2024-05-18 05:28:52 info: [0mPOST /api/make-payment/transfer-to-cosmos [32m200[0m 60173.425 ms - 110[0m
+2024-05-18 05:28:52 info: [0mOPTIONS /api/make-payment/transfer-to-osmo [32m204[0m 0.293 ms - 0[0m
+2024-05-18 05:29:03 info: [0mPOST /api/make-payment/transfer-to-osmo [32m200[0m 10295.464 ms - 110[0m
+2024-05-18 05:38:34 info: [0mGET /api/user [36m304[0m 1714.176 ms - -[0m
+2024-05-18 05:38:35 info: [0mOPTIONS /api/make-payment/transfer-to-cosmos [32m204[0m 0.298 ms - 0[0m
+2024-05-18 05:38:35 info: [0mGET /api/user [32m200[0m 2706.392 ms - 166[0m
+2024-05-18 05:38:53 info: [0mPOST /api/make-payment/transfer-to-cosmos [0m-[0m - ms - -[0m
+2024-05-18 05:39:57 info: =================================
+2024-05-18 05:39:57 info: ======= ENV: development =======
+2024-05-18 05:39:57 info: 🚀 App listening on the port 8080
+2024-05-18 05:39:57 info: =================================
+2024-05-18 05:42:15 info: [0mGET /api/user [36m304[0m 1506.596 ms - -[0m
+2024-05-18 05:42:35 info: [0mGET /api/user [32m200[0m 1304.444 ms - 166[0m
+2024-05-18 05:42:35 info: [0mGET /api/user [36m304[0m 1367.054 ms - -[0m
+2024-05-18 05:42:37 info: [0mGET /api/user [32m200[0m 2656.120 ms - 166[0m
+2024-05-18 05:42:38 info: [0mGET /api/kyc/status [32m200[0m 2540.885 ms - 52[0m
+2024-05-18 05:42:38 info: [0mGET /api/kyc/status [36m304[0m 2536.933 ms - -[0m
+2024-05-18 05:42:42 info: [0mGET /api/user [32m200[0m 1349.380 ms - 166[0m
+2024-05-18 05:42:42 info: [0mGET /api/user [36m304[0m 1589.917 ms - -[0m
+2024-05-18 05:42:42 info: [0mGET /api/user [0m-[0m - ms - -[0m
+2024-05-18 05:53:11 info: =================================
+2024-05-18 05:53:11 info: ======= ENV: development =======
+2024-05-18 05:53:11 info: 🚀 App listening on the port 8080
+2024-05-18 05:53:11 info: =================================
+2024-05-18 05:53:26 info: =================================
+2024-05-18 05:53:26 info: ======= ENV: development =======
+2024-05-18 05:53:26 info: 🚀 App listening on the port 8080
+2024-05-18 05:53:26 info: =================================
+2024-05-18 05:57:41 info: =================================
+2024-05-18 05:57:41 info: ======= ENV: development =======
+2024-05-18 05:57:41 info: 🚀 App listening on the port 8080
+2024-05-18 05:57:41 info: =================================
+2024-05-18 05:58:17 info: =================================
+2024-05-18 05:58:17 info: ======= ENV: development =======
+2024-05-18 05:58:17 info: 🚀 App listening on the port 8080
+2024-05-18 05:58:17 info: =================================
+2024-05-18 05:58:48 info: =================================
+2024-05-18 05:58:48 info: ======= ENV: development =======
+2024-05-18 05:58:48 info: 🚀 App listening on the port 8080
+2024-05-18 05:58:48 info: =================================
+2024-05-18 06:04:20 info: =================================
+2024-05-18 06:04:20 info: ======= ENV: development =======
+2024-05-18 06:04:20 info: 🚀 App listening on the port 8080
+2024-05-18 06:04:20 info: =================================
+2024-05-18 06:11:19 info: =================================
+2024-05-18 06:11:19 info: ======= ENV: development =======
+2024-05-18 06:11:19 info: 🚀 App listening on the port 8080
+2024-05-18 06:11:19 info: =================================
+2024-05-18 06:14:51 info: [0mGET /api/user [32m200[0m 1959.911 ms - 166[0m
+2024-05-18 06:16:05 info: [0mGET /api/user [36m304[0m 2299.234 ms - -[0m
+2024-05-18 06:16:44 info: [0mGET /api/user [36m304[0m 1370.187 ms - -[0m
+2024-05-18 06:16:46 info: [0mGET /api/user [32m200[0m 2150.315 ms - 166[0m
+2024-05-18 06:16:46 info: [0mGET /api/user [36m304[0m 2156.956 ms - -[0m
+2024-05-18 06:16:49 info: [0mGET /api/kyc/status [32m200[0m 2830.089 ms - 52[0m
+2024-05-18 06:16:49 info: [0mGET /api/kyc/status [36m304[0m 2825.893 ms - -[0m
+2024-05-18 06:16:56 info: [0mGET /api/dashboard/applications [32m200[0m 2267.892 ms - 2[0m
+2024-05-18 06:16:56 info: [0mGET /api/dashboard/applications [32m200[0m 2810.342 ms - 2[0m
+2024-05-18 06:17:16 info: [0mOPTIONS /api/dashboard/applications [32m204[0m 0.448 ms - 0[0m
+2024-05-18 06:17:18 info: [0mPOST /api/dashboard/applications [32m201[0m 2511.476 ms - 253[0m
+2024-05-18 06:17:20 info: [0mGET /api/dashboard/applications [32m200[0m 2019.346 ms - 246[0m
+2024-05-18 06:19:13 info: [0mGET /api/user [36m304[0m 1646.470 ms - -[0m
+2024-05-18 06:19:14 info: [0mGET /api/user [32m200[0m 1879.626 ms - 166[0m
+2024-05-18 06:19:15 info: [0mGET /api/dashboard/applications [36m304[0m 1892.718 ms - -[0m
+2024-05-18 06:19:16 info: [0mGET /api/dashboard/applications [32m200[0m 2771.730 ms - 246[0m
+2024-05-18 06:19:21 info: [0mGET /api/user [32m200[0m 1299.907 ms - 166[0m
+2024-05-18 06:19:22 info: [0mGET /api/user [32m200[0m 2313.097 ms - 166[0m
+2024-05-18 06:19:23 info: [0mGET /api/dashboard/applications [36m304[0m 1358.392 ms - -[0m
+2024-05-18 06:19:23 info: [0mGET /api/dashboard/applications [32m200[0m 1763.059 ms - 246[0m
+2024-05-18 06:24:39 info: [0mGET /api/user [32m200[0m 1740.754 ms - 166[0m
+2024-05-18 06:24:39 info: [0mGET /api/user [36m304[0m 2126.634 ms - -[0m
+2024-05-18 06:24:42 info: [0mGET /api/dashboard/applications [32m200[0m 3021.341 ms - 246[0m
+2024-05-18 06:24:42 info: [0mGET /api/dashboard/applications [36m304[0m 3551.483 ms - -[0m
+2024-05-18 06:26:54 info: [0mGET /api/user [36m304[0m 1459.758 ms - -[0m
+2024-05-18 06:26:55 info: [0mGET /api/user [32m200[0m 2671.720 ms - 166[0m
+2024-05-18 06:26:55 info: [0mGET /api/dashboard/applications [32m200[0m 1483.551 ms - 246[0m
+2024-05-18 06:26:55 info: [0mGET /api/dashboard/applications [36m304[0m 1531.358 ms - -[0m
+2024-05-18 06:28:09 info: [0mGET /api/user [32m200[0m 1455.556 ms - 166[0m
+2024-05-18 06:28:11 info: [0mGET /api/user [36m304[0m 2963.360 ms - -[0m
+2024-05-18 06:28:11 info: [0mGET /api/dashboard/applications [36m304[0m 1803.162 ms - -[0m
+2024-05-18 06:28:11 info: [0mGET /api/dashboard/applications [32m200[0m 2086.071 ms - 246[0m
+2024-05-18 06:30:45 info: [0mGET /api/user [32m200[0m 1605.273 ms - 166[0m
+2024-05-18 06:30:46 info: [0mGET /api/user [36m304[0m 1882.082 ms - -[0m
+2024-05-18 06:30:47 info: [0mGET /api/dashboard/applications [36m304[0m 1650.936 ms - -[0m
+2024-05-18 06:30:47 info: [0mGET /api/dashboard/applications [32m200[0m 1720.674 ms - 246[0m
+2024-05-18 06:32:15 info: [0mGET /api/dashboard/applications [36m304[0m 2547.427 ms - -[0m
+2024-05-18 06:42:03 info: [0mPUT /api/external/create-session [33m404[0m 2.660 ms - 166[0m
+2024-05-18 06:42:08 info: [0mPOST /api/external/create-session [33m404[0m 1.143 ms - 167[0m
+2024-05-18 06:42:52 info: =================================
+2024-05-18 06:42:52 info: ======= ENV: development =======
+2024-05-18 06:42:52 info: 🚀 App listening on the port 8080
+2024-05-18 06:42:52 info: =================================
+2024-05-18 06:43:00 error: [POST] /api/external/create-session >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'split')
+2024-05-18 06:43:00 info: [0mPOST /api/external/create-session [31m500[0m 26.455 ms - 67[0m
+2024-05-18 06:43:47 info: =================================
+2024-05-18 06:43:47 info: ======= ENV: development =======
+2024-05-18 06:43:47 info: 🚀 App listening on the port 8080
+2024-05-18 06:43:47 info: =================================
+2024-05-18 06:43:52 error: [POST] /api/external/create-session >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'split')
+2024-05-18 06:43:52 info: [0mPOST /api/external/create-session [31m500[0m 31.287 ms - 67[0m
+2024-05-18 06:44:20 info: [0mPOST /api/external/create-session [32m201[0m 3056.124 ms - 215[0m
+2024-05-18 06:47:35 info: =================================
+2024-05-18 06:47:35 info: ======= ENV: development =======
+2024-05-18 06:47:35 info: 🚀 App listening on the port 8080
+2024-05-18 06:47:35 info: =================================
+2024-05-18 06:47:49 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: The Signature is invalid
+2024-05-18 06:47:49 info: [0mPOST /api/external/transfer-to-cosmos [33m401[0m 1230.070 ms - 38[0m
+2024-05-18 06:48:05 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: The Signature is invalid
+2024-05-18 06:48:05 info: [0mPOST /api/external/transfer-to-cosmos [33m401[0m 1071.174 ms - 38[0m
+2024-05-18 06:48:46 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: The Signature is invalid
+2024-05-18 06:48:46 info: [0mPOST /api/external/transfer-to-cosmos [33m401[0m 986.954 ms - 38[0m
+2024-05-18 06:49:40 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: The Signature is invalid
+2024-05-18 06:49:40 info: [0mPOST /api/external/transfer-to-cosmos [33m401[0m 1770.400 ms - 38[0m
+2024-05-18 06:50:41 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 400, Message:: Timestamp header is missing
+2024-05-18 06:50:41 info: [0mPOST /api/external/transfer-to-cosmos [33m400[0m 1126.954 ms - 41[0m
+2024-05-18 06:50:48 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 400, Message:: Timestamp header is missing
+2024-05-18 06:50:48 info: [0mPOST /api/external/transfer-to-cosmos [33m400[0m 999.285 ms - 41[0m
+2024-05-18 06:51:02 info: =================================
+2024-05-18 06:51:02 info: ======= ENV: development =======
+2024-05-18 06:51:02 info: 🚀 App listening on the port 8080
+2024-05-18 06:51:02 info: =================================
+2024-05-18 06:51:20 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 400, Message:: Timestamp header is missing
+2024-05-18 06:51:20 info: [0mPOST /api/external/transfer-to-cosmos [33m400[0m 1074.630 ms - 41[0m
+2024-05-18 06:51:58 info: =================================
+2024-05-18 06:51:58 info: ======= ENV: development =======
+2024-05-18 06:51:58 info: 🚀 App listening on the port 8080
+2024-05-18 06:51:58 info: =================================
+2024-05-18 06:52:13 info: =================================
+2024-05-18 06:52:13 info: ======= ENV: development =======
+2024-05-18 06:52:13 info: 🚀 App listening on the port 8080
+2024-05-18 06:52:13 info: =================================
+2024-05-18 06:52:41 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: Session Expired
+2024-05-18 06:52:41 info: [0mPOST /api/external/transfer-to-cosmos [33m401[0m 3910.496 ms - 29[0m
+2024-05-18 06:57:19 error: [POST] /api/external/create-session >> StatusCode:: 401, Message:: The Signature is invalid
+2024-05-18 06:57:19 info: [0mPOST /api/external/create-session [33m401[0m 1140.164 ms - 38[0m
+2024-05-18 06:58:28 info: [0mPOST /api/external/create-session [32m201[0m 4744.846 ms - 215[0m
+2024-05-18 07:00:36 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: Session Expired
+2024-05-18 07:00:36 info: [0mPOST /api/external/transfer-to-cosmos [33m401[0m 2607.979 ms - 29[0m
+2024-05-18 07:01:30 info: =================================
+2024-05-18 07:01:30 info: ======= ENV: development =======
+2024-05-18 07:01:30 info: 🚀 App listening on the port 8080
+2024-05-18 07:01:30 info: =================================
+2024-05-18 07:01:37 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: Session Expired
+2024-05-18 07:01:37 info: [0mPOST /api/external/transfer-to-cosmos [33m401[0m 2121.627 ms - 29[0m
+2024-05-18 07:01:51 info: =================================
+2024-05-18 07:01:51 info: ======= ENV: development =======
+2024-05-18 07:01:51 info: 🚀 App listening on the port 8080
+2024-05-18 07:01:51 info: =================================
+2024-05-18 07:01:56 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: Session Expired timestamp
+2024-05-18 07:01:56 info: [0mPOST /api/external/transfer-to-cosmos [33m401[0m 1932.561 ms - 39[0m
+2024-05-18 07:02:13 info: =================================
+2024-05-18 07:02:13 info: ======= ENV: development =======
+2024-05-18 07:02:13 info: 🚀 App listening on the port 8080
+2024-05-18 07:02:13 info: =================================
+2024-05-18 07:02:19 info: =================================
+2024-05-18 07:02:19 info: ======= ENV: development =======
+2024-05-18 07:02:19 info: 🚀 App listening on the port 8080
+2024-05-18 07:02:19 info: =================================
+2024-05-18 07:03:30 info: [0mPOST /api/external/transfer-to-cosmos [32m200[0m 67225.453 ms - 110[0m
+2024-05-18 07:07:20 info: =================================
+2024-05-18 07:07:20 info: ======= ENV: development =======
+2024-05-18 07:07:20 info: 🚀 App listening on the port 8080
+2024-05-18 07:07:20 info: =================================
+2024-05-18 07:08:45 info: =================================
+2024-05-18 07:08:45 info: ======= ENV: development =======
+2024-05-18 07:08:45 info: 🚀 App listening on the port 8080
+2024-05-18 07:08:45 info: =================================
+2024-05-18 07:11:05 info: =================================
+2024-05-18 07:11:05 info: ======= ENV: development =======
+2024-05-18 07:11:05 info: 🚀 App listening on the port 8080
+2024-05-18 07:11:05 info: =================================
+2024-05-18 07:11:56 info: [0mGET /api/user [32m200[0m 1359.517 ms - 166[0m
+2024-05-18 07:11:56 info: [0mGET /api/user [32m200[0m 1390.124 ms - 166[0m
+2024-05-18 07:11:59 info: [0mGET /api/dashboard/applications [32m200[0m 3338.770 ms - 246[0m
+2024-05-18 07:12:00 info: [0mGET /api/dashboard/applications [36m304[0m 4543.255 ms - -[0m
+2024-05-18 07:12:04 info: [0mGET /api/user [0m-[0m - ms - -[0m
+2024-05-18 07:12:04 info: [0mGET /api/user [0m-[0m - ms - -[0m
+2024-05-18 07:12:06 info: [0mGET /api/user [32m200[0m 1298.929 ms - 166[0m
+2024-05-18 07:12:06 info: [0mGET /api/user [36m304[0m 1325.566 ms - -[0m
+2024-05-18 07:12:07 info: [0mGET /api/dashboard/applications [36m304[0m 1424.964 ms - -[0m
+2024-05-18 07:12:08 info: [0mGET /api/dashboard/applications [0m-[0m - ms - -[0m
+2024-05-18 07:12:08 info: [0mGET /api/user [0m-[0m - ms - -[0m
+2024-05-18 07:12:08 info: [0mGET /api/user [0m-[0m - ms - -[0m
+2024-05-18 07:22:55 info: =================================
+2024-05-18 07:22:55 info: ======= ENV: development =======
+2024-05-18 07:22:55 info: 🚀 App listening on the port 8080
+2024-05-18 07:22:55 info: =================================
+2024-05-18 07:25:16 info: =================================
+2024-05-18 07:25:16 info: ======= ENV: development =======
+2024-05-18 07:25:16 info: 🚀 App listening on the port 8080
+2024-05-18 07:25:16 info: =================================
+2024-05-18 07:27:06 info: =================================
+2024-05-18 07:27:06 info: ======= ENV: development =======
+2024-05-18 07:27:06 info: 🚀 App listening on the port 8080
+2024-05-18 07:27:06 info: =================================
+2024-05-18 07:27:20 info: =================================
+2024-05-18 07:27:20 info: ======= ENV: development =======
+2024-05-18 07:27:20 info: 🚀 App listening on the port 8080
+2024-05-18 07:27:20 info: =================================
+2024-05-18 07:27:27 info: =================================
+2024-05-18 07:27:27 info: ======= ENV: development =======
+2024-05-18 07:27:27 info: 🚀 App listening on the port 8080
+2024-05-18 07:27:27 info: =================================
+2024-05-18 07:27:58 info: =================================
+2024-05-18 07:27:58 info: ======= ENV: development =======
+2024-05-18 07:27:58 info: 🚀 App listening on the port 8080
+2024-05-18 07:27:58 info: =================================
+2024-05-18 07:28:05 info: =================================
+2024-05-18 07:28:05 info: ======= ENV: development =======
+2024-05-18 07:28:05 info: 🚀 App listening on the port 8080
+2024-05-18 07:28:05 info: =================================
+2024-05-18 07:54:10 info: =================================
+2024-05-18 07:54:10 info: ======= ENV: development =======
+2024-05-18 07:54:10 info: 🚀 App listening on the port 8080
+2024-05-18 07:54:10 info: =================================
+2024-05-18 07:56:52 info: =================================
+2024-05-18 07:56:52 info: ======= ENV: development =======
+2024-05-18 07:56:52 info: 🚀 App listening on the port 8080
+2024-05-18 07:56:52 info: =================================
+2024-05-18 07:56:59 info: =================================
+2024-05-18 07:56:59 info: ======= ENV: development =======
+2024-05-18 07:56:59 info: 🚀 App listening on the port 8080
+2024-05-18 07:56:59 info: =================================
+2024-05-18 08:12:39 info: =================================
+2024-05-18 08:12:39 info: ======= ENV: development =======
+2024-05-18 08:12:39 info: 🚀 App listening on the port 8080
+2024-05-18 08:12:39 info: =================================
+2024-05-18 08:15:41 info: =================================
+2024-05-18 08:15:41 info: ======= ENV: development =======
+2024-05-18 08:15:41 info: 🚀 App listening on the port 8080
+2024-05-18 08:15:41 info: =================================
+2024-05-18 08:30:58 info: =================================
+2024-05-18 08:30:58 info: ======= ENV: development =======
+2024-05-18 08:30:58 info: 🚀 App listening on the port 8080
+2024-05-18 08:30:58 info: =================================
+2024-05-18 08:31:30 info: =================================
+2024-05-18 08:31:30 info: ======= ENV: development =======
+2024-05-18 08:31:30 info: 🚀 App listening on the port 8080
+2024-05-18 08:31:30 info: =================================
+2024-05-18 08:33:33 info: =================================
+2024-05-18 08:33:33 info: ======= ENV: development =======
+2024-05-18 08:33:33 info: 🚀 App listening on the port 8080
+2024-05-18 08:33:33 info: =================================
+2024-05-18 08:37:03 info: =================================
+2024-05-18 08:37:03 info: ======= ENV: development =======
+2024-05-18 08:37:03 info: 🚀 App listening on the port 8080
+2024-05-18 08:37:03 info: =================================
+2024-05-18 08:37:08 info: =================================
+2024-05-18 08:37:08 info: ======= ENV: development =======
+2024-05-18 08:37:08 info: 🚀 App listening on the port 8080
+2024-05-18 08:37:08 info: =================================
+2024-05-18 08:37:42 info: =================================
+2024-05-18 08:37:42 info: ======= ENV: development =======
+2024-05-18 08:37:42 info: 🚀 App listening on the port 8080
+2024-05-18 08:37:42 info: =================================
+2024-05-18 08:37:59 info: =================================
+2024-05-18 08:37:59 info: ======= ENV: development =======
+2024-05-18 08:37:59 info: 🚀 App listening on the port 8080
+2024-05-18 08:37:59 info: =================================
+2024-05-18 08:38:31 info: =================================
+2024-05-18 08:38:31 info: ======= ENV: development =======
+2024-05-18 08:38:31 info: 🚀 App listening on the port 8080
+2024-05-18 08:38:31 info: =================================
+2024-05-18 08:39:06 info: =================================
+2024-05-18 08:39:06 info: ======= ENV: development =======
+2024-05-18 08:39:06 info: 🚀 App listening on the port 8080
+2024-05-18 08:39:06 info: =================================
+2024-05-18 08:42:15 info: =================================
+2024-05-18 08:42:15 info: ======= ENV: development =======
+2024-05-18 08:42:15 info: 🚀 App listening on the port 8080
+2024-05-18 08:42:15 info: =================================
+2024-05-18 08:43:52 info: [0mGET /api/uploadthing [32m200[0m 3.875 ms - 131[0m
+2024-05-18 08:43:52 info: [0mGET /api/uploadthing [32m200[0m 0.825 ms - 131[0m
+2024-05-18 08:43:52 info: [0mGET /api/uploadthing [32m200[0m 0.551 ms - 131[0m
+2024-05-18 08:43:52 info: [0mGET /api/uploadthing [32m200[0m 0.723 ms - 131[0m
+2024-05-18 08:43:52 info: [0mGET /api/uploadthing [32m200[0m 0.720 ms - 131[0m
+2024-05-18 08:43:52 info: [0mGET /api/uploadthing [32m200[0m 0.639 ms - 131[0m
+2024-05-18 08:43:56 info: [0mGET /api/uploadthing [36m304[0m 0.843 ms - -[0m
+2024-05-18 08:43:56 info: [0mGET /api/uploadthing [36m304[0m 0.377 ms - -[0m
+2024-05-18 08:43:56 info: [0mGET /api/uploadthing [36m304[0m 0.441 ms - -[0m
+2024-05-18 08:43:56 info: [0mGET /api/uploadthing [36m304[0m 0.543 ms - -[0m
+2024-05-18 08:43:56 info: [0mGET /api/uploadthing [32m200[0m 0.437 ms - 131[0m
+2024-05-18 08:43:56 info: [0mGET /api/uploadthing [32m200[0m 0.594 ms - 131[0m
+2024-05-18 08:51:40 info: =================================
+2024-05-18 08:51:40 info: ======= ENV: development =======
+2024-05-18 08:51:40 info: 🚀 App listening on the port 3000
+2024-05-18 08:51:40 info: =================================
+2024-05-18 08:51:40 info: =================================
+2024-05-18 08:51:40 info: ======= ENV: development =======
+2024-05-18 08:51:40 info: 🚀 App listening on the port 3000
+2024-05-18 08:51:40 info: =================================

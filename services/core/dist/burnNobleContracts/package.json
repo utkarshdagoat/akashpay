@@ -1,0 +1,20 @@
+{
+    "name": "docs",
+    "version": "1.0.0",
+    "description": "CCTP Quickstart",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "bech32": "^2.0.0",
+        "bech32-converting": "^1.0.9",
+        "ethers": "^5.7.2",
+        "web3": "^1.8.1"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.3"
+    }
+}

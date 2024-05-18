@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/utkarsh/dev/akash-pay/services/core/dist/logs/debug/.f1433428abf48b5627713c422d29643b4ecdb9b0-audit.json",
+    "files": [
+        {
+            "date": 1715207559327,
+            "name": "/home/utkarsh/dev/akash-pay/services/core/dist/logs/debug/2024-05-09.log",
+            "hash": "840f2088d4e498283c91d774273085879de0d99f59335fb0e58bf168cfbbf70e"
+        },
+        {
+            "date": 1716002758324,
+            "name": "/home/utkarsh/dev/akash-pay/services/core/dist/logs/debug/2024-05-18.log",
+            "hash": "ebd27fb7572a9a28a48224b181a4381deb46ff8c6a81d95a7fecaf692d8082d2"
+        }
+    ],
+    "hashType": "sha256"
+}

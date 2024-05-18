@@ -1,0 +1,102 @@
+2024-05-18 00:37:22 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 401, Message:: User KYC is not approved
+2024-05-18 00:39:22 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 401, Message:: User KYC is not approved
+2024-05-18 00:45:01 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 401, Message:: User KYC is not approved
+2024-05-18 00:48:32 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 500, Message:: Amount must be at least ₹0.50 inr
+2024-05-18 00:49:52 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 500, Message:: Amount must be at least ₹0.50 inr
+2024-05-18 00:50:40 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 500, Message:: Amount must be at least ₹0.50 inr
+2024-05-18 00:52:24 error: [POST] /api/stripe/create-payment-intent >> StatusCode:: 500, Message:: Amount must be at least ₹0.50 inr
+2024-05-18 00:57:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/stripe.controller.ts[0m:[93m40[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m40[0m         amount * 100,
+[7m  [0m [91m               ~[0m
+[96msrc/controllers/stripe.controller.ts[0m:[93m40[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m'(' expected.
+
+[7m40[0m         amount * 100,
+[7m  [0m [91m                    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/stripe.controller.ts[0m:[93m40[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m40[0m         amount * 100,
+[7m  [0m [91m               ~[0m
+[96msrc/controllers/stripe.controller.ts[0m:[93m40[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m'(' expected.
+
+[7m40[0m         amount * 100,
+[7m  [0m [91m                    ~[0m
+
+    at createTSError (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:863:19)
+    at /home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/utkarsh/dev/akash-pay/services/core/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-05-18 00:58:38 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 00:58:38 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 00:58:57 error: [POST] /api/signup >> StatusCode:: 409, Message:: This email utkarsh382004@gmail.com already exists
+2024-05-18 01:02:21 error: [POST] /api/login >> StatusCode:: 409, Message:: Password is not matching
+2024-05-18 01:04:29 error: [POST] /api/login >> StatusCode:: 409, Message:: This email utkarsh382004@gmial.com was not found
+2024-05-18 01:05:10 error: [PUT] /api/kyc/status >> StatusCode:: 404, Message:: KYC not found for user 58
+2024-05-18 02:01:06 error: [POST] /api/make-payment/transfer-to-cosmos >> StatusCode:: 500, Message:: Internal Server Error (PaymentUtil.ts)
+2024-05-18 02:13:50 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:21:05 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:26:09 error: [POST] /api/make-payment/transfer-to-cosmos >> StatusCode:: 500, Message:: Bad status on response: 503
+2024-05-18 02:51:25 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:54:17 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:57:12 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:57:51 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:58:11 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:58:38 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:59:27 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 02:59:54 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 03:02:05 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 03:03:26 error: [POST] /api/make-payment/transfer-to-osmo >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'transaction')
+2024-05-18 03:19:13 error: [POST] /api/make-payment/transfer-to-cosmos >> StatusCode:: 500, Message:: invalid BigNumber string (argument="value", value="NaN", code=INVALID_ARGUMENT, version=bignumber/5.7.0)
+2024-05-18 03:22:34 error: [POST] /api/make-payment/transfer-to-cosmos >> StatusCode:: 500, Message:: Returned error: execution reverted: ERC20: transfer amount exceeds balance
+2024-05-18 03:22:48 error: [POST] /api/make-payment/transfer-to-cosmos >> StatusCode:: 500, Message:: Returned error: execution reverted: ERC20: transfer amount exceeds balance
+2024-05-18 05:05:30 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:30 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:34 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:34 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:37 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:37 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:40 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:05:40 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:06:24 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:06:24 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:06:29 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:06:29 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:13:30 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:13:30 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:14:52 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 05:14:52 error: [GET] /api/user >> StatusCode:: 404, Message:: Authentication token missing
+2024-05-18 06:43:00 error: [POST] /api/external/create-session >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'split')
+2024-05-18 06:43:52 error: [POST] /api/external/create-session >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'split')
+2024-05-18 06:47:49 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: The Signature is invalid
+2024-05-18 06:48:05 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: The Signature is invalid
+2024-05-18 06:48:46 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: The Signature is invalid
+2024-05-18 06:49:40 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: The Signature is invalid
+2024-05-18 06:50:41 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 400, Message:: Timestamp header is missing
+2024-05-18 06:50:48 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 400, Message:: Timestamp header is missing
+2024-05-18 06:51:20 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 400, Message:: Timestamp header is missing
+2024-05-18 06:52:41 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: Session Expired
+2024-05-18 06:57:19 error: [POST] /api/external/create-session >> StatusCode:: 401, Message:: The Signature is invalid
+2024-05-18 07:00:36 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: Session Expired
+2024-05-18 07:01:37 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: Session Expired
+2024-05-18 07:01:56 error: [POST] /api/external/transfer-to-cosmos >> StatusCode:: 401, Message:: Session Expired timestamp
+2024-05-18 09:38:33 error: uncaughtException: Cannot read properties of undefined (reading 'sodium')
+TypeError: Cannot read properties of undefined (reading 'sodium')
+    at /home/utkarsh/dev/akash-pay/services/core/dist/nobleToOsmo/node_modules/libsodium-wrappers/dist/modules/libsodium-wrappers.js:3233:34
+    at Object.<anonymous> (/home/utkarsh/dev/akash-pay/services/core/dist/nobleToOsmo/node_modules/libsodium-wrappers/dist/modules/libsodium-wrappers.js:3240:2)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home/utkarsh/dev/akash-pay/services/core/dist/nobleToOsmo/node_modules/@cosmjs/crypto/build/libsodium.js:12:46)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
