@@ -1,6 +1,8 @@
 <p align="center"><img src="./frontend/logo.svg" width="300"></p>
 <p align="center">The open source fiat payment system for <b>Akash Network</b></p>
  <h3> Winner of the akashathon-2 fiat payment gateway track and Akash network zealy challenge 🚀🌕 </h3>
+
+ 
 ### All our documentation is on the gitbook <a href="https://akash-pay.gitbook.io/akash_pay">here</a>
 
 ### How to get running 
